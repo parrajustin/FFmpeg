@@ -1,4 +1,4 @@
-load("//third_party/ffmpeg:defs.bzl", "ffmpeg_copts", "libavutil_hdrs", "libavutil_srcs", "libswresample_hdrs", "libswresample_srcs", "libswresample_template_textual_hdrs")
+load("//third_party/ffmpeg:defs.bzl", "ffmpeg_copts", "libavutil_hdrs", "libavutil_srcs", "libswresample_hdrs", "libswresample_srcs", "libswresample_template_textual_hdrs", "libswscale_hdrs", "libswscale_srcs", "libswscale_template_textual_hdrs")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -20,6 +20,17 @@ cc_library(
     ],
     textual_hdrs = [
         "compat/va_copy.h",
+    ],
+    alwayslink = True,
+)
+
+cc_library(
+    name = "libavutil_templates",
+    copts = ffmpeg_copts,
+    linkstatic = True,
+    textual_hdrs = [
+        "libavutil/half2float.c",
+        "libavutil/log2_tab.c",
     ],
     alwayslink = True,
 )
@@ -61,6 +72,30 @@ cc_library(
         ":config",
         ":libavutil",
         ":libswresample_template",
+    ],
+    alwayslink = True,
+)
+
+cc_library(
+    name = "libswscale_template",
+    copts = ffmpeg_copts,
+    linkstatic = True,
+    textual_hdrs = libswscale_template_textual_hdrs,
+    alwayslink = True,
+)
+
+cc_library(
+    name = "libswscale",
+    srcs = libswscale_srcs,
+    hdrs = libswscale_hdrs,
+    copts = ffmpeg_copts,
+    linkstatic = True,
+    deps = [
+        ":config",
+        ":libavutil",
+        ":libavutil_templates",
+        ":libswresample",
+        ":libswscale_template",
     ],
     alwayslink = True,
 )

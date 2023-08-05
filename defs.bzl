@@ -296,6 +296,10 @@ libavutil_srcs = libavutil_shared_srcs + select({
 })
 
 libavutil_hdrs = [
+    "libavutil/aarch64/cpu.h",
+    "libavutil/ppc/util_altivec.h",
+    "libavutil/loongarch/cpu.h",
+    "libavutil/ppc/cpu.h",
     "libavutil/avutil.h",
     "libavutil/channel_layout.h",
     "libavutil/frame.h",
@@ -356,4 +360,66 @@ libswresample_template_textual_hdrs = [
     "libswresample/dither_template.c",
     "libswresample/resample_template.c",
     "libswresample/rematrix_template.c",
+]
+
+libswscale_template_shared_textual_hdrs = [
+    "libswscale/bayer_template.c",
+    "libswscale/rgb2rgb_template.c",
+]
+
+libswscale_template_x86_textual_hdrs = [
+    "libswscale/x86/rgb2rgb_template.c",
+    "libswscale/x86/swscale_template.c",
+    "libswscale/x86/yuv2rgb_template.c",
+]
+
+libswscale_template_textual_hdrs = libswscale_template_shared_textual_hdrs + select({
+    "@platforms//cpu:aarch64": [],
+    "@platforms//cpu:arm64": [],
+    "@platforms//cpu:x86_64": libswscale_template_x86_textual_hdrs,
+    "//conditions:default": [],
+})
+
+libswscale_shared_srcs = [
+    "libswscale/alphablend.c",
+    "libswscale/gamma.c",
+    "libswscale/half2float.c",
+    "libswscale/hscale.c",
+    "libswscale/hscale_fast_bilinear.c",
+    "libswscale/input.c",
+    "libswscale/log2_tab.c",
+    "libswscale/options.c",
+    "libswscale/output.c",
+    "libswscale/rgb2rgb.c",
+    "libswscale/rgb2rgb.h",
+    "libswscale/slice.c",
+    "libswscale/swscale.c",
+    "libswscale/swscale.h",
+    "libswscale/swscale_internal.h",
+    "libswscale/swscale_unscaled.c",
+    "libswscale/utils.c",
+    "libswscale/version.c",
+    "libswscale/version.h",
+    "libswscale/version_major.h",
+    "libswscale/vscale.c",
+    "libswscale/yuv2rgb.c",
+]
+
+libswscale_x86_srcs = [
+    "libswscale/x86/input.asmhscale_fast_bilinear_simd.c",
+    "libswscale/x86/rgb2rgb.c",
+    "libswscale/x86/swscale.c",
+    "libswscale/x86/w64xmmtest.c",
+    "libswscale/x86/yuv2rgb.c",
+]
+
+libswscale_srcs = libswscale_shared_srcs + select({
+    "@platforms//cpu:aarch64": [],
+    "@platforms//cpu:arm64": [],
+    "@platforms//cpu:x86_64": libswresample_x86_srcs,
+    "//conditions:default": [],
+})
+
+libswscale_hdrs = [
+    "libswscale/swscale.h",
 ]
