@@ -25,7 +25,7 @@
 #ifndef AVCODEC_HEVCDSP_H
 #define AVCODEC_HEVCDSP_H
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "get_bits.h"
 

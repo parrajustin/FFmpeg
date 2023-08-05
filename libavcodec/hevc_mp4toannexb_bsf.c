@@ -21,8 +21,8 @@
 
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "bsf.h"
 #include "bsf_internal.h"

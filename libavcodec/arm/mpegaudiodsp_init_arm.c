@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/mpegaudiodsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/mpegaudiodsp.h"
 #include "config.h"
 
 void ff_mpadsp_apply_window_fixed_armv6(int32_t *synth_buf, int32_t *window,

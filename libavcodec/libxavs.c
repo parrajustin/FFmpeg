@@ -30,9 +30,9 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "packet_internal.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define END_OF_STREAM 0x001
 

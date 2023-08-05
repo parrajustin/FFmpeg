@@ -20,8 +20,8 @@
 
 #define BITSTREAM_READER_LE
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "dcadec.h"
 #include "dcadata.h"

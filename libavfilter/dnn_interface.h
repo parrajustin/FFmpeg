@@ -27,7 +27,7 @@
 #define AVFILTER_DNN_INTERFACE_H
 
 #include <stdint.h>
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 #include "avfilter.h"
 
 #define DNN_GENERIC_ERROR FFERRTAG('D','N','N','!')

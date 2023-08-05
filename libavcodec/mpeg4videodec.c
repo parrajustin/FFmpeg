@@ -24,9 +24,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "codec_internal.h"
 #include "error_resilience.h"
 #include "hwconfig.h"

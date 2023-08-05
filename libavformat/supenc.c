@@ -22,7 +22,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define SUP_PGS_MAGIC 0x5047 /* "PG", big endian */
 

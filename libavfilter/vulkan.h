@@ -19,6 +19,6 @@
 #ifndef AVFILTER_VULKAN_H
 #define AVFILTER_VULKAN_H
 
-#include "libavutil/vulkan.h"
+#include "third_party/ffmpeg/libavutil/vulkan.h"
 
 #endif /* AVFILTER_VULKAN_H */

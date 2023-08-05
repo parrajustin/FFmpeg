@@ -25,9 +25,9 @@
 
 #include <stdint.h>
 #include <math.h>
-#include "libavutil/attributes.h"
-#include "libavutil/intfloat.h"
-#include "libavcodec/aac_defines.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavcodec/aac_defines.h"
 
 #if USE_FIXED
 #define CBRT(x) lrint((x) * 8192)

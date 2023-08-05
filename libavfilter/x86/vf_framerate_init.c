@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/framerate.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/framerate.h"
 
 void ff_blend_frames_ssse3(BLEND_FUNC_PARAMS);
 void ff_blend_frames_avx2(BLEND_FUNC_PARAMS);

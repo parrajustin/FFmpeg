@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

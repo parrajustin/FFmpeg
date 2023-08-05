@@ -26,9 +26,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "codec_id.h"
 #include "h264pred.h"
 #include "mathops.h"

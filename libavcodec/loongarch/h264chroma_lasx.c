@@ -22,9 +22,9 @@
  */
 
 #include "h264chroma_lasx.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 static const uint8_t chroma_mask_arr[64] = {
     0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8,

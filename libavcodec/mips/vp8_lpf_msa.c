@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp8dsp.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "vp8dsp_mips.h"
 
 #define VP8_SIMPLE_MASK(p1, p0, q0, q1, b_limit, mask)           \

@@ -20,9 +20,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

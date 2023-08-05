@@ -32,7 +32,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

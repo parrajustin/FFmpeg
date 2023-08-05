@@ -23,8 +23,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/x86/asm.h"
-#include "libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 #define YUV2RGB_LOOP(depth)                                          \
     h_size = (c->dstW + 7) & ~7;                                     \

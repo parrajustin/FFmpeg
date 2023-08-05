@@ -19,7 +19,7 @@
 #ifndef AVCODEC_BSF_INTERNAL_H
 #define AVCODEC_BSF_INTERNAL_H
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "bsf.h"
 #include "packet.h"

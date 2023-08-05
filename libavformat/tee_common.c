@@ -21,8 +21,8 @@
 
 #include <string.h>
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "tee_common.h"
 

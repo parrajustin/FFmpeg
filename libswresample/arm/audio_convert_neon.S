@@ -19,7 +19,7 @@
  */
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 function swri_oldapi_conv_flt_to_s16_neon, export=1
 .L_swri_oldapi_conv_flt_to_s16_neon:

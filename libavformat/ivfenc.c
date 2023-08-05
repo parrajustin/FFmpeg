@@ -20,7 +20,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 typedef struct IVFEncContext {
     unsigned frame_cnt;

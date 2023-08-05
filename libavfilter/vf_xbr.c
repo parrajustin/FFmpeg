@@ -28,8 +28,8 @@
  * @see https://github.com/yoyofr/iFBA/blob/master/fba_src/src/intf/video/scalers/xbr.cpp
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "internal.h"
 
 #define LB_MASK       0x00FEFEFE

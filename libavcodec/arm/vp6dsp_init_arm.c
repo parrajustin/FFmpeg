@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
 
-#include "libavcodec/vp56dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp56dsp.h"
 
 void ff_vp6_edge_filter_hor_neon(uint8_t *yuv, ptrdiff_t stride, int t);
 void ff_vp6_edge_filter_ver_neon(uint8_t *yuv, ptrdiff_t stride, int t);

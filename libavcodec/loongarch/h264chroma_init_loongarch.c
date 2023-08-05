@@ -20,9 +20,9 @@
  */
 
 #include "h264chroma_lasx.h"
-#include "libavutil/attributes.h"
-#include "libavutil/loongarch/cpu.h"
-#include "libavcodec/h264chroma.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavcodec/h264chroma.h"
 
 av_cold void ff_h264chroma_init_loongarch(H264ChromaContext *c, int bit_depth)
 {

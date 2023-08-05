@@ -27,14 +27,14 @@
 #include <sys/types.h>
 #include <mfxvideo.h>
 
-#include "libavutil/common.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/mem.h"
-#include "libavutil/log.h"
-#include "libavutil/time.h"
-#include "libavutil/imgutils.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_qsv.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 
 #include "avcodec.h"
 #include "internal.h"

@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/dict.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/time_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/time_internal.h"
 
 #include "avformat.h"
 #include "avlanguage.h"

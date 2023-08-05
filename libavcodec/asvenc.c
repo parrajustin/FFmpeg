@@ -25,9 +25,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "aandcttab.h"
 #include "asv.h"

@@ -23,7 +23,7 @@
 #include <AudioToolbox/AudioToolbox.h>
 
 #define FF_BUFQUEUE_SIZE 256
-#include "libavfilter/bufferqueue.h"
+#include "third_party/ffmpeg/libavfilter/bufferqueue.h"
 
 #include "config.h"
 #include "audio_frame_queue.h"
@@ -32,11 +32,11 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "internal.h"
-#include "libavformat/isom.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/isom.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 typedef struct ATDecodeContext {
     AVClass *av_class;

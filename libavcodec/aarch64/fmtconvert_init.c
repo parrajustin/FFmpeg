@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/fmtconvert.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavcodec/fmtconvert.h"
 
 void ff_int32_to_float_fmul_array8_neon(FmtConvertContext *c, float *dst,
                                         const int32_t *src, const float *mul,

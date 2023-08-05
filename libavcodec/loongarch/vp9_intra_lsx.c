@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp9dsp.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "vp9dsp_loongarch.h"
 
 #define LSX_ST_8(_dst0, _dst1, _dst2, _dst3, _dst4,   \

@@ -53,8 +53,8 @@
  */
 
 #include "config.h"
-#include "libavcodec/aacpsdsp.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/aacpsdsp.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if HAVE_MIPSFPU

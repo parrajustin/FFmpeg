@@ -24,8 +24,8 @@
 
 #include <limits.h>
 #include <stdint.h>
-#include "libavutil/attributes.h"
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 
 #define MAX_TERMS      16
 #define MAX_TERM        8

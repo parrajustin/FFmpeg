@@ -22,8 +22,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 
 #include "audiodsp.h"
 #include "g729.h"

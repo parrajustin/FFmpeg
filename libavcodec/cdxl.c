@@ -27,7 +27,7 @@
 
 #define UNCHECKED_BITSTREAM_READER 1
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

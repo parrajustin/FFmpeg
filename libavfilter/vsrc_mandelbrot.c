@@ -30,9 +30,9 @@
 #include "formats.h"
 #include "video.h"
 #include "internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include <float.h>
 #include <math.h>
 

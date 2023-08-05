@@ -29,12 +29,12 @@
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavcodec/apng.h"
-#include "libavcodec/png.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/apng.h"
+#include "third_party/ffmpeg/libavcodec/png.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 
 #define DEFAULT_APNG_FPS 15
 

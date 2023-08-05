@@ -27,10 +27,10 @@
 #include <unistd.h>
 #include <dirent.h>
 #include <fcntl.h>
-#include "libavcodec/avcodec.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "v4l2_context.h"
 #include "v4l2_fmt.h"
 #include "v4l2_m2m.h"

@@ -30,9 +30,9 @@
  * @author Thilo Borgmann <thilo.borgmann _at_ mail.de>
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 #include "internal.h"
 #include "edge_common.h"
 

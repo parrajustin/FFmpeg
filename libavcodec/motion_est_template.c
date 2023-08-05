@@ -24,7 +24,7 @@
  * Motion estimation template.
  */
 
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 #include "mpegvideo.h"
 
 //Let us hope gcc will remove the unused vars ...(gcc 3.2.2 seems to do it ...)

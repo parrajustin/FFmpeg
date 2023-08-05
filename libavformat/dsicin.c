@@ -24,8 +24,8 @@
  * Delphine Software International CIN file demuxer
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "internal.h"
 #include "avio_internal.h"

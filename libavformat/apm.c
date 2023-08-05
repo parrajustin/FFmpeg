@@ -26,9 +26,9 @@
 #include "internal.h"
 #include "mux.h"
 #include "rawenc.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define APM_FILE_HEADER_SIZE    20
 #define APM_FILE_EXTRADATA_SIZE 80

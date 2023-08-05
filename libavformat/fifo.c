@@ -21,11 +21,11 @@
 
 #include <stdatomic.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/thread.h"
-#include "libavutil/threadmessage.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/threadmessage.h"
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"

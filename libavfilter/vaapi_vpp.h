@@ -22,8 +22,8 @@
 #include <va/va.h>
 #include <va/va_vpp.h>
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
 
 #include "avfilter.h"
 

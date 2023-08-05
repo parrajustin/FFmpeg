@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
-#include "libavfilter/psnr.h"
+#include "third_party/ffmpeg/libavfilter/psnr.h"
 
 uint64_t ff_sse_line_8bit_sse2(const uint8_t *buf, const uint8_t *ref, int w);
 uint64_t ff_sse_line_16bit_sse2(const uint8_t *buf, const uint8_t *ref, int w);

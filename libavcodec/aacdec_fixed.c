@@ -61,8 +61,8 @@
 #define USE_FIXED 1
 #define TX_TYPE AV_TX_INT32_MDCT
 
-#include "libavutil/fixed_dsp.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/fixed_dsp.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "get_bits.h"
@@ -79,7 +79,7 @@
 #include "aacsbr.h"
 #include "mpeg4audio.h"
 #include "profiles.h"
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 
 #include <math.h>
 #include <string.h>

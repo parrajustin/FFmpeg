@@ -17,17 +17,17 @@
  */
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 #include "framesync.h"
 #include "formats.h"
 #include "internal.h"
 #include "vaapi_vpp.h"
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 enum var_name {
     VAR_MAIN_IW,     VAR_MW,

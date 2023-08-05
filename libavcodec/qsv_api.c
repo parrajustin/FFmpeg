@@ -22,7 +22,7 @@
 
 #include <stddef.h>
 
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #if CONFIG_QSV
 #include "qsv.h"

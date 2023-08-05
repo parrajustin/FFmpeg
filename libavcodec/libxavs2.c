@@ -26,8 +26,8 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "mpeg12.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define xavs2_opt_set2(name, format, ...) do{ \
     char opt_str[16] = {0}; \

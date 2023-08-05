@@ -24,8 +24,8 @@
  * AAC encoder psychoacoustic model
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/ffmath.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
 
 #include "avcodec.h"
 #include "aactab.h"

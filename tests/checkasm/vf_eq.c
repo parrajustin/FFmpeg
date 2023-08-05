@@ -18,10 +18,10 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavfilter/avfilter.h"
-#include "libavfilter/vf_eq.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/vf_eq.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define WIDTH 256
 #define HEIGHT 256

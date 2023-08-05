@@ -23,14 +23,14 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avutil.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bswap.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "config.h"
 #include "rgb2rgb.h"
 #include "swscale.h"

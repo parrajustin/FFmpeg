@@ -27,12 +27,12 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 #include "config.h"
 #include "rgb2rgb.h"
 #include "swscale.h"
 #include "swscale_internal.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 /* Color space conversion coefficients for YCbCr -> RGB mapping.
  *

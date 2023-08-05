@@ -23,8 +23,8 @@
 #include <string.h>
 #include <sys/types.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "avcodec.h"
 #include "mediacodec_wrapper.h"

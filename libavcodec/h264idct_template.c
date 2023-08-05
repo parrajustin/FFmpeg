@@ -26,7 +26,7 @@
  */
 
 #include "bit_depth_template.c"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "h264dec.h"
 #include "h264idct.h"
 

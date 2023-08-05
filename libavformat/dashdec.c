@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 #include <libxml/parser.h>
-#include "libavutil/bprint.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "internal.h"
 #include "avio_internal.h"
 #include "dash.h"

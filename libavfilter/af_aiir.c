@@ -20,10 +20,10 @@
 
 #include <float.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/xga_font_data.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/xga_font_data.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "internal.h"

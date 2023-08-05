@@ -22,7 +22,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

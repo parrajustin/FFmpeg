@@ -33,10 +33,10 @@
  *                        FU-B packet types)
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/base64.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "avformat.h"
 
 #include "rtpdec.h"

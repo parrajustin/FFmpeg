@@ -23,10 +23,10 @@
  * video quantizer filter based on ELBG
  */
 
-#include "libavcodec/elbg.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavcodec/elbg.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 
 #include "avfilter.h"
 #include "drawutils.h"

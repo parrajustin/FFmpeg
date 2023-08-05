@@ -20,12 +20,12 @@
 
 #include <float.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avfilter.h"
 #include "formats.h"

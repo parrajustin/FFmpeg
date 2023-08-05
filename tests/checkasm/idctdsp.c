@@ -22,12 +22,12 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/idctdsp.h"
+#include "third_party/ffmpeg/libavcodec/idctdsp.h"
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define IDCTDSP_TEST(func) { #func, offsetof(IDCTDSPContext, func) },
 

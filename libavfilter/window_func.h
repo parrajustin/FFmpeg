@@ -23,8 +23,8 @@
 #define AVFILTER_WINDOW_FUNC_H
 
 #include <math.h>
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 enum WindowFunc     { WFUNC_RECT, WFUNC_HANNING, WFUNC_HAMMING, WFUNC_BLACKMAN,
                       WFUNC_BARTLETT, WFUNC_WELCH, WFUNC_FLATTOP,

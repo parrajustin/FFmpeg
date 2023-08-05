@@ -29,10 +29,10 @@
 
 #include <webp/encode.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/frame.h"
-#include "libavutil/log.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 

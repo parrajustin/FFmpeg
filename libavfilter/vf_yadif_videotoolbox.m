@@ -22,9 +22,9 @@
 #include "internal.h"
 #include "metal/utils.h"
 #include "yadif.h"
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/objc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/objc.h"
 
 #include <assert.h>
 

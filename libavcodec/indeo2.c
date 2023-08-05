@@ -24,8 +24,8 @@
  * Intel Indeo 2 decoder.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

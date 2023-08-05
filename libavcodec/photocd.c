@@ -31,8 +31,8 @@
 
 #define CACHED_BITSTREAM_READER !ARCH_X86_32
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

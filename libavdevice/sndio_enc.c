@@ -22,12 +22,12 @@
 #include <stdint.h>
 #include <sndio.h>
 
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 
-#include "libavdevice/avdevice.h"
-#include "libavdevice/sndio.h"
+#include "third_party/ffmpeg/libavdevice/avdevice.h"
+#include "third_party/ffmpeg/libavdevice/sndio.h"
 
 static av_cold int audio_write_header(AVFormatContext *s1)
 {

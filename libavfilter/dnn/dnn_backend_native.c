@@ -24,7 +24,7 @@
  */
 
 #include "dnn_backend_native.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "dnn_backend_native_layer_conv2d.h"
 #include "dnn_backend_native_layers.h"
 #include "dnn_io_proc.h"

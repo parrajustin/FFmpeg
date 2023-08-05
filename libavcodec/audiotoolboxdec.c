@@ -30,10 +30,10 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "mpegaudiodecheader.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #if __MAC_OS_X_VERSION_MIN_REQUIRED < 101100
 #define kAudioFormatEnhancedAC3 'ec-3'

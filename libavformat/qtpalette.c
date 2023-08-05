@@ -24,7 +24,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 #include "avio.h"
 #include "qtpalette.h"
 

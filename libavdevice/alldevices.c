@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 #include "avdevice.h"
 
 /* devices */
@@ -59,8 +59,8 @@ extern const FFOutputFormat ff_xv_muxer;
 extern const AVInputFormat  ff_libcdio_demuxer;
 extern const AVInputFormat  ff_libdc1394_demuxer;
 
-#include "libavdevice/outdev_list.c"
-#include "libavdevice/indev_list.c"
+#include "third_party/ffmpeg/libavdevice/outdev_list.c"
+#include "third_party/ffmpeg/libavdevice/indev_list.c"
 
 void avdevice_register_all(void)
 {

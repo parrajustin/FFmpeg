@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/idctdsp.h"
-#include "libavcodec/proresdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/idctdsp.h"
+#include "third_party/ffmpeg/libavcodec/proresdsp.h"
 
 void ff_prores_idct_put_10_sse2(uint16_t *dst, ptrdiff_t linesize,
                                 int16_t *block, const int16_t *qmat);

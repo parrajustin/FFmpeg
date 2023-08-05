@@ -31,7 +31,7 @@
 #endif
 
 #include <stdint.h>
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 /* max frame size, in samples */
 #define MPA_FRAME_SIZE 1152

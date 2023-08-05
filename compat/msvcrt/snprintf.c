@@ -25,7 +25,7 @@
 #include <string.h>
 
 #include "compat/va_copy.h"
-#include "libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 #if defined(__MINGW32__)
 #define EOVERFLOW EFBIG

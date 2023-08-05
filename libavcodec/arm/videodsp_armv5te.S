@@ -20,7 +20,7 @@
 @
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 function ff_prefetch_arm, export=1
 1:

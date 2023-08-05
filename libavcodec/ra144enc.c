@@ -27,7 +27,7 @@
 
 #include <float.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avcodec.h"
 #include "audio_frame_queue.h"
 #include "celp_filters.h"

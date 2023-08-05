@@ -22,12 +22,12 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/blockdsp.h"
+#include "third_party/ffmpeg/libavcodec/blockdsp.h"
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define randomize_buffers(size)             \
     do {                                    \

@@ -28,10 +28,10 @@
  */
 
 #include <stdio.h>
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libswresample/swresample.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libswresample/swresample.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "formats.h"

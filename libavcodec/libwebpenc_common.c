@@ -24,7 +24,7 @@
  * WebP encoder using libwebp: common structs and methods.
  */
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "libwebpenc_common.h"
 
 const FFCodecDefault ff_libwebp_defaults[] = {

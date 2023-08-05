@@ -21,10 +21,10 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avcodec.h"
 #include "dv_profile.h"

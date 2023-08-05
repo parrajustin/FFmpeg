@@ -71,12 +71,12 @@
 #include "bytestream.h"
 #include "jpeg2000.h"
 #include "version.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #define NMSEDEC_BITS 7
 #define NMSEDEC_FRACBITS (NMSEDEC_BITS-1)

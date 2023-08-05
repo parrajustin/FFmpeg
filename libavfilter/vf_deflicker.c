@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 #include "avfilter.h"
 
 #define FF_BUFQUEUE_SIZE 129

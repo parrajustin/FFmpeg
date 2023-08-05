@@ -24,7 +24,7 @@
  * Media 100 to MJPEGB bitstream filter.
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "bsf.h"
 #include "bsf_internal.h"
 #include "bytestream.h"

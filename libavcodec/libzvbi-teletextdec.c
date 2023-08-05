@@ -19,15 +19,15 @@
  */
 
 #include "avcodec.h"
-#include "libavcodec/ass.h"
+#include "third_party/ffmpeg/libavcodec/ass.h"
 #include "codec_internal.h"
-#include "libavcodec/dvbtxt.h"
-#include "libavutil/opt.h"
-#include "libavutil/bprint.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavcodec/dvbtxt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include <libzvbi.h>
 

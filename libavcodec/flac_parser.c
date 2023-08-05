@@ -32,8 +32,8 @@
  * The parser returns the frame with the highest score.
  **/
 
-#include "libavutil/attributes.h"
-#include "libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
 #include "bytestream.h"
 #include "parser.h"
 #include "flac_parse.h"

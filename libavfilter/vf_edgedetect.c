@@ -25,9 +25,9 @@
  * @see https://en.wikipedia.org/wiki/Canny_edge_detector
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

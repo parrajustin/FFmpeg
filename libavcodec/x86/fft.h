@@ -19,7 +19,7 @@
 #ifndef AVCODEC_X86_FFT_H
 #define AVCODEC_X86_FFT_H
 
-#include "libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
 
 void ff_fft_permute_sse(FFTContext *s, FFTComplex *z);
 void ff_fft_calc_avx(FFTContext *s, FFTComplex *z);

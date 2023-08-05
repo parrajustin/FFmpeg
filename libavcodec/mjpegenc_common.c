@@ -23,8 +23,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "avcodec.h"
 #include "idctdsp.h"

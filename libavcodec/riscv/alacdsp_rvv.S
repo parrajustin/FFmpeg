@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/riscv/asm.S"
+#include "third_party/ffmpeg/libavutil/riscv/asm.S"
 
 #if (__riscv_xlen == 64)
 func ff_alac_decorrelate_stereo_rvv, zve32x

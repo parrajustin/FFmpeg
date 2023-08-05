@@ -20,7 +20,7 @@
 #define AVCODEC_PROFILES_H
 
 #include "avcodec.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define FF_AVCTX_PROFILE_OPTION(name, description, type, value) \
     {name, description, 0, AV_OPT_TYPE_CONST, {.i64 = value }, INT_MIN, INT_MAX, AV_OPT_FLAG_ENCODING_PARAM | AV_OPT_FLAG_## type ##_PARAM, "avctx.profile"},

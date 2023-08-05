@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavcodec/h264.h"
+#include "third_party/ffmpeg/libavcodec/h264.h"
 
 void ff_h264_h_lpf_luma_inter_lasx(uint8_t *src, int stride,
                                    int alpha, int beta, int8_t *tc0);

@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 #include "mpegvideo_arm.h"
 
 void ff_dct_unquantize_h263_armv5te(int16_t *block, int qmul, int qadd, int count);

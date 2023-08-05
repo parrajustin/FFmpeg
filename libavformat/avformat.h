@@ -310,21 +310,21 @@
 #include <time.h>
 #include <stdio.h>  /* FILE */
 
-#include "libavcodec/codec.h"
-#include "libavcodec/codec_par.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/codec.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavcodec/defs.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavutil/dict.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "avio.h"
-#include "libavformat/version_major.h"
+#include "third_party/ffmpeg/libavutil/version_major.h"
 #ifndef HAVE_AV_CONFIG_H
 /* When included as part of the ffmpeg build, only include the major version
  * to avoid unnecessary rebuilds. When included externally, keep including
  * the full version information. */
-#include "libavformat/version.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 #endif
 
 struct AVFormatContext;

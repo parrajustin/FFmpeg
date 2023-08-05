@@ -22,7 +22,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavcodec/hpeldsp.h"
+#include "third_party/ffmpeg/libavcodec/hpeldsp.h"
 
 void ff_avg_pixels8_x2_mmx(uint8_t *block, const uint8_t *pixels,
                            ptrdiff_t line_size, int h);

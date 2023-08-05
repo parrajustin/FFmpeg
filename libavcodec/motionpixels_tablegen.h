@@ -24,7 +24,7 @@
 #define AVCODEC_MOTIONPIXELS_TABLEGEN_H
 
 #include <stdint.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 typedef struct YuvPixel {
     int8_t y, v, u;
@@ -46,7 +46,7 @@ static int mp_yuv_to_rgb(int y, int v, int u, int clip_rgb) {
 
 #if CONFIG_HARDCODED_TABLES
 #define motionpixels_tableinit()
-#include "libavcodec/motionpixels_tables.h"
+#include "third_party/ffmpeg/libavcodec/motionpixels_tables.h"
 #else
 static YuvPixel mp_rgb_yuv_table[1 << 15];
 

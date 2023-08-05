@@ -22,10 +22,10 @@
 
 #include <libbluray/bluray.h>
 
-#include "libavutil/avstring.h"
-#include "libavformat/avformat.h"
-#include "libavformat/url.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/url.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define BLURAY_PROTO_PREFIX     "bluray:"
 #define MIN_PLAYLIST_LENGTH     180     /* 3 min */

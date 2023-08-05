@@ -25,10 +25,10 @@
 #include <math.h>
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/tx.h"
-#include "libavutil/common.h"
-#include "libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
 #include "avcodec.h"
 
 enum TwinVQCodec {

@@ -20,8 +20,8 @@
  */
 
 #include <stddef.h>
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include "avcodec.h"
 #include "dnxhddata.h"
 

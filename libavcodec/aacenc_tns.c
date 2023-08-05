@@ -25,7 +25,7 @@
  * @author Rostislav Pehlivanov ( atomnuker gmail com )
  */
 
-#include "libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 #include "aacenc.h"
 #include "aacenc_tns.h"
 #include "aactab.h"

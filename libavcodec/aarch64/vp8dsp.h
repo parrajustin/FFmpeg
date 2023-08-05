@@ -19,7 +19,7 @@
 #ifndef AVCODEC_AARCH64_VP8DSP_H
 #define AVCODEC_AARCH64_VP8DSP_H
 
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 
 #define VP8_LF_Y(hv, inner, opt)                                             \
     void ff_vp8_##hv##_loop_filter16##inner##_##opt(uint8_t *dst,            \

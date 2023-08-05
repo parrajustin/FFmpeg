@@ -35,7 +35,7 @@
 #include "libavformat/avformat.h"
 #include "libavformat/avio.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 #include "libavutil/buffer.h"
 #include "libavutil/error.h"

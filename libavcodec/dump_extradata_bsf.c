@@ -23,8 +23,8 @@
 #include "bsf.h"
 #include "bsf_internal.h"
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 enum DumpFreq {
     DUMP_FREQ_KEYFRAME,

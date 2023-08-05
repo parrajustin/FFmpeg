@@ -18,9 +18,9 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "bsf.h"
 #include "bsf_internal.h"

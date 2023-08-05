@@ -24,8 +24,8 @@
  * SAUCE header parser
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "avformat.h"
 #include "sauce.h"
 

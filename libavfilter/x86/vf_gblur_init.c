@@ -19,10 +19,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/gblur.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/gblur.h"
 
 void ff_horiz_slice_sse4(float *ptr, int width, int height, int steps, float nu, float bscale, float *localbuf);
 void ff_horiz_slice_avx2(float *ptr, int width, int height, int steps, float nu, float bscale, float *localbuf);

@@ -21,11 +21,11 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/codec_id.h"
-#include "libavcodec/h264pred.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/h264pred.h"
 
 #define PRED4x4(TYPE, DEPTH, OPT) \
 void ff_pred4x4_ ## TYPE ## _ ## DEPTH ## _ ## OPT (uint8_t *src, \

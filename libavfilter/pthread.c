@@ -23,10 +23,10 @@
 
 #include <stddef.h>
 
-#include "libavutil/error.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/slicethread.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/slicethread.h"
 
 #include "avfilter.h"
 #include "internal.h"

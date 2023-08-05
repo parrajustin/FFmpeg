@@ -34,14 +34,14 @@
 #include <float.h>
 #include <zlib.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/csp.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/half2float.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/half2float.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

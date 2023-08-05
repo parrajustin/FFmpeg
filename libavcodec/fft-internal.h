@@ -19,7 +19,7 @@
 #ifndef AVCODEC_FFT_INTERNAL_H
 #define AVCODEC_FFT_INTERNAL_H
 
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "fft.h"
 
 #if FFT_FLOAT

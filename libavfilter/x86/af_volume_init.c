@@ -17,11 +17,11 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/af_volume.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/af_volume.h"
 
 void ff_scale_samples_s16_sse2(uint8_t *dst, const uint8_t *src, int len,
                                int volume);

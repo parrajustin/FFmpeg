@@ -17,10 +17,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/dct.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/dct.h"
 
 void ff_dct32_float_sse2(FFTSample *out, const FFTSample *in);
 void ff_dct32_float_avx(FFTSample *out, const FFTSample *in);

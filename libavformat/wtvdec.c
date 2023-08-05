@@ -27,10 +27,10 @@
 
 #include <inttypes.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/time_internal.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/time_internal.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

@@ -19,17 +19,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include "codec_internal.h"
 #include "decode.h"
 #include "get_bits.h"
 #include "atrac9tab.h"
-#include "libavutil/tx.h"
-#include "libavutil/lfg.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define ATRAC9_SF_VLC_BITS 8
 #define ATRAC9_COEFF_VLC_BITS 9

@@ -18,13 +18,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavfilter/internal.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavfilter/internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "audio.h"
 #include "filters.h"
 #include "window_func.h"

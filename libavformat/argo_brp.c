@@ -22,9 +22,9 @@
 
 #include "avformat.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "argo_asf.h"
 
 #define BRP_TAG                 MKTAG('B', 'R', 'P', 'P')

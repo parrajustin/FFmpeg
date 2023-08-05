@@ -20,11 +20,11 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
 
-#include "libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
 
 void ff_fft_permute_neon(FFTContext *s, FFTComplex *z);
 void ff_fft_calc_neon(FFTContext *s, FFTComplex *z);

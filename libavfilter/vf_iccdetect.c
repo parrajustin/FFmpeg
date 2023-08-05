@@ -24,9 +24,9 @@
 
 #include <lcms2.h>
 
-#include "libavutil/csp.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 #include "fflcms2.h"

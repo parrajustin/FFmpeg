@@ -23,12 +23,12 @@
 
 #include <linux/videodev2.h>
 #include <sys/ioctl.h>
-#include "libavutil/pixfmt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "codec_internal.h"
-#include "libavcodec/decode.h"
+#include "third_party/ffmpeg/libavcodec/decode.h"
 
 #include "v4l2_context.h"
 #include "v4l2_m2m.h"

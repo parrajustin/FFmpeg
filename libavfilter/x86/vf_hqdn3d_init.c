@@ -21,8 +21,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavfilter/vf_hqdn3d.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavfilter/vf_hqdn3d.h"
 #include "config.h"
 
 void ff_hqdn3d_row_8_x86(uint8_t *src, uint8_t *dst, uint16_t *line_ant,

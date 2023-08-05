@@ -23,9 +23,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

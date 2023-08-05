@@ -20,11 +20,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/vp3dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/vp3dsp.h"
 
 void ff_vp3_idct_put_sse2(uint8_t *dest, ptrdiff_t stride, int16_t *block);
 void ff_vp3_idct_add_sse2(uint8_t *dest, ptrdiff_t stride, int16_t *block);

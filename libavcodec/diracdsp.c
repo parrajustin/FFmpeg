@@ -19,8 +19,8 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "diracdsp.h"
 
 #define FILTER(src, stride)                                     \

@@ -21,12 +21,12 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/hevcdsp.h"
-#include "libavcodec/x86/hevcdsp.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/hevcdsp.h"
+#include "third_party/ffmpeg/libavcodec/x86/hevcdsp.h"
 
 #define LFC_FUNC(DIR, DEPTH, OPT) \
 void ff_hevc_ ## DIR ## _loop_filter_chroma_ ## DEPTH ## _ ## OPT(uint8_t *pix, ptrdiff_t stride, const int *tc, const uint8_t *no_p, const uint8_t *no_q);

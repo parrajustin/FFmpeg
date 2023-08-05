@@ -22,12 +22,12 @@
 #ifndef AVCODEC_OPUSENC_H
 #define AVCODEC_OPUSENC_H
 
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 #include "opus.h"
 
 /* Determines the maximum delay the psychoacoustic system will use for lookahead */
 #define FF_BUFQUEUE_SIZE 145
-#include "libavfilter/bufferqueue.h"
+#include "third_party/ffmpeg/libavfilter/bufferqueue.h"
 
 #define OPUS_MAX_LOOKAHEAD ((FF_BUFQUEUE_SIZE - 1)*2.5f)
 

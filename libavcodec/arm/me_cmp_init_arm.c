@@ -18,12 +18,12 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/me_cmp.h"
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/me_cmp.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 
 int ff_pix_abs16_armv6(MpegEncContext *s, const uint8_t *blk1, const uint8_t *blk2,
                        ptrdiff_t stride, int h);

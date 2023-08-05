@@ -21,7 +21,7 @@
 #ifndef AVFILTER_SHOWCQT_H
 #define AVFILTER_SHOWCQT_H
 
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "avfilter.h"
 #include "internal.h"
 

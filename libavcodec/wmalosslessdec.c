@@ -24,9 +24,9 @@
 
 #include <inttypes.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

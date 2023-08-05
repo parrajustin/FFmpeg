@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/h263dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/h263dsp.h"
 
 void ff_h263_h_loop_filter_mmx(uint8_t *src, int stride, int qscale);
 void ff_h263_v_loop_filter_mmx(uint8_t *src, int stride, int qscale);

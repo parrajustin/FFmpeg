@@ -20,15 +20,15 @@
 
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avutil.h"
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/version.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 #include "avcodec.h"
 #include "internal.h"

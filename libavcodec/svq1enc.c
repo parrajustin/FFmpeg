@@ -43,9 +43,9 @@
 #include "svq1enc_cb.h"
 #include "version.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 // Workaround for GCC bug 102513
 #if AV_GCC_VERSION_AT_LEAST(10, 0) && AV_GCC_VERSION_AT_MOST(12, 0) \

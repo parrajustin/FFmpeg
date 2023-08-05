@@ -24,8 +24,8 @@
 #ifndef AVFORMAT_RTSPCODES_H
 #define AVFORMAT_RTSPCODES_H
 
-#include "libavutil/common.h"
-#include "libavformat/http.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/http.h"
 
 /** RTSP handling */
 enum RTSPStatusCode {

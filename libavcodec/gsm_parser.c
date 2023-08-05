@@ -25,7 +25,7 @@
  * Splits packets into individual blocks.
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "parser.h"
 #include "gsm.h"
 

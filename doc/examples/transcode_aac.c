@@ -32,7 +32,7 @@
 #include "libavformat/avformat.h"
 #include "libavformat/avio.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 #include "libavutil/audio_fifo.h"
 #include "libavutil/avassert.h"

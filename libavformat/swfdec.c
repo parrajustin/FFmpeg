@@ -26,12 +26,12 @@
 #include <zlib.h>
 #endif
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 #include "demux.h"
 #include "swf.h"
 #include "flv.h"

@@ -26,9 +26,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "h264chroma.h"
 #include "qpeldsp.h"
 #include "rnd_avg.h"

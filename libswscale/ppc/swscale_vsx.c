@@ -24,13 +24,13 @@
 #include <inttypes.h>
 
 #include "config.h"
-#include "libswscale/swscale.h"
-#include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "yuv2rgb_altivec.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
 #if HAVE_VSX
 #define vzero vec_splat_s32(0)

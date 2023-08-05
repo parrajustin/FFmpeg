@@ -26,12 +26,12 @@
 
 #include <lame/lame.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "audio_frame_queue.h"
 #include "codec_internal.h"

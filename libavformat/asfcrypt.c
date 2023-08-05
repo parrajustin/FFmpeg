@@ -21,11 +21,11 @@
  */
 
 #include <stddef.h>
-#include "libavutil/bswap.h"
-#include "libavutil/des.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/rc4.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/des.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/rc4.h"
 #include "asfcrypt.h"
 
 /**

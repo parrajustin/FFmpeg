@@ -22,8 +22,8 @@
 #define AVFORMAT_RAWUTILS_H
 
 #include <stdint.h>
-#include "libavcodec/codec_par.h"
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 #include "avformat.h"
 
 #define CONTAINS_PAL 2

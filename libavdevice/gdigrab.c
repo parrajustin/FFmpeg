@@ -29,10 +29,10 @@
  */
 
 #include "config.h"
-#include "libavformat/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/wchar_filename.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/wchar_filename.h"
 #include <windows.h>
 
 /**

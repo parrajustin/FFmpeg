@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 #define MAX_CHANNELS        8
 #define MAX_FIR_ORDER       8

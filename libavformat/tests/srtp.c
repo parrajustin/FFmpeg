@@ -20,8 +20,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavformat/rtpdec.h"
-#include "libavformat/srtp.h"
+#include "third_party/ffmpeg/libavutil/rtpdec.h"
+#include "third_party/ffmpeg/libavutil/srtp.h"
 
 static const char *aes128_80_key = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmn";
 

@@ -22,20 +22,20 @@
 
 #include "ffmpeg.h"
 
-#include "libavfilter/avfilter.h"
-#include "libavfilter/buffersink.h"
-#include "libavfilter/buffersrc.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/buffersink.h"
+#include "third_party/ffmpeg/libavfilter/buffersrc.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/display.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 // FIXME: YUV420P etc. are actually supported with full color range,
 // yet the latter information isn't available here.

@@ -26,7 +26,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "h264chroma.h"
 #include "h264qpel.h"
 #include "mathops.h"

@@ -19,11 +19,11 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "objpool.h"
 #include "sync_queue.h"

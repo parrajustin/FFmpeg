@@ -21,7 +21,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
 #include "avformat.h"
 #include "mux.h"
 

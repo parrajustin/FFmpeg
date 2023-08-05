@@ -19,7 +19,7 @@
  */
 
 #include "avlanguage.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>

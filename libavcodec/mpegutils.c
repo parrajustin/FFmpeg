@@ -20,11 +20,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/motion_vector.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/motion_vector.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "avcodec.h"
 #include "mpegutils.h"

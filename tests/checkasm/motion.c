@@ -19,11 +19,11 @@
 
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/me_cmp.h"
+#include "third_party/ffmpeg/libavcodec/me_cmp.h"
 
 #include "checkasm.h"
 

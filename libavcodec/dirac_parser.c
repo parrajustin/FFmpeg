@@ -29,8 +29,8 @@
 
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "parser.h"
 

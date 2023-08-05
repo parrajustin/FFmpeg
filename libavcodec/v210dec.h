@@ -19,8 +19,8 @@
 #ifndef AVCODEC_V210DEC_H
 #define AVCODEC_V210DEC_H
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 
 typedef struct {

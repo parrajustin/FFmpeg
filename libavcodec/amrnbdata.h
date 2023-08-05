@@ -31,7 +31,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/common.h"      /* offsetof */
+#include "third_party/ffmpeg/libavutil/common.h"      /* offsetof */
 
 #define AMR_SUBFRAME_SIZE            40   ///< samples per subframe
 

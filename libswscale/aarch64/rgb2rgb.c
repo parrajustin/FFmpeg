@@ -19,13 +19,13 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/bswap.h"
-#include "libswscale/rgb2rgb.h"
-#include "libswscale/swscale.h"
-#include "libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 void ff_interleave_bytes_neon(const uint8_t *src1, const uint8_t *src2,
                               uint8_t *dest, int width, int height,

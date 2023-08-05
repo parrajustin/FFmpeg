@@ -19,9 +19,9 @@
  */
 
 #include "vp3dsp_mips.h"
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/rnd_avg.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/rnd_avg.h"
 
 static void idct_msa(uint8_t *dst, int stride, int16_t *input, int type)
 {

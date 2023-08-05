@@ -25,8 +25,8 @@
  */
 
 #include <float.h>
-#include "libavutil/float_dsp.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"
@@ -37,7 +37,7 @@
 #include "vorbis_enc_data.h"
 
 #include "audio_frame_queue.h"
-#include "libavfilter/bufferqueue.h"
+#include "third_party/ffmpeg/libavfilter/bufferqueue.h"
 
 #define BITSTREAM_WRITER_LE
 #include "put_bits.h"

@@ -24,7 +24,7 @@
  * Winnov WNV1 codec.
  */
 
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

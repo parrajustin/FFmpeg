@@ -30,7 +30,7 @@
  * one after the last successfully split frame.
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "bsf.h"
 #include "bsf_internal.h"

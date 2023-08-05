@@ -29,7 +29,7 @@
  *   http://www.geocities.com/SiliconValley/8682/aud3.txt
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "demux.h"

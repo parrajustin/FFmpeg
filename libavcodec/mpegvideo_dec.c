@@ -24,10 +24,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 #include "avcodec.h"
 #include "h264chroma.h"

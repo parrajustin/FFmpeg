@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 .macro transpose16_q_8x8 rq0, rq1, rq2, rq3, rq4, rq5, rq6, rq7, r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15
         vswp             \r1,  \r8  @ vtrn.64 \rq0, \rq4

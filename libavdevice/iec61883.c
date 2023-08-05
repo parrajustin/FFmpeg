@@ -30,9 +30,9 @@
 #include <libavc1394/avc1394.h>
 #include <libavc1394/rom1394.h>
 #include <libiec61883/iec61883.h>
-#include "libavformat/dv.h"
-#include "libavformat/mpegts.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/dv.h"
+#include "third_party/ffmpeg/libavutil/mpegts.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avdevice.h"
 
 #define THREADS HAVE_PTHREADS

@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 function ff_resample_common_apply_filter_x4_float_neon, export=1
     movi                v0.4S, #0                                      // accumulator

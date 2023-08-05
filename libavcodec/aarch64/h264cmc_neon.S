@@ -21,7 +21,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 /* chroma_mc8(uint8_t *dst, const uint8_t *src, ptrdiff_t stride, int h, int x, int y) */
 .macro  h264_chroma_mc8 type, codec=h264

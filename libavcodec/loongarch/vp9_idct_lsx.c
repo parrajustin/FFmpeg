@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp9dsp.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "vp9dsp_loongarch.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define VP9_DCT_CONST_BITS   14
 #define ALLOC_ALIGNED(align) __attribute__ ((aligned(align)))

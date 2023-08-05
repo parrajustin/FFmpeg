@@ -20,7 +20,7 @@
 #define AVCODEC_HUFFYUVDSP_H
 
 #include <stdint.h>
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 typedef struct HuffYUVDSPContext {
     void (*add_int16)(uint16_t *dst/*align 16*/, const uint16_t *src/*align 16*/,

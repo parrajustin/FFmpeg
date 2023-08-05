@@ -23,11 +23,11 @@
  * audio to video multimedia aphasemeter filter
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

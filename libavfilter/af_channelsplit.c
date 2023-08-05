@@ -23,10 +23,10 @@
  * Split an audio stream into per-channel streams.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "audio.h"
 #include "avfilter.h"

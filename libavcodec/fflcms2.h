@@ -25,9 +25,9 @@
 #ifndef AVCODEC_FFLCMS2_H
 #define AVCODEC_FFLCMS2_H
 
-#include "libavutil/csp.h"
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include <lcms2.h>
 

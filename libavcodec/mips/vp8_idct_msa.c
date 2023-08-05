@@ -19,8 +19,8 @@
  */
 
 #include <string.h>
-#include "libavcodec/vp8dsp.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "vp8dsp_mips.h"
 
 static const int cospi8sqrt2minus1 = 20091;

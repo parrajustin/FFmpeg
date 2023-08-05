@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
 #include "h264dsp_lasx.h"
 
 av_cold void ff_h264dsp_init_loongarch(H264DSPContext *c, const int bit_depth,

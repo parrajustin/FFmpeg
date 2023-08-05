@@ -24,9 +24,9 @@
 #include "network.h"
 #include "tls.h"
 #include "url.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 int ff_tls_init(void)
 {

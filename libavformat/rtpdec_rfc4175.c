@@ -23,9 +23,9 @@
 
 #include "avio_internal.h"
 #include "rtpdec_formats.h"
-#include "libavutil/avstring.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 
 struct PayloadContext {
     char *sampling;

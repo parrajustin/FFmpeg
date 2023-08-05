@@ -26,7 +26,7 @@
  */
 
 #include "eaidct.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #define ASQRT 181 /* (1/sqrt(2))<<8 */
 #define A4    669 /* cos(pi/8)*sqrt(2)<<9 */

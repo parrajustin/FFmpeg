@@ -37,7 +37,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 #define SVQ1_BLOCK_SKIP         0
 #define SVQ1_BLOCK_INTER        1

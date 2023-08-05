@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
-#include "libavcodec/flac.h"
+#include "third_party/ffmpeg/libavcodec/flac.h"
 
 #include "avformat.h"
 #include "flacenc.h"

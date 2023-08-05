@@ -22,7 +22,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 
 #define APTX_BLOCK_SIZE   4

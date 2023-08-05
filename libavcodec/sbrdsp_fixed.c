@@ -26,8 +26,8 @@
 #define USE_FIXED 1
 
 #include "aac.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 #include "sbrdsp.h"
 
 static SoftFloat sbr_sum_square_c(int (*x)[2], int n)

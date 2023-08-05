@@ -25,7 +25,7 @@
 #include "config.h"
 #include "avfilter.h"
 #include "transform.h"
-#include "libavutil/pixelutils.h"
+#include "third_party/ffmpeg/libavutil/pixelutils.h"
 
 
 enum SearchMethod {

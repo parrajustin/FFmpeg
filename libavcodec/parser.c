@@ -24,8 +24,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "parser.h"
 

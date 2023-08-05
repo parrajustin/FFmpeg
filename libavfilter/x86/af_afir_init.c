@@ -17,10 +17,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/af_afirdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/af_afirdsp.h"
 
 void ff_fcmul_add_sse3(float *sum, const float *t, const float *c,
                        ptrdiff_t len);

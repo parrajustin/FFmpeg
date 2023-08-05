@@ -26,8 +26,8 @@
  */
 
 #include <stdint.h>
-#include "libavutil/avassert.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include "lzw.h"
 #include "put_bits.h"
 

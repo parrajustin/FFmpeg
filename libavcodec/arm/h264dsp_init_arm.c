@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/h264dsp.h"
-#include "libavcodec/arm/startcode.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/h264dsp.h"
+#include "third_party/ffmpeg/libavcodec/arm/startcode.h"
 
 void ff_h264_v_loop_filter_luma_neon(uint8_t *pix, ptrdiff_t stride, int alpha,
                                      int beta, int8_t *tc0);

@@ -29,13 +29,13 @@
 #include <string.h>
 #include <xvid.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/file_open.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

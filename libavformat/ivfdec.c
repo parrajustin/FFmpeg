@@ -21,7 +21,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "riff.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 static int probe(const AVProbeData *p)
 {

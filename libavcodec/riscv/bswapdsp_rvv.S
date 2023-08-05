@@ -19,7 +19,7 @@
  */
 
 #include "config.h"
-#include "libavutil/riscv/asm.S"
+#include "third_party/ffmpeg/libavutil/riscv/asm.S"
 
 func ff_bswap32_buf_rvv, zve32x
         li      t4, 4

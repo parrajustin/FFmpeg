@@ -23,8 +23,8 @@
 #define USE_FIXED 0
 
 #include "aac.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 #include "sbrdsp.h"
 
 static float sbr_sum_square_c(float (*x)[2], int n)

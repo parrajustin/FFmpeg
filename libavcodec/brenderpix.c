@@ -21,7 +21,7 @@
 
 /* Tested against samples from I-War / Independence War and Defiance. */
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

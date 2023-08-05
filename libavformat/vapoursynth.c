@@ -28,12 +28,12 @@
 #include <VapourSynth.h>
 #include <VSScript.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avformat.h"
 #include "internal.h"
 

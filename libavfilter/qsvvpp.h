@@ -27,9 +27,9 @@
 #include <mfxvideo.h>
 
 #include "avfilter.h"
-#include "libavutil/fifo.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_qsv.h"
 
 #define FF_INLINK_IDX(link)  ((int)((link)->dstpad - (link)->dst->input_pads))
 #define FF_OUTLINK_IDX(link) ((int)((link)->srcpad - (link)->src->output_pads))

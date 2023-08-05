@@ -20,8 +20,8 @@
 
 #include "bsf.h"
 #include "bsf_internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct PCMContext {
     const AVClass *class;

@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02111, USA.
  *****************************************************************************/
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 /* override fpu so that NEON instructions are rejected */
 #if HAVE_VFP

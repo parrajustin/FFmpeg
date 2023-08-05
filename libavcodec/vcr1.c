@@ -27,8 +27,8 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 typedef struct VCR1Context {
     int delta[16];

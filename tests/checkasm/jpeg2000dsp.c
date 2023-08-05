@@ -19,11 +19,11 @@
  */
 
 #include "checkasm.h"
-#include "libavcodec/jpeg2000dsp.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavcodec/jpeg2000dsp.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define BUF_SIZE 512
 

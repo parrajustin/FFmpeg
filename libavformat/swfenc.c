@@ -22,9 +22,9 @@
 
 #include "config_components.h"
 
-#include "libavcodec/put_bits.h"
-#include "libavutil/avassert.h"
-#include "libavutil/fifo.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
 #include "avformat.h"
 #include "flv.h"
 #include "mux.h"

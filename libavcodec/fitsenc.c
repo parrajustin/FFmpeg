@@ -29,7 +29,7 @@
  * Also CTYPE3 = 'RGB ' is added to the header to distinguish them from 3d images.
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

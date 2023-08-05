@@ -23,9 +23,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

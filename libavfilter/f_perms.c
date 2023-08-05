@@ -20,9 +20,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/lfg.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 #include "audio.h"
 #include "filters.h"
 #include "video.h"

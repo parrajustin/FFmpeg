@@ -23,8 +23,8 @@
  * FIFO buffering filter
  */
 
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #include "audio.h"
 #include "avfilter.h"

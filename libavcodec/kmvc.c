@@ -30,7 +30,7 @@
 #include "bytestream.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #define KMVC_KEYFRAME 0x80
 #define KMVC_PALETTE  0x40

@@ -26,7 +26,7 @@
  * @author Marco Gerards <marco@gnu.org>, David Conrad, Jordi Ortiz <nenjordi@gmail.com>
  */
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "dirac.h"
 #include "golomb.h"

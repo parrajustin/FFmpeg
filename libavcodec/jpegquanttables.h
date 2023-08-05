@@ -22,7 +22,7 @@
 #define AVCODEC_JPEGQUANTTABLES_H
 
 #include <stdint.h>
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 FF_VISIBILITY_PUSH_HIDDEN
 extern const uint8_t ff_mjpeg_std_luminance_quant_tbl[64];

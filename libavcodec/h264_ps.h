@@ -26,9 +26,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

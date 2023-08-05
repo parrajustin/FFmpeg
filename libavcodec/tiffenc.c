@@ -30,10 +30,10 @@
 #include <zlib.h>
 #endif
 
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

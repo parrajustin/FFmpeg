@@ -21,11 +21,11 @@
 #include <inttypes.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "vaapi_encode.h"
 #include "encode.h"

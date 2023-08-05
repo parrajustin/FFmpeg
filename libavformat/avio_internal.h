@@ -22,7 +22,7 @@
 #include "avio.h"
 #include "url.h"
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 extern const AVClass ff_avio_class;
 

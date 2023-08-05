@@ -22,7 +22,7 @@
 #ifndef AVFORMAT_MATROSKA_H
 #define AVFORMAT_MATROSKA_H
 
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 #include "avformat.h"
 #include "metadata.h"
 

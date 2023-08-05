@@ -18,11 +18,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 #include "framesync.h"

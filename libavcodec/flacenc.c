@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/intmath.h"
-#include "libavutil/md5.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "bswapdsp.h"

@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "hpeldsp_lasx.h"
 
 static av_always_inline void

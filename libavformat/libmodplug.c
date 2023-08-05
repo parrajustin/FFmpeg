@@ -24,9 +24,9 @@
 
 #define MODPLUG_STATIC
 #include <libmodplug/modplug.h>
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 

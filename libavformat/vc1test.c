@@ -26,7 +26,7 @@
  * Format specified in SMPTE standard 421 Annex L
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

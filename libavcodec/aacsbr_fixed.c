@@ -62,9 +62,9 @@
 #include "aacsbrdata.h"
 #include "aacps.h"
 #include "sbrdsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/libm.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include <stdint.h>
 #include <float.h>

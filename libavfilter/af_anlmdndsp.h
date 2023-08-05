@@ -21,7 +21,7 @@
 #ifndef AVFILTER_ANLMDNDSP_H
 #define AVFILTER_ANLMDNDSP_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include "audio.h"
 #include "avfilter.h"

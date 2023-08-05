@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 
 #include "get_bits.h"
 #include "hevc.h"

@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 #define FRAC_BITS   23   // fractional bits for sb_samples and dct
 #define WFRAC_BITS  16   // fractional bits for window

@@ -19,19 +19,19 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/bswap.h"
-#include "libavutil/crc.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
-#include "libavcodec/ac3_parser_internal.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/h264.h"
-#include "libavcodec/startcode.h"
+#include "third_party/ffmpeg/libavcodec/ac3_parser_internal.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavcodec/h264.h"
+#include "third_party/ffmpeg/libavcodec/startcode.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

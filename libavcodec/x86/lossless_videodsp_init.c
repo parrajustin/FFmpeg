@@ -20,7 +20,7 @@
 
 #include "config.h"
 #include "../lossless_videodsp.h"
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
 void ff_add_bytes_sse2(uint8_t *dst, uint8_t *src, ptrdiff_t w);
 void ff_add_bytes_avx2(uint8_t *dst, uint8_t *src, ptrdiff_t w);

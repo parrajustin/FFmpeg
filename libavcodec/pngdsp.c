@@ -20,7 +20,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "png.h"
 #include "pngdsp.h"
 

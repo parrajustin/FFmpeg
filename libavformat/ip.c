@@ -20,8 +20,8 @@
 
 #include <string.h>
 #include "ip.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 static int compare_addr(const struct sockaddr_storage *a,
                         const struct sockaddr_storage *b)

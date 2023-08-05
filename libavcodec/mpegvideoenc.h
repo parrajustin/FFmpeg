@@ -30,7 +30,7 @@
 
 #include <float.h>
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "mpegvideo.h"
 
 #define UNI_AC_ENC_INDEX(run,level) ((run)*128 + (level))

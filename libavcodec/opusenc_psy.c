@@ -25,7 +25,7 @@
 #include "opus_celt.h"
 #include "opus_pvq.h"
 #include "opustab.h"
-#include "libavfilter/window_func.h"
+#include "third_party/ffmpeg/libavfilter/window_func.h"
 
 static float pvq_band_cost(CeltPVQ *pvq, CeltFrame *f, OpusRangeCoder *rc, int band,
                            float *bits, float lambda)

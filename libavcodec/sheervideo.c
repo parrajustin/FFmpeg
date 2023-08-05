@@ -22,7 +22,7 @@
 #define CACHED_BITSTREAM_READER !ARCH_X86_32
 #define SHEER_VLC_BITS 12
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "get_bits.h"

@@ -20,9 +20,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/film_grain_params.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/film_grain_params.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "av1dec.h"
 #include "bytestream.h"

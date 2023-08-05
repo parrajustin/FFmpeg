@@ -19,7 +19,7 @@
  */
 
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 #include "neon.S"
 
 function ff_hevc_sao_band_filter_neon_8, export=1

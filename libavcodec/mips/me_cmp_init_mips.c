@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "me_cmp_mips.h"
 
 av_cold void ff_me_cmp_init_mips(MECmpContext *c, AVCodecContext *avctx)

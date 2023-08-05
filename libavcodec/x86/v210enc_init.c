@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/v210enc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/v210enc.h"
 
 void ff_v210_planar_pack_8_ssse3(const uint8_t *y, const uint8_t *u,
                                  const uint8_t *v, uint8_t *dst,

@@ -17,12 +17,12 @@
  */
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bytestream.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 
 typedef struct IOContext {

@@ -21,13 +21,13 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
-#include "libavcodec/get_bits.h"
-#include "libavcodec/golomb.h"
-#include "libavcodec/put_bits.h"
-#include "libavcodec/put_golomb.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/golomb.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavcodec/put_golomb.h"
 
 #define COUNT 8191
 #define SIZE (COUNT * 4)

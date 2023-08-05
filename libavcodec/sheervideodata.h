@@ -22,7 +22,7 @@
 #ifndef AVCODEC_SHEERVIDEODATA_H
 #define AVCODEC_SHEERVIDEODATA_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 typedef struct SheerTable {
     uint8_t  lens[2 * 15];

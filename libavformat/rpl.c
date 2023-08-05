@@ -22,8 +22,8 @@
 #include <inttypes.h>
 #include <stdlib.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "avformat.h"
 #include "internal.h"
 

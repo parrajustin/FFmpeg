@@ -27,9 +27,9 @@
 #include "codec_internal.h"
 #include "decode.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 typedef struct DfaContext {
     uint32_t pal[256];

@@ -32,17 +32,17 @@
 #include <float.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 #include "audio.h"
 #include "avfilter.h"

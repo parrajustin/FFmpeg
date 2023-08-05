@@ -26,7 +26,7 @@
 
 #include <stddef.h>
 
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 static inline void rgb24tobgr32_c(const uint8_t *src, uint8_t *dst,
                                   int src_size)

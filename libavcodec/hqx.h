@@ -23,8 +23,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "get_bits.h"
 #include "hqxdsp.h"

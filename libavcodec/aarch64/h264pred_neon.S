@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 .macro ldcol.8  rd,  rs,  rt,  n=8,  hi=0
 .if \n >= 8 || \hi == 0

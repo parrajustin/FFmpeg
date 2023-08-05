@@ -25,7 +25,7 @@
 #include "encode.h"
 #include "internal.h"
 #include "put_bits.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 struct BitpackedContext {
     int (*encode)(AVCodecContext *avctx, AVPacket *pkt, const AVFrame *frame);

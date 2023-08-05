@@ -17,7 +17,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "opusdsp.h"
 
 static void postfilter_c(float *data, int period, float *gains, int len)

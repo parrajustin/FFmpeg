@@ -20,10 +20,10 @@
  * SOFTWARE.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

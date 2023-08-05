@@ -27,12 +27,12 @@
  * @see http://www.svatopluk.com/andux/docs/dfvid.html
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "internal.h"
-#include "libavcodec/bethsoftvideo.h"
+#include "third_party/ffmpeg/libavcodec/bethsoftvideo.h"
 
 #define BVID_PALETTE_SIZE 3 * 256
 

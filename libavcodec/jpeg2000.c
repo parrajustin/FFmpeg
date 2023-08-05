@@ -25,12 +25,12 @@
  * JPEG 2000 image encoder and decoder common functions
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "internal.h"
 #include "jpeg2000.h"

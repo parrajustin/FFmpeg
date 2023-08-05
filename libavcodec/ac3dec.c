@@ -31,12 +31,12 @@
 #include <math.h>
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/downmix_info.h"
-#include "libavutil/intmath.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/downmix_info.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "bswapdsp.h"
 #include "aac_ac3_parser.h"
 #include "ac3_parser_internal.h"

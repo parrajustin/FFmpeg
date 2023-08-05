@@ -24,10 +24,10 @@
 
 #define BITSTREAM_READER_LE
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

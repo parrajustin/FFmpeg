@@ -21,11 +21,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "avformat.h"
 
 #include "internal.h"

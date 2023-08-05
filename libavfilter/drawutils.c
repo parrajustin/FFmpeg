@@ -21,11 +21,11 @@
 
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avutil.h"
-#include "libavutil/csp.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "colorspace.h"
 #include "drawutils.h"
 #include "formats.h"

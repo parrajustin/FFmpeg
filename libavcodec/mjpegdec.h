@@ -29,10 +29,10 @@
 #ifndef AVCODEC_MJPEGDEC_H
 #define AVCODEC_MJPEGDEC_H
 
-#include "libavutil/log.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/stereo3d.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
 
 #include "avcodec.h"
 #include "blockdsp.h"

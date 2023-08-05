@@ -25,14 +25,14 @@
 
 /* #define DEBUG */
 
-#include "libavutil/file.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/lfg.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "formats.h"

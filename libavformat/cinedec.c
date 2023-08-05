@@ -25,9 +25,9 @@
  * @author Peter Ross <pross@xvid.org>
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/bmp.h"
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/bmp.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 #include "avformat.h"
 #include "internal.h"
 

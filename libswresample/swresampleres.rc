@@ -22,8 +22,8 @@
  */
 
 #include <windows.h>
-#include "libswresample/version.h"
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libswresample/version.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 #include "config.h"
 
 1 VERSIONINFO

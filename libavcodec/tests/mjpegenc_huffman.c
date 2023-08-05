@@ -23,12 +23,12 @@
  * Optimal Huffman Encoding tests.
  */
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include <stdlib.h>
-#include "libavcodec/mjpegenc.h"
-#include "libavcodec/mjpegenc_huffman.h"
-#include "libavcodec/mjpegenc_common.h"
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavcodec/mjpegenc.h"
+#include "third_party/ffmpeg/libavcodec/mjpegenc_huffman.h"
+#include "third_party/ffmpeg/libavcodec/mjpegenc_common.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 
 // Validate the computed lengths satisfy the JPEG restrictions and is optimal.
 static int check_lengths(int L, int expected_length,

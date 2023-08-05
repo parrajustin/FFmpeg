@@ -28,25 +28,25 @@ using std::atomic;
 /* Include internal.h first to avoid conflict between winsock.h (used by
  * DeckLink headers) and winsock2.h (used by libavformat) in MSVC++ builds */
 extern "C" {
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 }
 
 #include <DeckLinkAPI.h>
 
 extern "C" {
 #include "config.h"
-#include "libavcodec/packet_internal.h"
-#include "libavformat/avformat.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avutil.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/time.h"
-#include "libavutil/timecode.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/reverse.h"
+#include "third_party/ffmpeg/libavcodec/packet_internal.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
 #include "avdevice.h"
 #if CONFIG_LIBZVBI
 #include <libzvbi.h>

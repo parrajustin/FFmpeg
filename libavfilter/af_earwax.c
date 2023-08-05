@@ -29,7 +29,7 @@
  * front of the listener. Adapted from the libsox earwax effect.
  */
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "formats.h"

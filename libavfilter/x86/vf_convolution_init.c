@@ -19,10 +19,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/convolution.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/convolution.h"
 
 void ff_filter_3x3_sse4(uint8_t *dst, int width,
                         float rdiv, float bias, const int *const matrix,

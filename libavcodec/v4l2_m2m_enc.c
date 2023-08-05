@@ -25,10 +25,10 @@
 #include <sys/ioctl.h>
 #include <search.h>
 #include "encode.h"
-#include "libavcodec/avcodec.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "codec_internal.h"
 #include "profiles.h"
 #include "v4l2_context.h"

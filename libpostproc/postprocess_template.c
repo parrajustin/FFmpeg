@@ -23,8 +23,8 @@
  * mmx/mmx2/sse2 postprocess code.
  */
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 
 /* A single TEMPLATE_PP_* should be defined (to 1) when this template is
  * included. The following macros will define its dependencies to 1 as well

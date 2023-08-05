@@ -21,7 +21,7 @@
 #ifndef AVCODEC_MIPS_H264CHROMA_MIPS_H
 #define AVCODEC_MIPS_H264CHROMA_MIPS_H
 
-#include "libavcodec/h264dec.h"
+#include "third_party/ffmpeg/libavcodec/h264dec.h"
 void ff_put_h264_chroma_mc8_msa(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
                                 int height, int x, int y);
 void ff_put_h264_chroma_mc4_msa(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,

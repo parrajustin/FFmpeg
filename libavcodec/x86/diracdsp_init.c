@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/diracdsp.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/diracdsp.h"
 #include "fpel.h"
 
 void ff_add_rect_clamped_sse2(uint8_t *, const uint16_t *, int, const int16_t *, int, int, int);

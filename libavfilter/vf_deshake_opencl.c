@@ -47,13 +47,13 @@
 
 #include <float.h>
 #include <libavutil/lfg.h>
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/fifo.h"
-#include "libavutil/common.h"
-#include "libavutil/avassert.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avfilter.h"
 #include "framequeue.h"
 #include "filters.h"

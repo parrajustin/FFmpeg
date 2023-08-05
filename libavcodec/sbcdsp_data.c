@@ -29,7 +29,7 @@
  * miscellaneous SBC tables
  */
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "sbcdsp_data.h"
 

@@ -49,9 +49,9 @@
  * and almost certainly can be improved...
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

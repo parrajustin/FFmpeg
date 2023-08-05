@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
 #include "vp9dsp_init.h"
 
 #define declare_fpel(type, sz, suffix)                                          \

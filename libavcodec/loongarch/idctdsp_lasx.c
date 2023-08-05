@@ -20,7 +20,7 @@
  */
 
 #include "idctdsp_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 void ff_put_pixels_clamped_lasx(const int16_t *block,
                                 uint8_t *av_restrict pixels,

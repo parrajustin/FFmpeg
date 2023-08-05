@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/intfloat.h"
-#include "libavutil/opt.h"
-#include "libavcodec/packet_internal.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/packet_internal.h"
 #include "avformat.h"
 #include "internal.h"
 #include "aiff.h"

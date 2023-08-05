@@ -29,8 +29,8 @@
 #define AVCODEC_AACSBRDATA_H
 
 #include <stdint.h>
-#include "libavutil/attributes_internal.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "aac_defines.h"
 
 ///< Huffman tables for SBR

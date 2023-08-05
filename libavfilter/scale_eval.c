@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 #include "scale_eval.h"
-#include "libavutil/eval.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 static const char *const var_names[] = {
     "in_w",   "iw",

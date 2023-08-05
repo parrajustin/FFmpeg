@@ -35,11 +35,11 @@
 
 #include <float.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/error.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/reverse.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

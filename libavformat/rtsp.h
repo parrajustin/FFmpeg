@@ -29,8 +29,8 @@
 #include "httpauth.h"
 #include "internal.h"
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 /**
  * Network layer over which RTP/etc packet data will be transported.

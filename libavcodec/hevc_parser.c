@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include "golomb.h"
 #include "hevc.h"

@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
-#include "libavfilter/colorspacedsp.h"
+#include "third_party/ffmpeg/libavfilter/colorspacedsp.h"
 
 #define decl_yuv2yuv_fn(t) \
 void ff_yuv2yuv_##t##_sse2(uint8_t *yuv_out[3], const ptrdiff_t yuv_out_stride[3], \

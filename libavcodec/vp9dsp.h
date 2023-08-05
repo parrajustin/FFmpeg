@@ -27,8 +27,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavcodec/vp9.h"
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavcodec/vp9.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 typedef void (*vp9_mc_func)(uint8_t *dst, ptrdiff_t dst_stride,
                             const uint8_t *ref, ptrdiff_t ref_stride,

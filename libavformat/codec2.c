@@ -21,10 +21,10 @@
 
 #include "config_components.h"
 
-#include "libavcodec/codec2utils.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/codec2utils.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avio_internal.h"
 #include "avformat.h"
 #include "internal.h"

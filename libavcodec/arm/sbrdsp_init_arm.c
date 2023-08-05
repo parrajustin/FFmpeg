@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/sbrdsp.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/sbrdsp.h"
 
 void ff_sbr_sum64x5_neon(float *z);
 float ff_sbr_sum_square_neon(float (*x)[2], int n);

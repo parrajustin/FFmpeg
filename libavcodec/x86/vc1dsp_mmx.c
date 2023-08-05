@@ -24,11 +24,11 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "constants.h"
 #include "fpel.h"
 #include "vc1dsp.h"

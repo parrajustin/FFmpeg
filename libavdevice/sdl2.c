@@ -26,14 +26,14 @@
 #include <SDL.h>
 #include <SDL_thread.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "avdevice.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 
 typedef struct {
     AVClass *class;

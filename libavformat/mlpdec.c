@@ -27,9 +27,9 @@
 #include "avio_internal.h"
 #include "internal.h"
 #include "rawdec.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/mlp.h"
-#include "libavcodec/mlp_parse.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/mlp.h"
+#include "third_party/ffmpeg/libavcodec/mlp_parse.h"
 
 static int av_always_inline mlp_thd_probe(const AVProbeData *p, uint32_t sync)
 {

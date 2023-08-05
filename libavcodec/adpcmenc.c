@@ -24,7 +24,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "put_bits.h"

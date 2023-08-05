@@ -22,7 +22,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include <chromaprint.h>
 
 #define CPR_VERSION_INT AV_VERSION_INT(CHROMAPRINT_VERSION_MAJOR, \

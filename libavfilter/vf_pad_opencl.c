@@ -16,10 +16,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/colorspace.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avfilter.h"
 #include "drawutils.h"
 #include "formats.h"

@@ -25,9 +25,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

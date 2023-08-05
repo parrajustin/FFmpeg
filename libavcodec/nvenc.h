@@ -23,7 +23,7 @@
 
 #if CONFIG_D3D11VA
 #define COBJMACROS
-#include "libavutil/hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
 #else
 typedef void ID3D11Device;
 #endif
@@ -31,9 +31,9 @@ typedef void ID3D11Device;
 #include <ffnvcodec/nvEncodeAPI.h>
 
 #include "compat/cuda/dynlink_loader.h"
-#include "libavutil/buffer.h"
-#include "libavutil/fifo.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "hwconfig.h"
 
 #include "avcodec.h"

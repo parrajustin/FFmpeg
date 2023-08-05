@@ -24,7 +24,7 @@
 #include "avformat.h"
 #include "ffmeta.h"
 #include "mux.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 
 static void write_escape_str(AVIOContext *s, const uint8_t *str)

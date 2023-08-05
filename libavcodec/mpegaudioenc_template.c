@@ -24,7 +24,7 @@
  * The simplest mpeg audio layer 2 encoder.
  */
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #include "avcodec.h"
 #include "encode.h"

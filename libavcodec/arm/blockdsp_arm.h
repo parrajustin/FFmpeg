@@ -19,7 +19,7 @@
 #ifndef AVCODEC_ARM_BLOCKDSP_ARM_H
 #define AVCODEC_ARM_BLOCKDSP_ARM_H
 
-#include "libavcodec/blockdsp.h"
+#include "third_party/ffmpeg/libavcodec/blockdsp.h"
 
 void ff_blockdsp_init_neon(BlockDSPContext *c);
 

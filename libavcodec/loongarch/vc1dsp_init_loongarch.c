@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "vc1dsp_loongarch.h"
 
 #define FN_ASSIGN(OP, X, Y, INSN) \

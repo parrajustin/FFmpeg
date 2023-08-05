@@ -28,8 +28,8 @@
 #include <stdbool.h>
 #include <sys/types.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "avcodec.h"
 #include "mediacodec_wrapper.h"

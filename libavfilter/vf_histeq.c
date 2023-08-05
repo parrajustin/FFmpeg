@@ -27,10 +27,10 @@
  * histogram equalization.
  */
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 #include "drawutils.h"

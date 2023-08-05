@@ -32,11 +32,11 @@
 
 #if CONFIG_DXVA2
 #include "dxva2.h"
-#include "libavutil/hwcontext_dxva2.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_dxva2.h"
 #endif
 #if CONFIG_D3D11VA
 #include "d3d11va.h"
-#include "libavutil/hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
 #endif
 #if HAVE_DXVA_H
 /* When targeting WINAPI_FAMILY_PHONE_APP or WINAPI_FAMILY_APP, dxva.h
@@ -48,7 +48,7 @@
 #include <dxva.h>
 #endif
 
-#include "libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
 
 #include "avcodec.h"
 #include "internal.h"

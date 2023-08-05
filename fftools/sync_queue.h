@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 enum SyncQueueType {
     SYNC_QUEUE_PACKETS,

@@ -24,8 +24,8 @@
  * GIF parser
  */
 
-#include "libavutil/bswap.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include "gif.h"
 #include "parser.h"

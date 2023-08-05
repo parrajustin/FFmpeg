@@ -29,9 +29,9 @@
 #include <inttypes.h>
 #include <math.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

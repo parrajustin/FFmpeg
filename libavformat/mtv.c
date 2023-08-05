@@ -24,8 +24,8 @@
  * MTV demuxer.
  */
 
-#include "libavutil/bswap.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "internal.h"
 

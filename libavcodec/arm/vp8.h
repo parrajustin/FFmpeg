@@ -22,8 +22,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavcodec/vpx_rac.h"
-#include "libavcodec/vp8.h"
+#include "third_party/ffmpeg/libavcodec/vpx_rac.h"
+#include "third_party/ffmpeg/libavcodec/vp8.h"
 
 #if HAVE_ARMV6_EXTERNAL
 #define vp8_decode_block_coeffs_internal ff_decode_block_coeffs_armv6

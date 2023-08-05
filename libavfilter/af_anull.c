@@ -25,7 +25,7 @@
 #include "audio.h"
 #include "avfilter.h"
 #include "internal.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 static const AVFilterPad avfilter_af_anull_inputs[] = {
     {

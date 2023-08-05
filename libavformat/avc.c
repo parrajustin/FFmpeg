@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/h264.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/h264.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 #include "avformat.h"
 #include "avio.h"
 #include "avc.h"

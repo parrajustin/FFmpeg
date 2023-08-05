@@ -35,11 +35,11 @@
  * http://wiki.multimedia.cx/index.php?title=Nellymoser
  */
 
-#include "libavutil/common.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "audio_frame_queue.h"
 #include "avcodec.h"

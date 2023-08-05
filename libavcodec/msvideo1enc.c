@@ -28,9 +28,9 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "bytestream.h"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 #include "elbg.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 /**
  * Encoder context
  */

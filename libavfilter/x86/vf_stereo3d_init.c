@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
-#include "libavfilter/stereo3d.h"
+#include "third_party/ffmpeg/libavfilter/stereo3d.h"
 
 void ff_anaglyph_sse4(uint8_t *dst, uint8_t *lsrc, uint8_t *rsrc,
                       ptrdiff_t dst_linesize, ptrdiff_t l_linesize, ptrdiff_t r_linesize,

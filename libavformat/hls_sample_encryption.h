@@ -32,8 +32,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavcodec/codec_id.h"
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 #include "avformat.h"
 
 

@@ -19,11 +19,11 @@
  */
 
 #include "config.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "swresample.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 const char swr_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned swresample_version(void)

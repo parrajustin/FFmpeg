@@ -18,11 +18,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/pixblockdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/pixblockdsp.h"
 
 void ff_get_pixels_armv6(int16_t *block, const uint8_t *pixels,
                          ptrdiff_t stride);

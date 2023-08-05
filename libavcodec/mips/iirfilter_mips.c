@@ -53,7 +53,7 @@
  */
 
 #include "config.h"
-#include "libavcodec/iirfilter.h"
+#include "third_party/ffmpeg/libavcodec/iirfilter.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

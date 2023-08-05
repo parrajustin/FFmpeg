@@ -22,12 +22,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
-#include "libavcodec/lossless_videodsp.h"
+#include "third_party/ffmpeg/libavcodec/lossless_videodsp.h"
 
 #if HAVE_ALTIVEC
 static void add_bytes_altivec(uint8_t *dst, uint8_t *src, ptrdiff_t w)

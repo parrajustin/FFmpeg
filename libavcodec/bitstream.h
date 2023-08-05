@@ -45,10 +45,10 @@
 
 #include "config.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "mathops.h"
 #include "vlc.h"

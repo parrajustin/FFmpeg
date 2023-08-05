@@ -35,12 +35,12 @@
 #include <math.h>
 #include <stddef.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

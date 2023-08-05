@@ -24,9 +24,9 @@
 
 #include "idctdsp_mips.h"
 #include "constants.h"
-#include "libavutil/mips/asmdefs.h"
-#include "libavutil/mips/mmiutils.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define W1  22725  //cos(i*M_PI/16)*sqrt(2)*(1<<14) + 0.5
 #define W2  21407  //cos(i*M_PI/16)*sqrt(2)*(1<<14) + 0.5

@@ -19,7 +19,7 @@
 #ifndef AVFILTER_IDET_H
 #define AVFILTER_IDET_H
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 
 #define HIST_SIZE 4

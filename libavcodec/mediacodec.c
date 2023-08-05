@@ -22,7 +22,7 @@
 
 #include "config.h"
 
-#include "libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 #include "mediacodec.h"
 
@@ -30,8 +30,8 @@
 
 #include <jni.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "ffjni.h"
 #include "mediacodecdec_common.h"

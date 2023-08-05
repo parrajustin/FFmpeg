@@ -28,10 +28,10 @@
 #include <stdint.h>
 #include <stdatomic.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 #include "get_bits.h"
 #include "videodsp.h"

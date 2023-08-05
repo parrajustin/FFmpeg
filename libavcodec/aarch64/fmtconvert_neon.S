@@ -21,7 +21,7 @@
  */
 
 #include "config.h"
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 function ff_int32_to_float_fmul_scalar_neon, export=1
         ld1             {v1.4s,v2.4s}, [x1], #32

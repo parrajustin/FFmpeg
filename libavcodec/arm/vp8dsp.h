@@ -19,7 +19,7 @@
 #ifndef AVCODEC_ARM_VP8DSP_H
 #define AVCODEC_ARM_VP8DSP_H
 
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 
 void ff_vp78dsp_init_armv6(VP8DSPContext *dsp);
 void ff_vp78dsp_init_neon(VP8DSPContext *dsp);

@@ -22,7 +22,7 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "zlib_wrapper.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 typedef struct ZeroCodecContext {
     AVFrame  *previous_frame;

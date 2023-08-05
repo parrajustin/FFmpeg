@@ -27,10 +27,10 @@
  * after that.
  */
 
-#include "libavcodec/avcodec.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 #define NUMBER_OF_AUDIO_FRAMES 200
 #define NAME_BUFF_SIZE 100

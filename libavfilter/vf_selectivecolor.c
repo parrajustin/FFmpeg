@@ -24,12 +24,12 @@
  * - use integers so it can be made bitexact and a FATE test can be added
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/file.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavcodec/mathops.h" // for mid_pred(), which is a macro so no link dependency
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavcodec/mathops.h" // for mid_pred(), which is a macro so no link dependency
 #include "avfilter.h"
 #include "drawutils.h"
 #include "formats.h"

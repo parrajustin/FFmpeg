@@ -28,8 +28,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "get_bits.h"
 

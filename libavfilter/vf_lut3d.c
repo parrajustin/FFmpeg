@@ -28,11 +28,11 @@
 
 #include "float.h"
 
-#include "libavutil/opt.h"
-#include "libavutil/file_open.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "drawutils.h"
 #include "internal.h"
 #include "video.h"

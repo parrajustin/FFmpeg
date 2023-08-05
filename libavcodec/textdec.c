@@ -28,8 +28,8 @@
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"
-#include "libavutil/bprint.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct {
     AVClass *class;

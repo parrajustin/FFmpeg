@@ -25,11 +25,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/ambient_viewing_environment.h"
-#include "libavutil/display.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/stereo3d.h"
+#include "third_party/ffmpeg/libavutil/ambient_viewing_environment.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/film_grain_params.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
 
 #include "atsc_a53.h"
 #include "avcodec.h"

@@ -23,8 +23,8 @@
  * pixdesc test filter
  */
 
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "video.h"

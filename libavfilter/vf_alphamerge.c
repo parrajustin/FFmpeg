@@ -25,9 +25,9 @@
 
 #include <string.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avfilter.h"
 #include "drawutils.h"
 #include "formats.h"

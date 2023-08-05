@@ -22,11 +22,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
-#include "libavcodec/mpegutils.h"
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavcodec/mpegutils.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 #include "fdct.h"
 
 #undef MMREG_WIDTH

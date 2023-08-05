@@ -25,10 +25,10 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavutil/avstring.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/getenv_utf8.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 
 static void set_options(TLSShared *c, const char *uri)
 {

@@ -20,7 +20,7 @@
 
 #include "config.h"
 #include "lossless_videodsp.h"
-#include "libavcodec/mathops.h"
+#include "third_party/ffmpeg/libavcodec/mathops.h"
 
 // 0x7f7f7f7f or 0x7f7f7f7f7f7f7f7f or whatever, depending on the cpu's native arithmetic size
 #define pb_7f (~0UL / 255 * 0x7f)

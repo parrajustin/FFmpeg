@@ -26,7 +26,7 @@
 #ifndef AVCODEC_VP56_H
 #define AVCODEC_VP56_H
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

@@ -24,7 +24,7 @@
 #define AVCODEC_AAC_AC3_PARSER_H
 
 #include <stdint.h>
-#include "libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
 #include "avcodec.h"
 #include "parser.h"
 

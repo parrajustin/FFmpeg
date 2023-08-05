@@ -25,7 +25,7 @@
 #include <stddef.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "threshold.h"
 
 static void threshold8(const uint8_t *in, const uint8_t *threshold,

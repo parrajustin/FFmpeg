@@ -19,9 +19,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 
 int ff_pix_abs16_neon(MpegEncContext *s, const uint8_t *blk1, const uint8_t *blk2,
                       ptrdiff_t stride, int h);

@@ -27,7 +27,7 @@
 #ifndef AVCODEC_RV34_H
 #define AVCODEC_RV34_H
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "mpegvideo.h"

@@ -32,14 +32,14 @@
 #include <asm/unistd.h>
 #include <linux/perf_event.h>
 #elif CONFIG_MACOS_KPERF
-#include "libavutil/macos_kperf.h"
+#include "third_party/ffmpeg/libavutil/macos_kperf.h"
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/cpu.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 void checkasm_check_aacpsdsp(void);
 void checkasm_check_afir(void);

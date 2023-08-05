@@ -23,8 +23,8 @@
  * Change the PTS/DTS timestamps.
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 #include "bsf.h"
 #include "bsf_internal.h"

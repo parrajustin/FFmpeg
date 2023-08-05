@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "libavutil/avassert.h"
-#include "libavdevice/avdevice.h"
-#include "libavfilter/avfilter.h"
-#include "libavfilter/buffersink.h"
-#include "libavformat/avformat.h"
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavdevice/avdevice.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/buffersink.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 
 typedef struct {
     AVFormatContext *mux;

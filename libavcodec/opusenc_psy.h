@@ -22,8 +22,8 @@
 #ifndef AVCODEC_OPUSENC_PSY_H
 #define AVCODEC_OPUSENC_PSY_H
 
-#include "libavutil/tx.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "opusenc.h"
 #include "opus_celt.h"

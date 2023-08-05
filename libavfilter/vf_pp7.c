@@ -27,10 +27,10 @@
  * project, and ported by Arwa Arif for FFmpeg.
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "internal.h"
 #include "qp_table.h"
 #include "vf_pp7.h"

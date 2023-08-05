@@ -22,8 +22,8 @@
 #define AVFORMAT_DEMUX_H
 
 #include <stdint.h>
-#include "libavutil/rational.h"
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 #include "avformat.h"
 
 #define MAX_STD_TIMEBASES (30*12+30+3+6)

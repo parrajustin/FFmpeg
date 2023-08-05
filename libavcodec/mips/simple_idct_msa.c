@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "idctdsp_mips.h"
 
 static void simple_idct_msa(int16_t *block)

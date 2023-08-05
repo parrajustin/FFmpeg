@@ -22,8 +22,8 @@
  */
 
 #include <windows.h>
-#include "libswscale/version.h"
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libswscale/version.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 #include "config.h"
 
 1 VERSIONINFO

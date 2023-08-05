@@ -25,7 +25,7 @@
 #include <AMF/components/VideoEncoderHEVC.h>
 #include <AMF/components/VideoEncoderAV1.h>
 
-#include "libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
 
 #include "avcodec.h"
 #include "hwconfig.h"

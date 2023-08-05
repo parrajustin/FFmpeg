@@ -20,11 +20,11 @@
  */
 
 #include <stdlib.h>
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavformat/avformat.h"
-#include "libavformat/url.h"
-#include "libavformat/network.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/url.h"
+#include "third_party/ffmpeg/libavutil/network.h"
 
 #define MAX_TST_PACKETS 128
 #define SLEEPTIME_50_MS 50000

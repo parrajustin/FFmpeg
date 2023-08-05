@@ -28,7 +28,7 @@
 #ifndef AVCODEC_AACENCTAB_H
 #define AVCODEC_AACENCTAB_H
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "aac.h"
 
 /** Total number of usable codebooks **/

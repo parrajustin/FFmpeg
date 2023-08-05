@@ -25,12 +25,12 @@
 
 #include "dnn_backend_openvino.h"
 #include "dnn_io_proc.h"
-#include "libavformat/avio.h"
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/detection_bbox.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/detection_bbox.h"
 #include "../internal.h"
 #include "safe_queue.h"
 #include <c_api/ie_c_api.h>

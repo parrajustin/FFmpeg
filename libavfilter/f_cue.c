@@ -20,8 +20,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "internal.h"

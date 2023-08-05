@@ -26,7 +26,7 @@
 #ifndef AVCODEC_MSS12_H
 #define AVCODEC_MSS12_H
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "get_bits.h"
 #include "bytestream.h"

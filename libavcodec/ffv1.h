@@ -28,7 +28,7 @@
  * FF Video Codec 1 (a lossless codec)
  */
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avcodec.h"
 #include "get_bits.h"
 #include "mathops.h"

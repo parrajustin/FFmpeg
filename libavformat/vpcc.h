@@ -27,8 +27,8 @@
 #ifndef AVFORMAT_VPCC_H
 #define AVFORMAT_VPCC_H
 
-#include "libavutil/rational.h"
-#include "libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
 #include "avio.h"
 #include "avformat.h"
 

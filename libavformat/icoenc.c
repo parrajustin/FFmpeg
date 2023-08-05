@@ -24,10 +24,10 @@
  * Microsoft Windows ICO muxer
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

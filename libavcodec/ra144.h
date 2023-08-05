@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "lpc.h"
 #include "audio_frame_queue.h"

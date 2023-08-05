@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "../hpeldsp.h"
-#include "libavcodec/mips/hpeldsp_mips.h"
+#include "third_party/ffmpeg/libavcodec/mips/hpeldsp_mips.h"
 
 void ff_hpeldsp_init_mips(HpelDSPContext *c, int flags)
 {

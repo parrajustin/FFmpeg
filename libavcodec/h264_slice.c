@@ -27,11 +27,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/display.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/timecode.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/film_grain_params.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
 #include "internal.h"
 #include "cabac.h"
 #include "cabac_functions.h"

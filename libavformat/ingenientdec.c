@@ -21,7 +21,7 @@
 
 #include "avformat.h"
 #include "rawdec.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 // http://multimedia.cx/ingenient.txt
 static int ingenient_probe(const AVProbeData *p)

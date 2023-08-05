@@ -31,8 +31,8 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/internal.h"
-#include "libavutil/xga_font_data.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/xga_font_data.h"
 
 #include "cga_data.h"
 

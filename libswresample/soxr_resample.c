@@ -24,7 +24,7 @@
  * audio resampling with soxr
  */
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "swresample_internal.h"
 
 #include <soxr.h>

@@ -26,7 +26,7 @@
 
 #include "queue.h"
 #include "../dnn_interface.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #define DNN_BACKEND_COMMON_OPTIONS \
     { "nireq",           "number of request",             OFFSET(options.nireq),           AV_OPT_TYPE_INT,    { .i64 = 0 },     0, INT_MAX, FLAGS }, \

@@ -89,8 +89,8 @@
            Parametric Stereo.
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "decode.h"
 #include "internal.h"
 

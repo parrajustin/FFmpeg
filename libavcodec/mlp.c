@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "mlp.h"
 
 const uint8_t ff_mlp_huffman_tables[3][18][2] = {

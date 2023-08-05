@@ -22,7 +22,7 @@
 /* Include internal.h first to avoid conflict between winsock.h (used by
  * DeckLink headers) and winsock2.h (used by libavformat) in MSVC++ builds */
 extern "C" {
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 }
 
 #include <DeckLinkAPI.h>
@@ -44,10 +44,10 @@ extern "C" {
 #endif
 
 extern "C" {
-#include "libavformat/avformat.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 #include "avdevice.h"
 }
 

@@ -18,9 +18,9 @@
 
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/pixdesc.h"
-#include "libavfilter/buffersink.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavfilter/buffersink.h"
 
 #include "ffmpeg.h"
 

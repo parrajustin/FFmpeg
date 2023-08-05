@@ -38,14 +38,14 @@
 #include <xcb/shape.h>
 #endif
 
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 typedef struct XCBGrabContext {
     const AVClass *class;

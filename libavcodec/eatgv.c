@@ -28,7 +28,7 @@
  * http://wiki.multimedia.cx/index.php?title=Electronic_Arts_TGV
  */
 
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

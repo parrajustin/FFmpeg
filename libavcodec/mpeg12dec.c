@@ -30,13 +30,13 @@
 #define UNCHECKED_BITSTREAM_READER 1
 #include <inttypes.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/reverse.h"
-#include "libavutil/stereo3d.h"
-#include "libavutil/timecode.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

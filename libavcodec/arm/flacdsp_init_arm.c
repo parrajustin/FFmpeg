@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/flacdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/flacdsp.h"
 
 void ff_flac_lpc_16_arm(int32_t *samples, const int coeffs[32], int order,
                         int qlevel, int len);

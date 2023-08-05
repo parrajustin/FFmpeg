@@ -23,12 +23,12 @@
 #include <sys/ioctl.h>
 #include <sys/mman.h>
 #include <linux/fb.h>
-#include "libavutil/file_open.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavformat/avformat.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 #include "fbdev_common.h"
 #include "avdevice.h"
 

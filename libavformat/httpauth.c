@@ -20,11 +20,11 @@
  */
 
 #include "httpauth.h"
-#include "libavutil/base64.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "internal.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
 #include "urldecode.h"
 #include "avformat.h"
 

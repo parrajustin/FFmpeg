@@ -20,9 +20,9 @@
 
 #include <float.h>
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/vorbisdsp.h"
+#include "third_party/ffmpeg/libavcodec/vorbisdsp.h"
 
 #include "checkasm.h"
 

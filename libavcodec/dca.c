@@ -25,7 +25,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 #include "dca.h"
 #include "dca_core.h"

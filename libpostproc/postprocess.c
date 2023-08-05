@@ -73,10 +73,10 @@ try to unroll inner for(x=0 ... loop to avoid these damn if(x ... checks
 //Changelog: use git log
 
 #include "config.h"
-#include "libavutil/avutil.h"
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include <inttypes.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -87,8 +87,8 @@ try to unroll inner for(x=0 ... loop to avoid these damn if(x ... checks
 //#define DEBUG_BRIGHTNESS
 #include "postprocess.h"
 #include "postprocess_internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
 #define GET_MODE_BUFFER_SIZE 500
 #define OPTIONS_ARRAY_SIZE 10

@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 #include "vp8dsp_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 #define VP8_LPF_FILTER4_4W(p1_in_out, p0_in_out, q0_in_out, q1_in_out,  \
                            mask_in, hev_in)                             \

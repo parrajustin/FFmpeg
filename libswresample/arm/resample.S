@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 function ff_resample_common_apply_filter_x4_float_neon, export=1
     vmov.f32            q0, #0.0                                       @ accumulator

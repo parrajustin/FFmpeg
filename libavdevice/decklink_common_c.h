@@ -26,7 +26,7 @@
 #include <stdint.h>
 #include <DeckLinkAPIVersion.h>
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 typedef enum DecklinkPtsSource {
     PTS_SRC_AUDIO     = 1,

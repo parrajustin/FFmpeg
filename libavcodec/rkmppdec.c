@@ -30,13 +30,13 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "hwconfig.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_drm.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #define RECEIVE_FRAME_TIMEOUT   100
 #define FRAMEGROUP_MAX_FRAMES   16

@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "libavcodec/packet_internal.h"
+#include "third_party/ffmpeg/libavcodec/packet_internal.h"
 
 #include "avformat.h"
 #include "os_support.h"

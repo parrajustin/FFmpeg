@@ -30,9 +30,9 @@
 #define OPENMPT_API_VERSION_AT_LEAST(major, minor, patch) (OPENMPT_API_VERSION >= OPENMPT_API_VERSION_MAKE((major), (minor), (patch)))
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 

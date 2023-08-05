@@ -22,9 +22,9 @@
 #ifndef AVCODEC_AACENC_H
 #define AVCODEC_AACENC_H
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "put_bits.h"

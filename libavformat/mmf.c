@@ -21,7 +21,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"

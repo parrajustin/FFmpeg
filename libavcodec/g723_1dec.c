@@ -25,9 +25,9 @@
  * G.723.1 compatible decoder
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define BITSTREAM_READER_LE
 #include "acelp_vectors.h"

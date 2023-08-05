@@ -28,11 +28,11 @@
 
 #include <mfxvideo.h>
 
-#include "libavutil/common.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/avutil.h"
-#include "libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_qsv.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
 
 #include "avcodec.h"
 #include "hwconfig.h"

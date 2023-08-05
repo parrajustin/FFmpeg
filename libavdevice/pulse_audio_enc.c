@@ -21,16 +21,16 @@
 #include <math.h>
 #include <pulse/pulseaudio.h>
 #include <pulse/error.h>
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
-#include "libavformat/version.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/log.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
+#include "third_party/ffmpeg/libavutil/version.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "pulse_audio_common.h"
 
 typedef struct PulseData {

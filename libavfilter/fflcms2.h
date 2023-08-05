@@ -19,6 +19,6 @@
 #ifndef AVFILTER_FFLCMS2_H
 #define AVFILTER_FFLCMS2_H
 
-#include "libavcodec/fflcms2.h"
+#include "third_party/ffmpeg/libavcodec/fflcms2.h"
 
 #endif /* AVFILTER_FFLCMS2_H */

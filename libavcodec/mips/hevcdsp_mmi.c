@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/hevcdec.h"
-#include "libavcodec/bit_depth_template.c"
-#include "libavcodec/mips/hevcdsp_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavcodec/hevcdec.h"
+#include "third_party/ffmpeg/libavcodec/bit_depth_template.c"
+#include "third_party/ffmpeg/libavcodec/mips/hevcdsp_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 #define PUT_HEVC_QPEL_H(w, x_step, src_step, dst_step)                   \
 void ff_hevc_put_hevc_qpel_h##w##_8_mmi(int16_t *dst, const uint8_t *_src, \

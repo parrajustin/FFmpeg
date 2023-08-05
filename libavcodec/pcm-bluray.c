@@ -24,7 +24,7 @@
  * PCM codec for Blu-ray PCM audio tracks
  */
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

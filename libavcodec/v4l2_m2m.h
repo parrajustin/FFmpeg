@@ -29,7 +29,7 @@
 #include <dirent.h>
 #include <linux/videodev2.h>
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "v4l2_context.h"
 
 #define container_of(ptr, type, member) ({ \

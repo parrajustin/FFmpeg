@@ -28,9 +28,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "v210enc.h"
 
 #define CLIP(v, depth) av_clip(v, 1<<(depth-8), ((1<<depth)-(1<<(depth-8))-1))

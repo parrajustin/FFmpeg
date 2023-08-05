@@ -26,7 +26,7 @@
 #define AVFILTER_EQ_H
 
 #include "avfilter.h"
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 static const char *const var_names[] = {
     "n",   // frame count

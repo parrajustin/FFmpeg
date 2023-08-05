@@ -21,11 +21,11 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
-#include "libavcodec/fft.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
 
 /**
  * Do a complex FFT with the parameters defined in ff_fft_init().

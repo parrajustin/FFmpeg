@@ -19,11 +19,11 @@
  */
 
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/crc.h"
-#include "libavutil/x86/asm.h"
-#include "libavfilter/vf_spp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavfilter/vf_spp.h"
 
 #if HAVE_MMX_INLINE
 static void hardthresh_mmx(int16_t dst[64], const int16_t src[64],

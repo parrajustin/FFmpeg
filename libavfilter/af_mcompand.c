@@ -28,10 +28,10 @@
  * audio multiband compand filter
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "internal.h"

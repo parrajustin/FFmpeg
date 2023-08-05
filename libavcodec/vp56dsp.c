@@ -23,9 +23,9 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "vp56dsp.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #define VP56_EDGE_FILTER(pfx, suf, pix_inc, line_inc)                   \
 static void pfx ## _edge_filter_ ## suf(uint8_t *yuv, ptrdiff_t stride, \

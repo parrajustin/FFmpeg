@@ -26,9 +26,9 @@
  * temporal field interlace filter, ported from MPlayer/libmpcodecs
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "tinterlace.h"

@@ -24,9 +24,9 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-#include "libavutil/bprint.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "config.h"
 #include "jni.h"

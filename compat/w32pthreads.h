@@ -40,11 +40,11 @@
 #include <process.h>
 #include <time.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 typedef struct pthread_t {
     void *handle;

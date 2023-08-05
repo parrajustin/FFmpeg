@@ -20,7 +20,7 @@
  */
 
 #include "spdif.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 //TODO move to DSP
 void ff_spdif_bswap_buf16(uint16_t *dst, const uint16_t *src, int w)

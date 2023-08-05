@@ -29,8 +29,8 @@
  */
 
 #include <stdio.h>
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avio_internal.h"
 #include "demux.h"
 #include "oggdec.h"

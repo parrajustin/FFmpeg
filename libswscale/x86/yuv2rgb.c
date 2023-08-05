@@ -29,13 +29,13 @@
 #include <inttypes.h>
 
 #include "config.h"
-#include "libswscale/rgb2rgb.h"
-#include "libswscale/swscale.h"
-#include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 
 #if HAVE_X86ASM
 

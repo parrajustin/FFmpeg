@@ -21,7 +21,7 @@
 #ifndef AVCODEC_MIPS_VP3DSP_MIPS_H
 #define AVCODEC_MIPS_VP3DSP_MIPS_H
 
-#include "libavcodec/vp3dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp3dsp.h"
 #include <string.h>
 
 void ff_vp3_idct_add_msa(uint8_t *dest, ptrdiff_t line_size, int16_t *block);

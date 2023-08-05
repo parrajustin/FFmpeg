@@ -28,8 +28,8 @@
  * @sa http://wiki.multimedia.cx/index.php?title=Vividas_VIV
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avio_internal.h"
 #include "avformat.h"
 #include "internal.h"

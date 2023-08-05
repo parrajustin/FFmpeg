@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/g722dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/g722dsp.h"
 
 void ff_g722_apply_qmf_sse2(const int16_t *prev_samples, int xout[2]);
 

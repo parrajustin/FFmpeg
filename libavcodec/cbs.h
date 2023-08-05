@@ -22,7 +22,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 
 #include "codec_id.h"
 #include "codec_par.h"

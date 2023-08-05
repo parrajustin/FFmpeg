@@ -27,8 +27,8 @@
 #if CONFIG_NETWORK
 #include "network.h"
 #endif
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 /**
  * @file

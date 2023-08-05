@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/ttadsp.h"
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/ttadsp.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 #include "config.h"
 
 void ff_tta_filter_process_ssse3(int32_t *qm, int32_t *dx, int32_t *dl,

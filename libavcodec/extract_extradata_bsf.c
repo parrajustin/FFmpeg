@@ -18,8 +18,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "av1.h"
 #include "av1_parse.h"

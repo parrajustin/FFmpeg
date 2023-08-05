@@ -19,7 +19,7 @@
 #ifndef AVFILTER_BWDIF_H
 #define AVFILTER_BWDIF_H
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "yadif.h"
 

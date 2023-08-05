@@ -22,9 +22,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

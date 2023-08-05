@@ -30,8 +30,8 @@
 
 #include "h264dec.h"
 #include "mpegutils.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 
 static av_always_inline int fetch_diagonal_mv(const H264Context *h, H264SliceContext *sl,

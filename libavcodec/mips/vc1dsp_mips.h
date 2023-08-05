@@ -21,7 +21,7 @@
 #ifndef AVCODEC_MIPS_VC1DSP_MIPS_H
 #define AVCODEC_MIPS_VC1DSP_MIPS_H
 
-#include "libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 
 void ff_put_vc1_mspel_mc00_mmi(uint8_t *dst, const uint8_t *src,
                                ptrdiff_t stride, int rnd);

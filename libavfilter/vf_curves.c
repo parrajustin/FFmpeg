@@ -18,14 +18,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/bprint.h"
-#include "libavutil/eval.h"
-#include "libavutil/file.h"
-#include "libavutil/file_open.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "drawutils.h"
 #include "internal.h"

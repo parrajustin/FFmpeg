@@ -28,10 +28,10 @@
  * Tasche (DOI: 10.1016/j.laa.2004.07.015).
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/eval.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "internal.h"
 
 static const char *const var_names[] = { "c", NULL };

@@ -31,10 +31,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 #include "fdct.h"
 
 #if HAVE_SSE2_INLINE

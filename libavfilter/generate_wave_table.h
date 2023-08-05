@@ -19,7 +19,7 @@
 #ifndef AVFILTER_GENERATE_WAVE_TABLE_H
 #define AVFILTER_GENERATE_WAVE_TABLE_H
 
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 enum WaveType {
     WAVE_SIN,

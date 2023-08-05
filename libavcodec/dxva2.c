@@ -24,9 +24,9 @@
 #include <string.h>
 #include <initguid.h>
 
-#include "libavutil/common.h"
-#include "libavutil/log.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 #include "avcodec.h"
 #include "decode.h"

@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp9dsp.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 #include "vp9dsp_mips.h"
 
 #define GET_DATA_H_MMI                                       \

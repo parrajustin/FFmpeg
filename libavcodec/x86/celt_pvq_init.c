@@ -21,9 +21,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/opus_pvq.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/opus_pvq.h"
 
 extern float ff_pvq_search_approx_sse2(float *X, int *y, int K, int N);
 extern float ff_pvq_search_approx_sse4(float *X, int *y, int K, int N);

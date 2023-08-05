@@ -22,9 +22,9 @@
 
 #define YLC_VLC_BITS 10
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avcodec.h"
 #include "bswapdsp.h"
 #include "codec_internal.h"

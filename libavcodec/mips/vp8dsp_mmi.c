@@ -23,9 +23,9 @@
 
 #include "vp8dsp_mips.h"
 #include "constants.h"
-#include "libavutil/attributes.h"
-#include "libavutil/mips/mmiutils.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define DECLARE_DOUBLE_1            double db_1
 #define DECLARE_DOUBLE_2            double db_2

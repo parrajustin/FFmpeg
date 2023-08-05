@@ -32,11 +32,11 @@
 
 
 #include "aac_defines.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/fixed_dsp.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/fixed_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "avcodec.h"
 #include "mpeg4audio.h"
 #include "sbr.h"

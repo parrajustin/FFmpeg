@@ -28,11 +28,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/avstring.h"
-#include "libavutil/crc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 #ifndef AV_READ_TIME
 #define AV_READ_TIME(x) 0
@@ -71,18 +71,18 @@ struct hash_impl {
  * lavu: libavutil
  ***************************************************************************/
 
-#include "libavutil/md5.h"
-#include "libavutil/sha.h"
-#include "libavutil/sha512.h"
-#include "libavutil/ripemd.h"
-#include "libavutil/aes.h"
-#include "libavutil/blowfish.h"
-#include "libavutil/camellia.h"
-#include "libavutil/cast5.h"
-#include "libavutil/des.h"
-#include "libavutil/twofish.h"
-#include "libavutil/rc4.h"
-#include "libavutil/xtea.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/sha.h"
+#include "third_party/ffmpeg/libavutil/sha512.h"
+#include "third_party/ffmpeg/libavutil/ripemd.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/blowfish.h"
+#include "third_party/ffmpeg/libavutil/camellia.h"
+#include "third_party/ffmpeg/libavutil/cast5.h"
+#include "third_party/ffmpeg/libavutil/des.h"
+#include "third_party/ffmpeg/libavutil/twofish.h"
+#include "third_party/ffmpeg/libavutil/rc4.h"
+#include "third_party/ffmpeg/libavutil/xtea.h"
 
 #define IMPL_USE_lavu IMPL_USE
 

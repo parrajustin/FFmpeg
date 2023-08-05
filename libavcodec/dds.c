@@ -28,8 +28,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/libm.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

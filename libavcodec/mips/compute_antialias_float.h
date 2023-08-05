@@ -55,7 +55,7 @@
 #ifndef AVCODEC_MIPS_COMPUTE_ANTIALIAS_FLOAT_H
 #define AVCODEC_MIPS_COMPUTE_ANTIALIAS_FLOAT_H
 
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

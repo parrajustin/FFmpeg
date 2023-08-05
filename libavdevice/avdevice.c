@@ -16,10 +16,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avdevice.h"
 #include "internal.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 
 int avdevice_app_to_dev_control_message(struct AVFormatContext *s, enum AVAppToDevMessageType type,
                                         void *data, size_t data_size)

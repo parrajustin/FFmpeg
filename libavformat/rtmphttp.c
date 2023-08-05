@@ -24,10 +24,10 @@
  * RTMP HTTP protocol
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "internal.h"
 #include "http.h"
 #include "rtmp.h"

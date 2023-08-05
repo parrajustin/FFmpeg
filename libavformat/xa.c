@@ -27,7 +27,7 @@
  *   http://wiki.multimedia.cx/index.php?title=Maxis_XA
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "internal.h"
 

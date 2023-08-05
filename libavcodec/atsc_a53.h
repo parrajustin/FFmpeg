@@ -22,8 +22,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 /**
  * Check AVFrame for A53 side data and allocate and fill SEI message with A53 info

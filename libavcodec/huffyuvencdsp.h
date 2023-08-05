@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 typedef struct HuffYUVEncDSPContext {
     void (*diff_int16)(uint16_t *dst /* align 16 */,

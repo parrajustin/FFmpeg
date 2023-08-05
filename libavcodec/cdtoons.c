@@ -27,8 +27,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

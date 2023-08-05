@@ -18,8 +18,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "audiodsp.h"
 
 static inline uint32_t clipf_c_one(uint32_t a, uint32_t mini,

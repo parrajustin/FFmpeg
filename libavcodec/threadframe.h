@@ -21,7 +21,7 @@
 #ifndef AVCODEC_THREADFRAME_H
 #define AVCODEC_THREADFRAME_H
 
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 #include "avcodec.h"
 
 typedef struct ThreadFrame {

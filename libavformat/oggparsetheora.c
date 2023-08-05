@@ -23,8 +23,8 @@
  **/
 
 #include <stdlib.h>
-#include "libavutil/bswap.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 #include "avformat.h"
 #include "internal.h"
 #include "oggdec.h"

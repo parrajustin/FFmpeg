@@ -27,13 +27,13 @@
  * @see https://www.w3.org/TR/ttml-imsc/rec
  */
 
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
 #include "ttmlenc.h"
-#include "libavcodec/ttmlenc.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavcodec/ttmlenc.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 enum TTMLPacketType {
     PACKET_TYPE_PARAGRAPH,

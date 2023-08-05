@@ -23,9 +23,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avcodec.h"
 #include "cbs.h"
 #include "cbs_av1.h"

@@ -22,8 +22,8 @@
 #ifndef AVFORMAT_TTMLENC_H
 #define AVFORMAT_TTMLENC_H
 
-#include "libavcodec/codec_par.h"
-#include "libavcodec/ttmlenc.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavcodec/ttmlenc.h"
 
 static inline unsigned int ff_is_ttml_stream_paragraph_based(const AVCodecParameters *codecpar)
 {

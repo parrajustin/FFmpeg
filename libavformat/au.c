@@ -29,13 +29,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 #include "avformat.h"
 #include "internal.h"
 #include "avio_internal.h"
 #include "mux.h"
 #include "pcm.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 /* if we don't know the size in advance */
 #define AU_UNKNOWN_SIZE ((uint32_t)(~0))

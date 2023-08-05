@@ -24,10 +24,10 @@
  */
 
 #include <flite/flite.h>
-#include "libavutil/channel_layout.h"
-#include "libavutil/file.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "formats.h"

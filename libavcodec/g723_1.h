@@ -30,7 +30,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #define SUBFRAMES       4
 #define SUBFRAME_LEN    60

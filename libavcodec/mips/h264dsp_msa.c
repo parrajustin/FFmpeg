@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "h264dsp_mips.h"
 
 static void avc_wgt_4x2_msa(uint8_t *data, ptrdiff_t stride,

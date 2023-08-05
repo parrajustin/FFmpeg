@@ -28,7 +28,7 @@
 #define AVFILTER_DNN_DNN_BACKEND_NATIVE_LAYER_DEPTH2SPACE_H
 
 #include "../dnn_interface.h"
-#include "libavformat/avio.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
 
 typedef struct DepthToSpaceParams{
     int block_size;

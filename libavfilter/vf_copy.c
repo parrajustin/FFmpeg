@@ -21,8 +21,8 @@
  * copy video filter
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "video.h"

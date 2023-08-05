@@ -19,7 +19,7 @@
  */
 
 #include "config.h"
-#include "libavutil/riscv/asm.S"
+#include "third_party/ffmpeg/libavutil/riscv/asm.S"
 
 #if (__riscv_xlen >= 64)
 func ff_bswap32_buf_rvb, zbb

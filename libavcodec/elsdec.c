@@ -29,10 +29,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/error.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "elsdec.h"
 

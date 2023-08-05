@@ -52,12 +52,12 @@
 #include "avfilter.h"
 #include "internal.h"
 #include "video.h"
-#include "libavutil/common.h"
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 
 #include "deshake.h"
 

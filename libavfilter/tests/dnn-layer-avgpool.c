@@ -19,7 +19,7 @@
  */
 
 #include <stdio.h>
-#include "libavfilter/dnn/dnn_backend_native_layer_avgpool.h"
+#include "third_party/ffmpeg/libavfilter/dnn/dnn_backend_native_layer_avgpool.h"
 
 #define EPSON 0.00001
 

@@ -33,8 +33,8 @@
 #include <dshow.h>
 #include <dvdmedia.h>
 
-#include "libavcodec/internal.h"
-#include "libavcodec/packet_internal.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
+#include "third_party/ffmpeg/libavcodec/packet_internal.h"
 
 /* EC_DEVICE_LOST is not defined in MinGW dshow headers. */
 #ifndef EC_DEVICE_LOST

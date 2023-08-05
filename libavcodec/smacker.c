@@ -30,7 +30,7 @@
 
 #include <stddef.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #include "avcodec.h"
 

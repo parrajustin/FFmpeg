@@ -22,7 +22,7 @@
 #include "avio_internal.h"
 #include "mux.h"
 #include "rm.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 typedef struct StreamInfo {
     int nb_packets;

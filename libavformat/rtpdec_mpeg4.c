@@ -29,9 +29,9 @@
 
 #include "rtpdec_formats.h"
 #include "internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 
 #define MAX_AAC_HBR_FRAME_SIZE 8191
 

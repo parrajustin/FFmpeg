@@ -19,11 +19,11 @@
 #include <va/va.h>
 #include <va/va_enc_vp8.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

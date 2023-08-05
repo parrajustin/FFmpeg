@@ -25,7 +25,7 @@
 
 */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 #define FIX_0_298631336 2446
 #define FIX_0_541196100 4433

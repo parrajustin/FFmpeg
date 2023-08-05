@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 
 extern const ymm_reg  ff_pw_1;
 extern const ymm_reg  ff_pw_2;

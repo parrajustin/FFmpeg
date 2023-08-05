@@ -25,11 +25,11 @@
 
 #include <stdint.h>
 #include <math.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #if CONFIG_HARDCODED_TABLES
 #define mpegaudio_tableinit()
-#include "libavcodec/mpegaudio_tables.h"
+#include "third_party/ffmpeg/libavcodec/mpegaudio_tables.h"
 #else
 #if defined(BUILD_TABLES) || !USE_FLOATS
 #define FIXED_TABLE

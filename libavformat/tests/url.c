@@ -19,8 +19,8 @@
  */
 
 #include "config.h"
-#include "libavformat/url.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/url.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 static void test_decompose(const char *url)
 {

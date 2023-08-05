@@ -23,7 +23,7 @@
 #define AVFORMAT_AVC_H
 
 #include <stdint.h>
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 #include "avio.h"
 
 typedef struct NALU {

@@ -17,11 +17,11 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/mpeg4videodsp.h"
-#include "libavcodec/videodsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/mpeg4videodsp.h"
+#include "third_party/ffmpeg/libavcodec/videodsp.h"
 
 #if HAVE_INLINE_ASM
 

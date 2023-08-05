@@ -39,12 +39,12 @@
 
 #include <alsa/asoundlib.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 #include "avdevice.h"
 #include "alsa.h"
 

@@ -24,8 +24,8 @@
 #ifndef AVCODEC_DOVI_RPU_H
 #define AVCODEC_DOVI_RPU_H
 
-#include "libavutil/dovi_meta.h"
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/dovi_meta.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 #define DOVI_MAX_DM_ID 15
 typedef struct DOVIContext {

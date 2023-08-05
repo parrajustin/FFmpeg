@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "pixblockdsp_mips.h"
 
 static void diff_pixels_msa(int16_t *block, const uint8_t *src1,

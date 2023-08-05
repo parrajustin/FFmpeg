@@ -30,10 +30,10 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavcodec/internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 
 #ifndef GNUTLS_VERSION_NUMBER
 #define GNUTLS_VERSION_NUMBER LIBGNUTLS_VERSION_NUMBER
@@ -41,7 +41,7 @@
 
 #if HAVE_THREADS && GNUTLS_VERSION_NUMBER <= 0x020b00
 #include <gcrypt.h>
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 GCRY_THREAD_OPTION_PTHREAD_IMPL;
 #endif
 

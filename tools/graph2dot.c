@@ -25,10 +25,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
 
 #if !HAVE_GETOPT
 #include "compat/getopt.c"

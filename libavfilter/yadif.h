@@ -19,8 +19,8 @@
 #ifndef AVFILTER_YADIF_H
 #define AVFILTER_YADIF_H
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 
 enum YADIFMode {

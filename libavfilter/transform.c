@@ -24,8 +24,8 @@
  * transform input video
  */
 
-#include "libavutil/common.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "transform.h"
 

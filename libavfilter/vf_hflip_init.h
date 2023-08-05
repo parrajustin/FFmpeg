@@ -25,8 +25,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "hflip.h"
 
 static void hflip_byte_c(const uint8_t *src, uint8_t *dst, int w)

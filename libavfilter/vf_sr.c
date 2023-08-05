@@ -28,10 +28,10 @@
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavformat/avio.h"
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 #include "dnn_filter_common.h"
 
 typedef struct SRContext {

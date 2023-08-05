@@ -24,7 +24,7 @@
  * internal API functions
  */
 
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "framequeue.h"

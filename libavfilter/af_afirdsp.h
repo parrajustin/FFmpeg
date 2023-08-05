@@ -24,7 +24,7 @@
 #include <stddef.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 typedef struct AudioFIRDSPContext {
     void (*fcmul_add)(float *sum, const float *t, const float *c,

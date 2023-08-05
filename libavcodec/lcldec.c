@@ -42,8 +42,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

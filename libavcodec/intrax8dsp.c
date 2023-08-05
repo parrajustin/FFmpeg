@@ -22,7 +22,7 @@
  */
 
 #include "intrax8dsp.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 /*
  * area positions, #3 is 1 pixel only, other are 8 pixels

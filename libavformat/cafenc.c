@@ -24,8 +24,8 @@
 #include "isom.h"
 #include "avio_internal.h"
 #include "mux.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 #define FRAME_SIZE_OFFSET 40
 

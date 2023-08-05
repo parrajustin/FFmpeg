@@ -22,7 +22,7 @@
 #ifndef AVCODEC_MIPS_CONSTANTS_H
 #define AVCODEC_MIPS_CONSTANTS_H
 
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 
 extern const union av_intfloat64 ff_pw_1;
 extern const union av_intfloat64 ff_pw_2;

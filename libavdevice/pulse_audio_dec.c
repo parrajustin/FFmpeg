@@ -24,13 +24,13 @@
 #include <pulse/rtclock.h>
 #include <pulse/error.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
-#include "libavformat/version.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 #include "pulse_audio_common.h"
 #include "timefilter.h"
 

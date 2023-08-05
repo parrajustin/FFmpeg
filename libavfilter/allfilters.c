@@ -594,7 +594,7 @@ extern  const AVFilter ff_vsink_buffer;
 extern const AVFilter ff_af_afifo;
 extern const AVFilter ff_vf_fifo;
 
-#include "libavfilter/filter_list.c"
+#include "third_party/ffmpeg/libavfilter/filter_list.c"
 
 
 const AVFilter *av_filter_iterate(void **opaque)

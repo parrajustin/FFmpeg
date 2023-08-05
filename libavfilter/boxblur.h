@@ -23,8 +23,8 @@
 #ifndef AVFILTER_BOXBLUR_H
 #define AVFILTER_BOXBLUR_H
 
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 

@@ -28,13 +28,13 @@
 #include "apng.h"
 #include "zlib_wrapper.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavutil/csp.h"
-#include "libavutil/libm.h"
-#include "libavutil/opt.h"
-#include "libavutil/rational.h"
-#include "libavutil/stereo3d.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
 
 #include <zlib.h>
 

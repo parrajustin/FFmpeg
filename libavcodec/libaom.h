@@ -26,7 +26,7 @@
 
 #include <aom/aom_image.h>
 
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 void ff_aom_image_copy_16_to_8(AVFrame *pic, struct aom_image *img);
 

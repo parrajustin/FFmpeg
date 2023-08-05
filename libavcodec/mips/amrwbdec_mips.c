@@ -49,8 +49,8 @@
  * @file
  * Reference: libavcodec/amrwbdec.c
  */
-#include "libavutil/avutil.h"
-#include "libavcodec/amrwbdata.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavcodec/amrwbdata.h"
 #include "amrwbdec_mips.h"
 
 #if HAVE_INLINE_ASM

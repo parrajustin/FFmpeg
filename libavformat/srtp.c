@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/base64.h"
-#include "libavutil/aes.h"
-#include "libavutil/hmac.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/hmac.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "rtp.h"
 #include "rtpdec.h"
 #include "srtp.h"

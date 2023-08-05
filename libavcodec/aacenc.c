@@ -30,10 +30,10 @@
  ***********************************/
 #include <float.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/libm.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

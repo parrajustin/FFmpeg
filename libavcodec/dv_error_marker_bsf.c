@@ -20,9 +20,9 @@
 
 #include "bsf.h"
 #include "bsf_internal.h"
-#include "libavutil/colorspace.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct DVErrorMarkerContext {
     const AVClass *class;

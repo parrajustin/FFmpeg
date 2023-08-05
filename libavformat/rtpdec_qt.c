@@ -31,7 +31,7 @@
 #include "rtp.h"
 #include "rtpdec.h"
 #include "isom.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 
 struct PayloadContext {
     AVPacket *pkt;

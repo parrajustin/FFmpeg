@@ -31,10 +31,10 @@
 #include <opencv/cv.h>
 #include <opencv/cxcore.h>
 #endif
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/file.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

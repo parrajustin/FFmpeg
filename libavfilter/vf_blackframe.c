@@ -30,8 +30,8 @@
 #include <stdio.h>
 #include <inttypes.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

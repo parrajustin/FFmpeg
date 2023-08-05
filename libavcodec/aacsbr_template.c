@@ -32,7 +32,7 @@
  * @author Zoran Basaric ( zoran.basaric@imgtec.com )
  */
 
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 
 static av_cold void aacsbr_tableinit(void)
 {

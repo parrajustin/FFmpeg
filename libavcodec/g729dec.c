@@ -23,7 +23,7 @@
 #include <string.h>
 
 #include "avcodec.h"
-#include "libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
 #include "get_bits.h"
 #include "audiodsp.h"
 #include "codec_internal.h"

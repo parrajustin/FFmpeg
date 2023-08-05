@@ -35,12 +35,12 @@
 #include <dxgi1_5.h>
 #endif
 
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
 #include "compat/w32dlfcn.h"
 #include "avfilter.h"
 #include "internal.h"

@@ -21,10 +21,10 @@
  * Intel Quick Sync Video VPP base function
  */
 
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/time.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "internal.h"
 #include "qsvvpp.h"

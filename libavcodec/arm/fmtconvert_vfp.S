@@ -19,7 +19,7 @@
  */
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 /**
  * ARM VFP optimised int32 to float conversion.

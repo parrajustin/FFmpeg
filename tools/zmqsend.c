@@ -22,8 +22,8 @@
 
 #include <zmq.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 #if HAVE_UNISTD_H
 #include <unistd.h>             /* getopt */

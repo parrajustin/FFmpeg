@@ -18,10 +18,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/rv34dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavcodec/rv34dsp.h"
 
 #include "config.h"
 

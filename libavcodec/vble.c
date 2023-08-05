@@ -24,7 +24,7 @@
  * VBLE Decoder
  */
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

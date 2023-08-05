@@ -29,8 +29,8 @@
 #define AVFILTER_GBLUR_INIT_H
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "gblur.h"
 
 static void postscale_c(float *buffer, int length,

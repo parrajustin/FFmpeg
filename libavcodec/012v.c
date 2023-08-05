@@ -23,7 +23,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 static av_cold int zero12v_decode_init(AVCodecContext *avctx)
 {

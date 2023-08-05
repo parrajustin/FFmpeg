@@ -29,8 +29,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 
 typedef struct RangeCoder {
     int low;

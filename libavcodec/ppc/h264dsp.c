@@ -23,15 +23,15 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/ppc/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
-#include "libavcodec/h264dec.h"
-#include "libavcodec/h264dsp.h"
+#include "third_party/ffmpeg/libavcodec/h264dec.h"
+#include "third_party/ffmpeg/libavcodec/h264dsp.h"
 
 #if HAVE_ALTIVEC
 

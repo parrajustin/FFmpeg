@@ -50,11 +50,11 @@
 #include "avio_internal.h"
 #include "mux.h"
 #include "spdif.h"
-#include "libavcodec/ac3defs.h"
-#include "libavcodec/adts_parser.h"
-#include "libavcodec/dca.h"
-#include "libavcodec/dca_syncwords.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/ac3defs.h"
+#include "third_party/ffmpeg/libavcodec/adts_parser.h"
+#include "third_party/ffmpeg/libavcodec/dca.h"
+#include "third_party/ffmpeg/libavcodec/dca_syncwords.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct IEC61937Context {
     const AVClass *av_class;

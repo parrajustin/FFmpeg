@@ -26,12 +26,12 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "blockdsp.h"
 #include "bswapdsp.h"

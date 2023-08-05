@@ -21,7 +21,7 @@
  * AOM common functions
  */
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "libaom.h"
 
 void ff_aom_image_copy_16_to_8(AVFrame *pic, struct aom_image *img)

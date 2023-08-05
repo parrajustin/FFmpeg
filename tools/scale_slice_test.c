@@ -22,18 +22,18 @@
 
 #include "decode_simple.h"
 
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/error.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 typedef struct PrivData {
     unsigned int random_seed;

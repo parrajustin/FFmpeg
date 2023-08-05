@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
-#include "libavfilter/limiter.h"
+#include "third_party/ffmpeg/libavfilter/limiter.h"
 
 void ff_limiter_8bit_sse2(const uint8_t *src, uint8_t *dst,
                           ptrdiff_t slinesize, ptrdiff_t dlinesize,

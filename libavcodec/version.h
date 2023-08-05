@@ -25,7 +25,7 @@
  * Libavcodec version macros.
  */
 
-#include "libavutil/version.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 #include "version_major.h"
 

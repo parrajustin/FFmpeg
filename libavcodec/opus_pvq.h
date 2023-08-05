@@ -23,7 +23,7 @@
 #ifndef AVCODEC_OPUS_PVQ_H
 #define AVCODEC_OPUS_PVQ_H
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "opus_celt.h"
 

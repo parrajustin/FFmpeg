@@ -25,10 +25,10 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 
 #include "texturedsp.h"
 

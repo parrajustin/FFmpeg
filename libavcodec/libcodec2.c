@@ -20,9 +20,9 @@
  */
 
 #include <codec2/codec2.h>
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avcodec.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "codec_internal.h"
 #include "decode.h"
 #include "encode.h"

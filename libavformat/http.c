@@ -26,13 +26,13 @@
 #include <zlib.h>
 #endif /* CONFIG_ZLIB */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/getenv_utf8.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 
 #include "avformat.h"
 #include "http.h"

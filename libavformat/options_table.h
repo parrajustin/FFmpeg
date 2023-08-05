@@ -23,7 +23,7 @@
 
 #include <limits.h>
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 

@@ -67,7 +67,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "dct.h"
 
 #define DCTSIZE 8

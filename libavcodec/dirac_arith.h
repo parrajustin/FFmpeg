@@ -28,7 +28,7 @@
 #ifndef AVCODEC_DIRAC_ARITH_H
 #define AVCODEC_DIRAC_ARITH_H
 
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 #include "bytestream.h"
 #include "get_bits.h"
 

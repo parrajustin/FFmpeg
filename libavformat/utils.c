@@ -23,13 +23,13 @@
 
 #include "config.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
-#include "libavcodec/internal.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

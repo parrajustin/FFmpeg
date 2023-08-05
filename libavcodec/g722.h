@@ -26,7 +26,7 @@
 #define AVCODEC_G722_H
 
 #include <stdint.h>
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "g722dsp.h"
 
 #define PREV_SAMPLES_BUF_SIZE 1024

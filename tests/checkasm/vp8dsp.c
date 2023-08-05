@@ -20,12 +20,12 @@
 
 #include <string.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "checkasm.h"
 

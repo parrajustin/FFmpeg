@@ -28,8 +28,8 @@
 #include <inttypes.h>
 #include <zlib.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "blockdsp.h"

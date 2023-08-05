@@ -20,10 +20,10 @@
 
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/hevcdsp.h"
+#include "third_party/ffmpeg/libavcodec/hevcdsp.h"
 
 #include "checkasm.h"
 

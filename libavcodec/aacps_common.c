@@ -20,8 +20,8 @@
  */
 
 #include <stdint.h>
-#include "libavutil/common.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "aacps.h"
 #include "get_bits.h"
 #include "aacpsdata.c"

@@ -32,10 +32,10 @@
 #include <X11/extensions/Xvlib.h>
 #include <sys/shm.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/imgutils.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 #include "avdevice.h"
 
 typedef struct {

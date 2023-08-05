@@ -26,15 +26,15 @@
  */
 
 #include "avformat.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "rtpdec.h"
 #include "rdt.h"
-#include "libavutil/base64.h"
-#include "libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
 #include "rm.h"
 #include "internal.h"
 #include "avio_internal.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 
 struct RDTDemuxContext {
     AVFormatContext *ic; /**< the containing (RTSP) demux context */

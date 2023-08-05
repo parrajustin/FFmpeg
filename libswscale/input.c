@@ -22,9 +22,9 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/bswap.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "config.h"
 #include "swscale_internal.h"
 

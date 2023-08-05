@@ -19,8 +19,8 @@
 #ifndef AVCODEC_H2645_VUI_H
 #define AVCODEC_H2645_VUI_H
 
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #include "get_bits.h"
 

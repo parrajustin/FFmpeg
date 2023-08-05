@@ -44,10 +44,10 @@
 #include "vc1.h"
 #include "vc1data.h"
 #include "vc1_vlc_data.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 
 #if CONFIG_WMV3IMAGE_DECODER || CONFIG_VC1IMAGE_DECODER

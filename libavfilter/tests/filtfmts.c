@@ -20,17 +20,17 @@
 
 #include <stdio.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 #define FF_INTERNAL_FIELDS 1
-#include "libavfilter/framequeue.h"
+#include "third_party/ffmpeg/libavfilter/framequeue.h"
 
-#include "libavfilter/avfilter.h"
-#include "libavfilter/formats.h"
-#include "libavfilter/internal.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/formats.h"
+#include "third_party/ffmpeg/libavfilter/internal.h"
 
 static void print_formats_internal(AVFilterLink **links, const AVFilterPad *pads,
                                    unsigned nb, size_t fmts_cfg_offset,

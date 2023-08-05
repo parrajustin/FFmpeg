@@ -22,8 +22,8 @@
 #define AVFILTER_BLEND_INIT_H
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "blend.h"
 
 #define DEPTH 8

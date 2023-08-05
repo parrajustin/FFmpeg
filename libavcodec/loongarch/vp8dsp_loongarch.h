@@ -22,7 +22,7 @@
 #ifndef AVCODEC_LOONGARCH_VP8DSP_LOONGARCH_H
 #define AVCODEC_LOONGARCH_VP8DSP_LOONGARCH_H
 
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 
 void ff_put_vp8_pixels8_lsx(uint8_t *dst, ptrdiff_t dst_stride,
                             const uint8_t *src, ptrdiff_t src_stride,

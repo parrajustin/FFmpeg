@@ -24,7 +24,7 @@
  * CCITT Fax Group 3 and 4 decompression
  * @author Konstantin Shishkov
  */
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "get_bits.h"
 #include "put_bits.h"

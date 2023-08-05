@@ -27,7 +27,7 @@
 #ifndef AVCODEC_FLAC_H
 #define AVCODEC_FLAC_H
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define FLAC_STREAMINFO_SIZE   34
 #define FLAC_MAX_CHANNELS       8

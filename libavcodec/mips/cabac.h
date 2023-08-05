@@ -25,9 +25,9 @@
 #ifndef AVCODEC_MIPS_CABAC_H
 #define AVCODEC_MIPS_CABAC_H
 
-#include "libavutil/attributes.h"
-#include "libavcodec/cabac.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/cabac.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 #include "config.h"
 
 #define get_cabac_inline get_cabac_inline_mips

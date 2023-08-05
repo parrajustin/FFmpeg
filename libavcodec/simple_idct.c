@@ -25,7 +25,7 @@
  * simpleidct in C.
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "mathops.h"
 #include "simple_idct.h"
 

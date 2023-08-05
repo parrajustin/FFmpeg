@@ -24,7 +24,7 @@
  * tables taken directly from the AC-3 spec.
  */
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #include "ac3tab.h"
 

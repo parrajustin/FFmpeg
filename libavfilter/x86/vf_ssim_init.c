@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 
-#include "libavfilter/ssim.h"
+#include "third_party/ffmpeg/libavfilter/ssim.h"
 
 void ff_ssim_4x4_line_ssse3(const uint8_t *buf, ptrdiff_t buf_stride,
                             const uint8_t *ref, ptrdiff_t ref_stride,

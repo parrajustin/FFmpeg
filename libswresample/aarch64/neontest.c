@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libswresample/swresample.h"
-#include "libavutil/aarch64/neontest.h"
+#include "third_party/ffmpeg/libswresample/swresample.h"
+#include "third_party/ffmpeg/libavutil/aarch64/neontest.h"
 
 wrap(swr_convert(struct SwrContext *s, uint8_t **out, int out_count,
                  const uint8_t **in , int in_count))

@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 @ The fftx_internal_vfp versions of the functions obey a modified AAPCS:
 @ VFP is in RunFast mode, vector length 4, stride 1 thoroughout, and

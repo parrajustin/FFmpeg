@@ -51,9 +51,9 @@
  */
 
 #include "imf.h"
-#include "libavformat/mxf.h"
-#include "libavutil/bprint.h"
-#include "libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/mxf.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include <libxml/parser.h>
 
 xmlNodePtr ff_imf_xml_get_child_element_by_name(xmlNodePtr parent, const char *name_utf8)

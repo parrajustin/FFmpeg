@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 enum AlacRawDataBlockType {
     /* At the moment, only SCE, CPE, LFE, and END are recognized. */

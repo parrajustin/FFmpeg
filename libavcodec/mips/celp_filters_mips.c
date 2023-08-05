@@ -52,10 +52,10 @@
  * Reference: libavcodec/celp_filters.c
  */
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavcodec/celp_filters.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavcodec/celp_filters.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

@@ -23,11 +23,11 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
-#include "libavcodec/jpeg2000dwt.c"
+#include "third_party/ffmpeg/libavcodec/jpeg2000dwt.c"
 
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
 #define MAX_W 256
 

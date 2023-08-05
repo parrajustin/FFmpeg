@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "internal.h"

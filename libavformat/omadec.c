@@ -42,12 +42,12 @@
 
 #include <inttypes.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avformat.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/des.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/des.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "oma.h"
 #include "pcm.h"
 #include "id3v2.h"

@@ -19,7 +19,7 @@
  */
 
 #include <stddef.h>
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 #include "internal.h"
 #include "oma.h"
 

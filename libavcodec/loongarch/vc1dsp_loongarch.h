@@ -22,8 +22,8 @@
 #ifndef AVCODEC_LOONGARCH_VC1DSP_LOONGARCH_H
 #define AVCODEC_LOONGARCH_VC1DSP_LOONGARCH_H
 
-#include "libavcodec/vc1dsp.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 void ff_vc1_inv_trans_8x8_lasx(int16_t block[64]);
 void ff_vc1_inv_trans_8x8_dc_lasx(uint8_t *dest, ptrdiff_t stride, int16_t *block);

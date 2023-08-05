@@ -27,9 +27,9 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

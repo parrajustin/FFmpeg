@@ -20,7 +20,7 @@
  */
 
 #include "id3v1.h"
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 /* See Genre List at http://id3.org/id3v2.3.0 */
 const char * const ff_id3v1_genre_str[ID3v1_GENRE_MAX + 1] = {

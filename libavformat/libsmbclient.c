@@ -19,8 +19,8 @@
  */
 
 #include <libsmbclient.h>
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 #include "internal.h"
 #include "url.h"

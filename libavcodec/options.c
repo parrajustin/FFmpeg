@@ -28,10 +28,10 @@
 
 #include "avcodec.h"
 #include "codec_internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include <string.h>
 
 FF_DISABLE_DEPRECATION_WARNINGS

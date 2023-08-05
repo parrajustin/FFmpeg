@@ -23,7 +23,7 @@
  * VP6 DSP-oriented functions
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "vp56dsp.h"
 
 

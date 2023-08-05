@@ -30,7 +30,7 @@
 
 #define BITSTREAM_READER_LE
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "aandcttab.h"
 #include "avcodec.h"

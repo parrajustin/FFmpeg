@@ -22,12 +22,12 @@
 
 #include "float.h"
 
-#include "libavutil/pixdesc.h"
-#include "libavutil/eval.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/xga_font_data.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/xga_font_data.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

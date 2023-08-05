@@ -23,8 +23,8 @@
 #include <wels/codec_api.h>
 #include <wels/codec_ver.h>
 
-#include "libavutil/error.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "libopenh264.h"
 

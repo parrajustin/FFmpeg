@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/me_cmp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/me_cmp.h"
 #include "asm.h"
 
 int pix_abs16x16_mvi_asm(struct MpegEncContext *v, const uint8_t *pix1, const uint8_t *pix2,

@@ -24,11 +24,11 @@
  * Silicon Graphics Movie demuxer
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/eval.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #include "avformat.h"
 #include "internal.h"

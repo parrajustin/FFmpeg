@@ -18,9 +18,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 #include "qp_table.h"
 

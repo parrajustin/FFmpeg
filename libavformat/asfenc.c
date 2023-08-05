@@ -21,11 +21,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/dict.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavcodec/codec_desc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/codec_desc.h"
 #include "avformat.h"
 #include "avlanguage.h"
 #include "avio_internal.h"

@@ -26,9 +26,9 @@
 #include <aom/aom_decoder.h>
 #include <aom/aomdx.h>
 
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

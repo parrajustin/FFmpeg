@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include "dct32.h"
 #include "mathops.h"

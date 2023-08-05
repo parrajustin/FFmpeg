@@ -31,11 +31,11 @@
  */
 
 /* FFmpeg includes */
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/log.h"
-#include "libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

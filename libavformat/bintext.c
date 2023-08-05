@@ -32,13 +32,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "avformat.h"
 #include "internal.h"
 #include "sauce.h"
-#include "libavcodec/bintext.h"
+#include "third_party/ffmpeg/libavcodec/bintext.h"
 
 typedef struct {
     const AVClass *class;

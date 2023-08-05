@@ -23,9 +23,9 @@
 #include "mpegts.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "rtpenc.h"
 

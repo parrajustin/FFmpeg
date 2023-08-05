@@ -20,7 +20,7 @@
  */
 
 #include "img2.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 
 static int alias_pix_read_probe(const AVProbeData *p)
 {

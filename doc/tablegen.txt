@@ -57,7 +57,7 @@ not do anything, and instead of the variable declarations the
 generated *_tables.h file should be included.
 Since that will be generated in the build directory, the path must be
 included, i.e.
-#include "libavcodec/example_tables.h"
+#include "third_party/ffmpeg/libavcodec/example_tables.h"
 not
 #include "example_tables.h"
 

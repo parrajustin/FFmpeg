@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/mips/hevcpred_mips.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/mips/hevcpred_mips.h"
 
 void ff_hevc_pred_init_mips(HEVCPredContext *c, const int bit_depth)
 {

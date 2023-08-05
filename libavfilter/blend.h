@@ -21,7 +21,7 @@
 #ifndef AVFILTER_BLEND_H
 #define AVFILTER_BLEND_H
 
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 #include "avfilter.h"
 
 enum BlendMode {

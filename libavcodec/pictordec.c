@@ -24,7 +24,7 @@
  * Pictor/PC Paint decoder
  */
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "cga_data.h"

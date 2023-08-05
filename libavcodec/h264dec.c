@@ -29,11 +29,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 #include "codec_internal.h"
 #include "internal.h"

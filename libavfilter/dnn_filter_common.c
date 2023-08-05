@@ -17,7 +17,7 @@
  */
 
 #include "dnn_filter_common.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 #define MAX_SUPPORTED_OUTPUTS_NB 4
 

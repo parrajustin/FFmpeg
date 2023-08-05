@@ -24,9 +24,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "acelp_filters.h"
 
 const int16_t ff_acelp_interp_filter[61] = { /* (0.15) */

@@ -18,10 +18,10 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

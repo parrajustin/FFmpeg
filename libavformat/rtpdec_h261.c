@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "rtpdec_formats.h"

@@ -42,9 +42,9 @@
 
 #include <inttypes.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/crc.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "codec_internal.h"
 #include "decode.h"

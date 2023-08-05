@@ -25,8 +25,8 @@
 
 #include <float.h> /* DBL_MAX */
 
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "audio.h"
 #include "formats.h"
 #include "avfilter.h"

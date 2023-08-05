@@ -31,10 +31,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 
 #include "rtmpdh.h"
 

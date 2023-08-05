@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavcodec/mips/hevcdsp_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/mips/hevcdsp_mips.h"
 
 static const int16_t gt8x8_cnst[16] __attribute__ ((aligned (64))) = {
     64, 64, 83, 36, 89, 50, 18, 75, 64, -64, 36, -83, 75, -89, -50, -18

@@ -19,8 +19,8 @@
  */
 
 #include "checkasm.h"
-#include "libavfilter/vf_nlmeans_init.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavfilter/vf_nlmeans_init.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define randomize_buffer(buf, size) do {    \
     int i;                                  \

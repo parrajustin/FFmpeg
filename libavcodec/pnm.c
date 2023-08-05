@@ -22,9 +22,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "avcodec.h"
 #include "decode.h"
 #include "pnm.h"

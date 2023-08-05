@@ -37,9 +37,9 @@
 #include <sys/builtin.h>
 #include <sys/fmutex.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 typedef struct {
     TID tid;

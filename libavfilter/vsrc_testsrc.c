@@ -37,14 +37,14 @@
 
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/xga_font_data.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/xga_font_data.h"
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

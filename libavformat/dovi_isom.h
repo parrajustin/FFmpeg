@@ -22,7 +22,7 @@
 #ifndef AVFORMAT_DOVI_ISOM_H
 #define AVFORMAT_DOVI_ISOM_H
 
-#include "libavutil/dovi_meta.h"
+#include "third_party/ffmpeg/libavutil/dovi_meta.h"
 
 #include "avformat.h"
 

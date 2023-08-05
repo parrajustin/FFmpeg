@@ -26,7 +26,7 @@
  * @author Denes Balatoni  ( dbalatoni programozo hu )
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include "avcodec.h"
 #include "vorbis.h"

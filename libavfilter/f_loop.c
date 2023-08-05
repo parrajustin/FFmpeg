@@ -20,10 +20,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/audio_fifo.h"
-#include "libavutil/fifo.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/audio_fifo.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

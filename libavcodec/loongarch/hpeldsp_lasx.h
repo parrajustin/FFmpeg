@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 void ff_put_pixels8_8_lasx(uint8_t *block, const uint8_t *pixels,
                            ptrdiff_t line_size, int h);

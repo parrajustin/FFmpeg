@@ -52,8 +52,8 @@
  * Reference: libavcodec/celp_math.c
  */
 #include "config.h"
-#include "libavcodec/celp_math.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/celp_math.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

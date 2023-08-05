@@ -56,9 +56,9 @@
 
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/lfg.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "roqvideo.h"
 #include "bytestream.h"
 #include "codec_internal.h"

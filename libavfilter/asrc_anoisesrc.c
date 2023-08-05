@@ -18,14 +18,14 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 
 typedef struct ANoiseSrcContext {
     const AVClass *class;

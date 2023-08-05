@@ -30,8 +30,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "ac3.h"
 #include "ac3defs.h"
@@ -48,7 +48,7 @@
 #endif
 
 #if AC3ENC_FLOAT
-#include "libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
 #define AC3_NAME(x) ff_ac3_float_ ## x
 #define MAC_COEF(d,a,b) ((d)+=(a)*(b))
 #define COEF_MIN (-16777215.0/16777216.0)
@@ -58,7 +58,7 @@ typedef float SampleType;
 typedef float CoefType;
 typedef float CoefSumType;
 #else
-#include "libavutil/fixed_dsp.h"
+#include "third_party/ffmpeg/libavutil/fixed_dsp.h"
 #define AC3_NAME(x) ff_ac3_fixed_ ## x
 #define MAC_COEF(d,a,b) MAC64(d,a,b)
 #define COEF_MIN -16777215

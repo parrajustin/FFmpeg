@@ -29,11 +29,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

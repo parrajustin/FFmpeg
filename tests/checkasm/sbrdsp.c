@@ -16,9 +16,9 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/sbrdsp.h"
+#include "third_party/ffmpeg/libavcodec/sbrdsp.h"
 #include <float.h>
 
 #include "checkasm.h"

@@ -23,13 +23,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
-#include "libavcodec/dcadata.h"
-#include "libavcodec/synth_filter.h"
+#include "third_party/ffmpeg/libavcodec/dcadata.h"
+#include "third_party/ffmpeg/libavcodec/synth_filter.h"
 
 #include "checkasm.h"
 

@@ -33,12 +33,12 @@
 #include <cdio/paranoia/paranoia.h>
 #endif
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/demux.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 typedef struct CDIOContext {
     const AVClass       *class;

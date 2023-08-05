@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "get_bits.h"
 #include "parser.h"
 #include "mlp_parse.h"

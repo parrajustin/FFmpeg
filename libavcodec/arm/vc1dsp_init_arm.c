@@ -18,10 +18,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/arm/startcode.h"
-#include "libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/arm/startcode.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "vc1dsp.h"
 
 av_cold void ff_vc1dsp_init_arm(VC1DSPContext *dsp)

@@ -22,7 +22,7 @@
 #include <stddef.h>
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include "avformat.h"
 #include "internal.h"
 #include "metadata.h"

@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 @ scalarproduct_and_madd_int16(/*aligned*/v0,v1,v2,order,mul)
 function ff_scalarproduct_and_madd_int16_neon, export=1

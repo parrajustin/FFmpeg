@@ -52,12 +52,12 @@
  * Reference: libavcodec/aacdec.c
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/aac.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/aac.h"
 #include "aacdec_mips.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/sinewin.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/aactab.h"
+#include "third_party/ffmpeg/libavcodec/sinewin.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if HAVE_MIPSFPU

@@ -27,9 +27,9 @@
  *   http://www.pcisys.net/~melanson/codecs/
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavcodec/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
 #include "avformat.h"
 #include "internal.h"
 

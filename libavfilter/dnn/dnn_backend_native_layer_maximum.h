@@ -27,7 +27,7 @@
 #ifndef AVFILTER_DNN_DNN_BACKEND_NATIVE_LAYER_MAXIMUM_H
 #define AVFILTER_DNN_DNN_BACKEND_NATIVE_LAYER_MAXIMUM_H
 
-#include "libavformat/avio.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
 #include "dnn_backend_native.h"
 
 typedef struct DnnLayerMaximumParams{

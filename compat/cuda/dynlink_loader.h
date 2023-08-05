@@ -19,7 +19,7 @@
 #ifndef COMPAT_CUDA_DYNLINK_LOADER_H
 #define COMPAT_CUDA_DYNLINK_LOADER_H
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "compat/w32dlfcn.h"
 
 #define FFNV_LOAD_FUNC(path) dlopen((path), RTLD_LAZY)

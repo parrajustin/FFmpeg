@@ -22,7 +22,7 @@
 #ifndef AVFILTER_NOISE_H
 #define AVFILTER_NOISE_H
 
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 #include "avfilter.h"
 
 #define MAX_NOISE 5120

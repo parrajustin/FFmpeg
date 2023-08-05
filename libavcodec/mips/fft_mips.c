@@ -48,10 +48,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/fft.h"
-#include "libavcodec/fft_table.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/fft_table.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 /**
  * FFT transform

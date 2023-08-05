@@ -23,8 +23,8 @@
 #include "avformat.h"
 #include "rawdec.h"
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/startcode.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/startcode.h"
 
 #define SEQ_START_CODE          0x000001b3
 #define GOP_START_CODE          0x000001b8

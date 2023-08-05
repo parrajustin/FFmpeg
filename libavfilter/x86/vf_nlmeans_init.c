@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/vf_nlmeans.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/vf_nlmeans.h"
 
 void ff_compute_weights_line_avx2(const uint32_t *const iia,
                                   const uint32_t *const iib,

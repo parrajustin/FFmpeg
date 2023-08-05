@@ -29,10 +29,10 @@
 #include "encode.h"
 #include "raw.h"
 #include "internal.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 static av_cold int raw_encode_init(AVCodecContext *avctx)
 {

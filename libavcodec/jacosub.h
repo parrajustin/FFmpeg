@@ -26,7 +26,7 @@
 #ifndef AVCODEC_JACOSUB_H
 #define AVCODEC_JACOSUB_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #define JSS_MAX_LINESIZE 512
 

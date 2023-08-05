@@ -51,10 +51,10 @@
  * Reference: libavcodec/aacsbr.c
  */
 
-#include "libavcodec/aac.h"
-#include "libavcodec/aacsbr.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/aac.h"
+#include "third_party/ffmpeg/libavcodec/aacsbr.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #define ENVELOPE_ADJUSTMENT_OFFSET 2
 

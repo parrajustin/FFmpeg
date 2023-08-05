@@ -25,9 +25,9 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "avcodec.h"
 #include "h264dec.h"
 #include "h264_ps.h"

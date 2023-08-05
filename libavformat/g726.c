@@ -23,7 +23,7 @@
 
 #include "avformat.h"
 #include "internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct G726Context {
     AVClass *class;

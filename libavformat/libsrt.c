@@ -23,9 +23,9 @@
 
 #include <srt/srt.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 #include "avformat.h"
 #include "internal.h"

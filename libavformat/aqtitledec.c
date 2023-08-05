@@ -29,7 +29,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct {
     const AVClass *class;

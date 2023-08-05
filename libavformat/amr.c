@@ -25,8 +25,8 @@ Write and read amr data according to RFC3267, http://www.ietf.org/rfc/rfc3267.tx
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"

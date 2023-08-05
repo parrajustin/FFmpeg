@@ -26,13 +26,13 @@
 
 #include "thread_queue.h"
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavutil/dict.h"
-#include "libavutil/fifo.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 typedef struct MuxStream {
     OutputStream ost;

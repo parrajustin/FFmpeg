@@ -18,11 +18,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
 
-#include "libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
 
 void ff_fft_calc_vfp(FFTContext *s, FFTComplex *z);
 

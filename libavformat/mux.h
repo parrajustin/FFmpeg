@@ -22,7 +22,7 @@
 #define AVFORMAT_MUX_H
 
 #include <stdint.h>
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 #include "avformat.h"
 
 struct AVDeviceInfoList;

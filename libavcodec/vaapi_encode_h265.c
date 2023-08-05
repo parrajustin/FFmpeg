@@ -21,11 +21,11 @@
 #include <va/va.h>
 #include <va/va_enc_hevc.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/mastering_display_metadata.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/mastering_display_metadata.h"
 
 #include "atsc_a53.h"
 #include "avcodec.h"

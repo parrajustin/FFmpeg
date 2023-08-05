@@ -22,10 +22,10 @@
 #define AVFORMAT_MXF_H
 
 #include <stdint.h>
-#include "libavutil/log.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
-#include "libavutil/uuid.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/uuid.h"
 
 typedef AVUUID UID;
 

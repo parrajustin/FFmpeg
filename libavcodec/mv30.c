@@ -23,7 +23,7 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

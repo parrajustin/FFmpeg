@@ -38,7 +38,7 @@
 #undef attribute_deprecated
 #define attribute_deprecated
 
-#include "libavcodec/options_table.h"
+#include "third_party/ffmpeg/libavcodec/options_table.h"
 
 #include "libavformat/options_table.h"
 

@@ -27,9 +27,9 @@
 #include <media/NdkMediaCodec.h>
 #include <android/native_window_jni.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 #include "avcodec.h"
 #include "ffjni.h"

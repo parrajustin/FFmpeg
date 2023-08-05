@@ -26,8 +26,8 @@
  * Ported from MPlayer libmpcodecs/vf_2xsai.c.
  */
 
-#include "libavutil/pixdesc.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

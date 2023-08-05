@@ -25,11 +25,11 @@
 // it was introduced in OpenCL 2.0.
 #define CL_USE_DEPRECATED_OPENCL_1_2_APIS
 
-#include "libavutil/bprint.h"
-#include "libavutil/buffer.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_opencl.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_opencl.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "avfilter.h"
 

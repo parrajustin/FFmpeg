@@ -24,7 +24,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include "avformat.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 #include "avio_internal.h"
 
 enum sub_sort {

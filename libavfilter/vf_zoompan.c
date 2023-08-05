@@ -18,15 +18,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"
 #include "internal.h"
 #include "video.h"
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 static const char *const var_names[] = {
     "in_w",   "iw",

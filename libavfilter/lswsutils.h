@@ -24,7 +24,7 @@
 #ifndef AVFILTER_LSWSUTILS_H
 #define AVFILTER_LSWSUTILS_H
 
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 /**
  * Scale image using libswscale.

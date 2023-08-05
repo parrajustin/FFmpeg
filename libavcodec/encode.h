@@ -21,7 +21,7 @@
 #ifndef AVCODEC_ENCODE_H
 #define AVCODEC_ENCODE_H
 
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 #include "avcodec.h"
 #include "packet.h"

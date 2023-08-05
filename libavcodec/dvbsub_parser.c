@@ -22,7 +22,7 @@
 #include <inttypes.h>
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "avcodec.h"
 

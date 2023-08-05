@@ -23,7 +23,7 @@
 #define AVFORMAT_MPEG_H
 
 #include <stdint.h>
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define PACK_START_CODE             ((unsigned int)0x000001ba)
 #define SYSTEM_HEADER_START_CODE    ((unsigned int)0x000001bb)

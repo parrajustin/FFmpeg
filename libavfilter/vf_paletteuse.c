@@ -24,11 +24,11 @@
  * Use a palette to downsample an input video stream.
  */
 
-#include "libavutil/bprint.h"
-#include "libavutil/file_open.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "framesync.h"

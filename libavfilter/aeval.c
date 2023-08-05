@@ -25,11 +25,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

@@ -34,14 +34,14 @@
 #include <time.h>
 #include <linux/fb.h>
 
-#include "libavutil/file_open.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avdevice.h"
 #include "fbdev_common.h"
 

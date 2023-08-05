@@ -28,8 +28,8 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "libavutil/mathematics.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "fft.h"
 #include "fft-internal.h"
 

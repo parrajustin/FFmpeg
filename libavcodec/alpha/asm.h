@@ -24,7 +24,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #if AV_GCC_VERSION_AT_LEAST(2,96)
 # define likely(x)      __builtin_expect((x) != 0, 1)

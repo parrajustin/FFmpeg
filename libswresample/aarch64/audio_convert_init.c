@@ -19,12 +19,12 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavutil/samplefmt.h"
-#include "libswresample/swresample_internal.h"
-#include "libswresample/audioconvert.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libswresample/swresample_internal.h"
+#include "third_party/ffmpeg/libswresample/audioconvert.h"
 
 void swri_oldapi_conv_flt_to_s16_neon(int16_t *dst, const float *src, int len);
 void swri_oldapi_conv_fltp_to_s16_2ch_neon(int16_t *dst, float *const *src, int len, int channels);

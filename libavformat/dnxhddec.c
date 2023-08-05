@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "rawdec.h"
-#include "libavcodec/dnxhddata.h"
+#include "third_party/ffmpeg/libavcodec/dnxhddata.h"
 
 static int dnxhd_probe(const AVProbeData *p)
 {

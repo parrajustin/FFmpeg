@@ -21,9 +21,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "avio.h"
 #include "avio_internal.h"

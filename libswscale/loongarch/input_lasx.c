@@ -20,7 +20,7 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 void planar_rgb_to_uv_lasx(uint8_t *_dstU, uint8_t *_dstV, const uint8_t *src[4],
                            int width, int32_t *rgb2yuv, void *opq)

@@ -29,7 +29,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "get_bits.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "thread.h"
 
 struct BitpackedContext {

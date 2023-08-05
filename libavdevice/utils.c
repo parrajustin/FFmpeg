@@ -17,8 +17,8 @@
  */
 
 #include "internal.h"
-#include "libavutil/opt.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 int ff_alloc_input_device_context(AVFormatContext **avctx, const AVInputFormat *iformat, const char *format)
 {

@@ -24,10 +24,10 @@
  * Generate one palette for a whole video stream.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "palette.h"

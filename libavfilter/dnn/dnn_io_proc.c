@@ -19,10 +19,10 @@
  */
 
 #include "dnn_io_proc.h"
-#include "libavutil/imgutils.h"
-#include "libswscale/swscale.h"
-#include "libavutil/avassert.h"
-#include "libavutil/detection_bbox.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/detection_bbox.h"
 
 int ff_proc_from_dnn_to_frame(AVFrame *frame, DNNData *output, void *log_ctx)
 {

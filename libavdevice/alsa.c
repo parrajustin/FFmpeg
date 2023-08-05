@@ -32,8 +32,8 @@
 
 #include <alsa/asoundlib.h>
 #include "avdevice.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #include "alsa.h"
 

@@ -27,7 +27,7 @@
  * Common Ut Video header
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "avcodec.h"
 #include "bswapdsp.h"
 #include "utvideodsp.h"

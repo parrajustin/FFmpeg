@@ -30,10 +30,10 @@
 
 #if CONFIG_HARDCODED_TABLES
 #define mpegaudiodec_common_tableinit()
-#include "libavcodec/mpegaudiodec_common_tables.h"
+#include "third_party/ffmpeg/libavcodec/mpegaudiodec_common_tables.h"
 #else
 #include <math.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 int8_t   ff_table_4_3_exp  [TABLE_4_3_SIZE];
 uint32_t ff_table_4_3_value[TABLE_4_3_SIZE];

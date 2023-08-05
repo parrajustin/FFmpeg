@@ -22,7 +22,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "apetag.h"

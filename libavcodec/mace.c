@@ -27,7 +27,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 /*
  * Adapted to libavcodec by Francois Revol <revol@free.fr>

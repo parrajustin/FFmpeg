@@ -50,7 +50,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 #define HUFFMAN_TABLE_SIZE 64 * 1024
 #define HUF_TOKENS 256

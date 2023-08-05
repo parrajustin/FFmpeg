@@ -25,11 +25,11 @@
 #include "dvdsub.h"
 #include "get_bits.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/colorspace.h"
-#include "libavutil/file_open.h"
-#include "libavutil/opt.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 typedef struct DVDSubContext
 {

@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

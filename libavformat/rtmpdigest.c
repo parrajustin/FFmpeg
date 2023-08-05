@@ -26,8 +26,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/error.h"
-#include "libavutil/hmac.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/hmac.h"
 
 #include "rtmp.h"
 

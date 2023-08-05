@@ -24,9 +24,9 @@
  * ASCII/ANSI art decoder
  */
 
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/xga_font_data.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/xga_font_data.h"
 #include "avcodec.h"
 #include "cga_data.h"
 #include "codec_internal.h"

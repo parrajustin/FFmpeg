@@ -21,8 +21,8 @@
 
 #include <string.h>
 #include <stdint.h>
-#include "libavutil/avassert.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 #include "mjpegenc_huffman.h"
 
 /**

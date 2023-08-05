@@ -25,8 +25,8 @@
  * https://www.rfc-editor.org/rfc/rfc8216.txt
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"

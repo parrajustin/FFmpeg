@@ -17,7 +17,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avfilter.h"
 #include "generate_wave_table.h"
 

@@ -22,7 +22,7 @@
 #define AVCODEC_ELBG_H
 
 #include <stdint.h>
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
 struct ELBGContext;
 

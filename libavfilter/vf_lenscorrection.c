@@ -26,10 +26,10 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "libavutil/colorspace.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avfilter.h"
 #include "drawutils.h"

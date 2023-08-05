@@ -27,8 +27,8 @@
  * Anal. Mach. Intell. PAMI-2, 1980."
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avfilter.h"
 #include "internal.h"
 

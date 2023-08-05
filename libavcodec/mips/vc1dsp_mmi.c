@@ -20,15 +20,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/vc1dsp.h"
+#include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "constants.h"
 #include "vc1dsp_mips.h"
 #include "hpeldsp_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 #define VC1_INV_TRANCS_8_TYPE1(o1, o2, r1, r2, r3, r4, c0)                  \
         "li         %[tmp0],    "#r1"                                 \n\t" \

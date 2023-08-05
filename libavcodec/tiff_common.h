@@ -29,7 +29,7 @@
 #define AVCODEC_TIFF_COMMON_H
 
 #include <stdint.h>
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "bytestream.h"
 
 /** data type identifiers for TIFF tags */

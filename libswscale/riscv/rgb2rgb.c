@@ -21,9 +21,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
 
 void ff_shuffle_bytes_0321_rvv(const uint8_t *src, uint8_t *dst, int src_len);
 void ff_shuffle_bytes_2103_rvv(const uint8_t *src, uint8_t *dst, int src_len);

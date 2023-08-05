@@ -23,7 +23,7 @@
  * DNN native backend implementation.
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "dnn_backend_native_layer_avgpool.h"
 
 int ff_dnn_load_layer_avg_pool(Layer *layer, AVIOContext *model_file_context, int file_size, int operands_num)

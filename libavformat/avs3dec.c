@@ -21,8 +21,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/avs3.h"
-#include "libavcodec/startcode.h"
+#include "third_party/ffmpeg/libavcodec/avs3.h"
+#include "third_party/ffmpeg/libavcodec/startcode.h"
 #include "avformat.h"
 #include "rawdec.h"
 

@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 
-#include "libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 #define YUV2PACKEDX_HEADER(suffix)                                  \
     void ff_yuv2 ## suffix ## _X_altivec(SwsContext *c,             \

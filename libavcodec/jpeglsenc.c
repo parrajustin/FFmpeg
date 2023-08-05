@@ -26,7 +26,7 @@
  */
 
 #define UNCHECKED_BITSTREAM_READER 1
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

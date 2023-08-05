@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #if HAVE_PPC4XX
 /* signed 16x16 -> 32 multiply add accumulate */

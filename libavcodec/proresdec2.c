@@ -30,8 +30,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

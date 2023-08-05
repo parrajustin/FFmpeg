@@ -19,8 +19,8 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "mpegaudio.h"
 #include "mpegaudiodsp.h"
 #include "dct.h"

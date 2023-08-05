@@ -25,7 +25,7 @@
  * Splits packets into individual blocks.
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "parser.h"
 #include "adx.h"
 

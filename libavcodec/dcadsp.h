@@ -21,8 +21,8 @@
 #ifndef AVCODEC_DCADSP_H
 #define AVCODEC_DCADSP_H
 
-#include "libavutil/common.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "dcadct.h"
 #include "synth_filter.h"

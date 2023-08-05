@@ -24,7 +24,7 @@
  */
 
 #include <string.h>
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "avcodec.h"
 #include "codec_par.h"
 

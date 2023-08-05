@@ -68,9 +68,9 @@
  *       transmitting them to the video decoder
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

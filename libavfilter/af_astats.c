@@ -22,7 +22,7 @@
 #include <float.h>
 #include <math.h>
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "internal.h"

@@ -25,10 +25,10 @@
 #include "codec_internal.h"
 #include "v210dec.h"
 #include "v210dec_init.h"
-#include "libavutil/bswap.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "thread.h"
 
 typedef struct ThreadData {

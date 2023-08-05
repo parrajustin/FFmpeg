@@ -26,14 +26,14 @@
 
 #include "config_components.h"
 
-#include "libavcodec/bytestream.h"
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/lfg.h"
-#include "libavutil/md5.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 #include "avformat.h"
 #include "internal.h"
 

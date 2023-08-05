@@ -29,14 +29,14 @@
 
 #include "avformat.h"
 #include "avio_internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/fifo.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "internal.h"
 #include "network.h"
 #include "os_support.h"
@@ -67,7 +67,7 @@
 #endif
 
 #if HAVE_PTHREAD_CANCEL
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #endif
 
 #ifndef IPV6_ADD_MEMBERSHIP

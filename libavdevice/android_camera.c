@@ -31,17 +31,17 @@
 #include <media/NdkImage.h>
 #include <media/NdkImageReader.h>
 
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/display.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/threadmessage.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/threadmessage.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 /* This image format is available on all Android devices
  * supporting the Camera2 API */

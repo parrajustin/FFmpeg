@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 
 #include "dovi_rpu.h"
 #include "golomb.h"

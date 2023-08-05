@@ -22,20 +22,20 @@
 #include <stdio.h>
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/display.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/dovi_meta.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/replaygain.h"
-#include "libavutil/spherical.h"
-#include "libavutil/stereo3d.h"
-#include "libavutil/timecode.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mastering_display_metadata.h"
+#include "third_party/ffmpeg/libavutil/dovi_meta.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/replaygain.h"
+#include "third_party/ffmpeg/libavutil/spherical.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 #include "avformat.h"
 #include "internal.h"

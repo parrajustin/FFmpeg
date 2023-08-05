@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavformat/demux.h"
+#include "third_party/ffmpeg/libavutil/demux.h"
 
 int main(void)
 {

@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
-#include "libavcodec/hpeldsp.h"
-#include "libavcodec/loongarch/hpeldsp_lasx.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavcodec/hpeldsp.h"
+#include "third_party/ffmpeg/libavcodec/loongarch/hpeldsp_lasx.h"
 
 void ff_hpeldsp_init_loongarch(HpelDSPContext *c, int flags)
 {

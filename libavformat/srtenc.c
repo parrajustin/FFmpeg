@@ -22,8 +22,8 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/log.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 /* TODO: add options for:
    - character encoding;

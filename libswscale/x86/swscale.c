@@ -20,15 +20,15 @@
 
 #include <inttypes.h>
 #include "config.h"
-#include "libswscale/swscale.h"
-#include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 const DECLARE_ALIGNED(8, uint64_t, ff_dither4)[2] = {
     0x0103010301030103LL,

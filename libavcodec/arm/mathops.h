@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #if HAVE_INLINE_ASM
 

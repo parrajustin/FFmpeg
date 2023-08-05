@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "codec.h"
 #include "config.h"
 

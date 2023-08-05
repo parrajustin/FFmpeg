@@ -25,7 +25,7 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "put_bits.h"
-#include "libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
 
 typedef struct TTAEncContext {
     const AVCRC *crc_table;

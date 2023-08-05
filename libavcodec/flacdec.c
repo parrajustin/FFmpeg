@@ -33,9 +33,9 @@
 
 #include <limits.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "get_bits.h"

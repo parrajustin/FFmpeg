@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "idctdsp_loongarch.h"
 
 #define LASX_TRANSPOSE4x16(in_0, in_1, in_2, in_3, out_0, out_1, out_2, out_3) \

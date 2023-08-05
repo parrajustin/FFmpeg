@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/alacdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/alacdsp.h"
 
 void ff_alac_decorrelate_stereo_rvv(int32_t *buffer[2], int nb_samples,
                                     int decorr_shift, int decorr_left_weight);

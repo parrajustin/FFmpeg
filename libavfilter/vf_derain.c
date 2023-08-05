@@ -24,8 +24,8 @@
  * http://openaccess.thecvf.com/content_ECCV_2018/html/Xia_Li_Recurrent_Squeeze-and-Excitation_Context_ECCV_2018_paper.html
  */
 
-#include "libavformat/avio.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "dnn_filter_common.h"
 #include "formats.h"

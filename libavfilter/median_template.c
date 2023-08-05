@@ -20,7 +20,7 @@
  * are permitted provided that the following conditions are met:
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "internal.h"

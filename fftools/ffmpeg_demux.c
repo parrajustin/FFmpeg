@@ -21,22 +21,22 @@
 
 #include "ffmpeg.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/display.h"
-#include "libavutil/error.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/time.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/thread.h"
-#include "libavutil/threadmessage.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/threadmessage.h"
 
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 static const char *const opt_name_discard[]                   = {"discard", NULL};
 static const char *const opt_name_reinit_filters[]            = {"reinit_filter", NULL};

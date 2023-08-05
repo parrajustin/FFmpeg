@@ -25,8 +25,8 @@
 #ifndef AVCODEC_LOONGARCH_CABAC_H
 #define AVCODEC_LOONGARCH_CABAC_H
 
-#include "libavutil/attributes.h"
-#include "libavcodec/cabac.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/cabac.h"
 #include "config.h"
 
 #define GET_CABAC_LOONGARCH_UNCBSR                                      \

@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 #include "avfilter.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 int ff_fill_rgba_map(uint8_t *rgba_map, enum AVPixelFormat pix_fmt);
 

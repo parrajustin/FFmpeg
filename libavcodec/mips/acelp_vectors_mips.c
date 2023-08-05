@@ -53,8 +53,8 @@
  * Reference: libavcodec/acelp_vectors.c
  */
 #include "config.h"
-#include "libavcodec/acelp_vectors.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/acelp_vectors.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

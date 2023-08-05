@@ -20,9 +20,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avfilter.h"
 #include "framesync.h"
 #include "internal.h"

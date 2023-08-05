@@ -30,8 +30,8 @@
 #include "decode.h"
 #include "mathops.h"
 
-#include "libavutil/colorspace.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define RGBA(r,g,b,a) (((unsigned)(a) << 24) | ((r) << 16) | ((g) << 8) | (b))
 #define MAX_EPOCH_PALETTES 8   // Max 8 allowed per PGS epoch

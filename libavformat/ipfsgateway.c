@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/file_open.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/getenv_utf8.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include <sys/stat.h>
 #include "os_support.h"
 #include "url.h"

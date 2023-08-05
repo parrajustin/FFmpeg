@@ -21,12 +21,12 @@
 
 #include "avcodec.h"
 #include "ass.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "bytestream.h"
 #include "codec_internal.h"
 

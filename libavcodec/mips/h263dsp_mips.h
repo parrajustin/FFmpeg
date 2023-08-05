@@ -21,7 +21,7 @@
 #ifndef AVCODEC_MIPS_H263DSP_MIPS_H
 #define AVCODEC_MIPS_H263DSP_MIPS_H
 
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 
 void ff_h263_h_loop_filter_msa(uint8_t *src, int stride, int q_scale);
 void ff_h263_v_loop_filter_msa(uint8_t *src, int stride, int q_scale);

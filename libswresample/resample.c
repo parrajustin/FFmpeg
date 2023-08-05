@@ -26,8 +26,8 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 #include "resample.h"
 
 static inline double eval_poly(const double *coeff, int size, double x) {

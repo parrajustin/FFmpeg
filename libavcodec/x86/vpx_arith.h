@@ -24,10 +24,10 @@
 #ifndef AVCODEC_X86_VPX_ARITH_H
 #define AVCODEC_X86_VPX_ARITH_H
 
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 
 #if HAVE_INLINE_ASM && HAVE_FAST_CMOV && HAVE_6REGS
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define vpx_rac_get_prob vpx_rac_get_prob
 static av_always_inline int vpx_rac_get_prob(VPXRangeCoder *c, uint8_t prob)

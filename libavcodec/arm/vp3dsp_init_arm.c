@@ -18,10 +18,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/vp3dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/vp3dsp.h"
 
 void ff_vp3_idct_put_neon(uint8_t *dest, ptrdiff_t stride, int16_t *data);
 void ff_vp3_idct_add_neon(uint8_t *dest, ptrdiff_t stride, int16_t *data);

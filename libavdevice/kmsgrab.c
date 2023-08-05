@@ -32,17 +32,17 @@
 #define DRM_FORMAT_MOD_INVALID ((1ULL << 56) - 1)
 #endif
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_drm.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 typedef struct KMSGrabContext {
     const AVClass *class;

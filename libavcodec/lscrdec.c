@@ -21,9 +21,9 @@
 #include <stdint.h>
 #include <zlib.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

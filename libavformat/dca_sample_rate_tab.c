@@ -22,4 +22,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/dca_sample_rate_tab.h"
+#include "third_party/ffmpeg/libavcodec/dca_sample_rate_tab.h"

@@ -33,12 +33,12 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

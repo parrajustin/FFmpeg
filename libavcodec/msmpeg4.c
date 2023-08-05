@@ -27,13 +27,13 @@
  * MSMPEG4 backend for encoder and decoder
  */
 
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include "avcodec.h"
 #include "idctdsp.h"
 #include "mpegvideo.h"
 #include "msmpeg4.h"
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 #include "mpeg4videodata.h"
 #include "msmpeg4data.h"
 #include "msmpeg4_vc1_data.h"

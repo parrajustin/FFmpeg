@@ -25,7 +25,7 @@
  * @author Peter Ross <pross@xvid.org>
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "avcodec.h"
 #include "blockdsp.h"

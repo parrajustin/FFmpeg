@@ -23,7 +23,7 @@
 #endif
 
 #include "mf_utils.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 HRESULT ff_MFGetAttributeSize(IMFAttributes *pattr, REFGUID guid,
                               UINT32 *pw, UINT32 *ph)

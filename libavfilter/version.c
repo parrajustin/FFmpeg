@@ -19,11 +19,11 @@
  */
 
 #include "config.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avfilter.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 const char av_filter_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avfilter_version(void)

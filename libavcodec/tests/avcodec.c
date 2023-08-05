@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/opt.h"
-#include "libavcodec/codec.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/codec_internal.h"
-#include "libavcodec/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/codec.h"
+#include "third_party/ffmpeg/libavcodec/codec_desc.h"
+#include "third_party/ffmpeg/libavcodec/codec_internal.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
 
 static const char *get_type_string(enum AVMediaType type)
 {

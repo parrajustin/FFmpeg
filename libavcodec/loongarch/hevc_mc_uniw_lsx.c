@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "hevcdsp_lsx.h"
 
 static const uint8_t ff_hevc_mask_arr[16 * 2] __attribute__((aligned(0x40))) = {

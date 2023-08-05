@@ -37,16 +37,16 @@
 #include "threadframe.h"
 #include "version_major.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/frame.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 enum {
     ///< Set when the thread is awaiting a packet.

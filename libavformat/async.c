@@ -27,13 +27,13 @@
  *      support work with concatdec, hls
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "url.h"
 #include <stdint.h>
 

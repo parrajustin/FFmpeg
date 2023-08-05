@@ -27,9 +27,9 @@
 #define AVFILTER_SIGNATURE_H
 
 #include <float.h>
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "avfilter.h"
 #include "internal.h"
 

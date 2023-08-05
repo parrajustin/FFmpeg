@@ -25,12 +25,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_qsv.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #include "formats.h"
 #include "internal.h"

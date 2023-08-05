@@ -18,9 +18,9 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/g722.h"
-#include "libavcodec/g722dsp.h"
-#include "libavcodec/mathops.h"
+#include "third_party/ffmpeg/libavcodec/g722.h"
+#include "third_party/ffmpeg/libavcodec/g722dsp.h"
+#include "third_party/ffmpeg/libavcodec/mathops.h"
 
 #define randomize_buffers()                             \
     do {                                                \

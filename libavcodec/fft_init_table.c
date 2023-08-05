@@ -51,9 +51,9 @@
  * @file
  * definitions and initialization of LUT table for FFT
  */
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
-#include "libavcodec/fft_table.h"
+#include "third_party/ffmpeg/libavcodec/fft_table.h"
 
 const int32_t ff_w_tab_sr[MAX_FFT_SIZE/(4*16)] = {
 2147483647, 2147483016, 2147481121, 2147477963, 2147473542, 2147467857, 2147460908, 2147452697,

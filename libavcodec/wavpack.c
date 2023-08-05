@@ -20,8 +20,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/buffer.h"
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

@@ -36,7 +36,7 @@
 #include <stdint.h>
 #include <zlib.h>
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

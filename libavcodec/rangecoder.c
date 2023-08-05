@@ -32,10 +32,10 @@
 
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bswap.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "rangecoder.h"
 

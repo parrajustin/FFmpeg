@@ -18,8 +18,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 #include "bswapdsp.h"
 
 static void bswap_buf(uint32_t *dst, const uint32_t *src, int w)

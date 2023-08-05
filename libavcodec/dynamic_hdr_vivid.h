@@ -19,7 +19,7 @@
 #ifndef AVCODEC_DYNAMIC_HDR_VIVID_H
 #define AVCODEC_DYNAMIC_HDR_VIVID_H
 
-#include "libavutil/hdr_dynamic_vivid_metadata.h"
+#include "third_party/ffmpeg/libavutil/hdr_dynamic_vivid_metadata.h"
 
 /**
  * Parse the user data registered ITU-T T.35 to AVbuffer (AVDynamicHDRVivid).

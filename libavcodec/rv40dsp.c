@@ -24,14 +24,14 @@
  * RV40 decoder motion compensation functions
  */
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "h264qpel.h"
 #include "mathops.h"
 #include "pixels.h"
 #include "rnd_avg.h"
 #include "rv34dsp.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define RV40_LOWPASS(OPNAME, OP) \
 static void OPNAME ## rv40_qpel8_h_lowpass(uint8_t *dst, const uint8_t *src, int dstStride, int srcStride,\

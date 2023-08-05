@@ -19,7 +19,7 @@
  */
 
 #include "h263dsp_mips.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 
 static int32_t sum_u8src_16width_msa(const uint8_t *src, int32_t stride)
 {

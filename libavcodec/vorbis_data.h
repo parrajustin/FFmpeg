@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 extern const float ff_vorbis_floor1_inverse_db_table[256];
 extern const float * const ff_vorbis_vwin[8];

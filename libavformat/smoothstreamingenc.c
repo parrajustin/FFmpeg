@@ -31,10 +31,10 @@
 #include "avc.h"
 #include "url.h"
 
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/uuid.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/uuid.h"
 
 typedef struct Fragment {
     int64_t start_time, duration;

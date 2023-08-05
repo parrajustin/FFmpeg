@@ -22,10 +22,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext_mediacodec.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_mediacodec.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "bsf.h"

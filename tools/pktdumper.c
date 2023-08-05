@@ -31,9 +31,9 @@
 #include <io.h>
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/time.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 #define FILENAME_BUF_SIZE 4096
 #define PKTFILESUFF "_%08" PRId64 "_%02d_%010" PRId64 "_%06d_%c.bin"

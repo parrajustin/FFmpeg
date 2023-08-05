@@ -41,7 +41,7 @@
 #define AVCODEC_AACCODER_TWOLOOP_H
 
 #include <float.h>
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "mathops.h"
 #include "avcodec.h"
 #include "put_bits.h"

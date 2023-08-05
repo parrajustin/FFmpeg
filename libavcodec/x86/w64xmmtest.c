@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/avcodec.h"
-#include "libavutil/x86/w64xmmtest.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/x86/w64xmmtest.h"
 
 wrap(avcodec_open2(AVCodecContext *avctx,
                    const AVCodec *codec,

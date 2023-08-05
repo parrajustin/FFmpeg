@@ -24,8 +24,8 @@
  * Megalux Frame demuxer
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 
 static const enum AVPixelFormat frm_pix_fmt_tags[] = {

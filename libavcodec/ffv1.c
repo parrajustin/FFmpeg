@@ -25,8 +25,8 @@
  * FF Video Codec 1 (a lossless codec)
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "avcodec.h"
 #include "rangecoder.h"

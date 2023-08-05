@@ -21,10 +21,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/aacenc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/aacenc.h"
 
 void ff_abs_pow34_sse(float *out, const float *in, const int size);
 

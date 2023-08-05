@@ -38,12 +38,12 @@
 #include "decode.h"
 #include "hwconfig.h"
 #include "internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 typedef struct FFBufferEntry {
     AVBufferRef *ref;

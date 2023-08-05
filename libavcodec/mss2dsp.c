@@ -24,7 +24,7 @@
  */
 
 #include "mss2dsp.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 static av_always_inline void mss2_blit_wmv9_template(uint8_t *dst,
                                                      ptrdiff_t dst_stride,

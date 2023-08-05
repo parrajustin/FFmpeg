@@ -23,10 +23,10 @@
  * Compute a look-up table from map of colors.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "framesync.h"

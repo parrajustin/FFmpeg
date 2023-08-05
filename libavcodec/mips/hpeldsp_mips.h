@@ -22,7 +22,7 @@
 #ifndef AVCODEC_MIPS_HPELDSP_MIPS_H
 #define AVCODEC_MIPS_HPELDSP_MIPS_H
 
-#include "libavcodec/bit_depth_template.c"
+#include "third_party/ffmpeg/libavcodec/bit_depth_template.c"
 
 void ff_put_pixels16_msa(uint8_t *block, const uint8_t *pixels,
                          ptrdiff_t line_size, int32_t h);

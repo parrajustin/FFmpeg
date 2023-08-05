@@ -20,13 +20,13 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/ppc/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
-#include "libavcodec/h264chroma.h"
+#include "third_party/ffmpeg/libavcodec/h264chroma.h"
 
 #if HAVE_ALTIVEC
 #define PUT_OP_U8_ALTIVEC(d, s, dst) d = s

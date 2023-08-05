@@ -21,7 +21,7 @@
 
 #include "avformat.h"
 #include "rtpdec_formats.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 static int ilbc_parse_fmtp(AVFormatContext *s,
                            AVStream *stream, PayloadContext *data,

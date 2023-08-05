@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 #include "constants.h"
 
 const union av_intfloat64 ff_pw_1 =      {0x0001000100010001ULL};

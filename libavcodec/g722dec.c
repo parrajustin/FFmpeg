@@ -34,8 +34,8 @@
  *       respectively of each byte are ignored.
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

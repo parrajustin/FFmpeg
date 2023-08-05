@@ -28,8 +28,8 @@
 
 #include <string.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "urldecode.h"
 
 char *ff_urldecode(const char *url, int decode_plus_sign)

@@ -21,9 +21,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/dovi_meta.h"
+#include "third_party/ffmpeg/libavutil/dovi_meta.h"
 
-#include "libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
 
 #include "avformat.h"
 #include "dovi_isom.h"

@@ -24,12 +24,12 @@
  * FITS demuxer.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "internal.h"
-#include "libavutil/opt.h"
-#include "libavcodec/fits.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/fits.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 #define FITS_BLOCK_SIZE 2880
 

@@ -19,8 +19,8 @@
  */
 
 #include <string.h>
-#include "libavcodec/vp9dsp.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "vp9dsp_mips.h"
 
 #define VP9_DCT_CONST_BITS   14

@@ -26,9 +26,9 @@
 
 #include <libvmaf.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avfilter.h"
 #include "drawutils.h"
 #include "formats.h"

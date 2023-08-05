@@ -21,7 +21,7 @@
  */
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 function ff_int32_to_float_fmul_scalar_neon, export=1
 VFP     vdup.32         q0,  d0[0]

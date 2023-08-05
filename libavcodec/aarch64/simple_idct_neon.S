@@ -24,7 +24,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 #define Z1  22725  //cos(i*M_PI/16)*sqrt(2)*(1<<14) + 0.5
 #define Z2  21407  //cos(i*M_PI/16)*sqrt(2)*(1<<14) + 0.5

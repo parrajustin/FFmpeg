@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavcodec/mips/hevcdsp_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/mips/hevcdsp_mips.h"
 
 static void hevc_loopfilter_luma_hor_msa(uint8_t *src, int32_t stride,
                                          int32_t beta, const int32_t *tc,

@@ -19,7 +19,7 @@
  */
 
 #include <string.h>
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "dnn_backend_native_layer_pad.h"
 
 int ff_dnn_load_layer_pad(Layer *layer, AVIOContext *model_file_context, int file_size, int operands_num)

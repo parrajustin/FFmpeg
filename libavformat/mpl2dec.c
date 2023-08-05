@@ -23,7 +23,7 @@
  * MPL2 subtitles format demuxer
  */
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "avformat.h"
 #include "internal.h"

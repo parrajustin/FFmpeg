@@ -24,12 +24,12 @@
 #include <EbSvtAv1ErrorCodes.h>
 #include <EbSvtAv1Enc.h>
 
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "codec_internal.h"
 #include "internal.h"

@@ -24,7 +24,7 @@
 #define AVCODEC_PCM_TABLEGEN_H
 
 #include <stdint.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /* from g711.c by SUN microsystems (unrestricted use) */
 
@@ -93,7 +93,7 @@ static av_cold int vidc2linear(unsigned char u_val)
 #define pcm_alaw_tableinit()
 #define pcm_ulaw_tableinit()
 #define pcm_vidc_tableinit()
-#include "libavcodec/pcm_tables.h"
+#include "third_party/ffmpeg/libavcodec/pcm_tables.h"
 #else
 /* 16384 entries per table */
 static uint8_t linear_to_alaw[16384];

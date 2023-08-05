@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include "avformat.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #if HAVE_GLOB
 #include <glob.h>

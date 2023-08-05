@@ -22,7 +22,7 @@
 #define AVCODEC_SINEWIN_H
 
 #include "config.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #if CONFIG_HARDCODED_TABLES
 #   define SINETABLE_CONST const

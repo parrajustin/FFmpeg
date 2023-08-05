@@ -26,7 +26,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

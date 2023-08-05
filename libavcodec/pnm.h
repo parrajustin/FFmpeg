@@ -22,7 +22,7 @@
 #ifndef AVCODEC_PNM_H
 #define AVCODEC_PNM_H
 
-#include "libavutil/half2float.h"
+#include "third_party/ffmpeg/libavutil/half2float.h"
 #include "avcodec.h"
 
 typedef struct PNMContext {

@@ -28,7 +28,7 @@
 #define AVFILTER_DNN_DNN_IO_PROC_H
 
 #include "../dnn_interface.h"
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 int ff_proc_from_frame_to_dnn(AVFrame *frame, DNNData *input, void *log_ctx);
 int ff_proc_from_dnn_to_frame(AVFrame *frame, DNNData *output, void *log_ctx);

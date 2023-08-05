@@ -27,7 +27,7 @@
 
 #if USE_FIXED
 
-#include "libavutil/softfloat.h"
+#include "third_party/ffmpeg/libavutil/softfloat.h"
 
 #define AAC_RENAME(x)       x ## _fixed
 #define AAC_RENAME_32(x)    x ## _fixed_32

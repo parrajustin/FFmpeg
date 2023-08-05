@@ -25,7 +25,7 @@
  *   http://www.csse.monash.edu.au/~timf/
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

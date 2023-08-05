@@ -26,14 +26,14 @@
 #include "swscale.h"
 #include "swscale_internal.h"
 #include "rgb2rgb.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avutil.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/bswap.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avconfig.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avconfig.h"
 
 DECLARE_ALIGNED(8, static const uint8_t, dithers)[8][8][8]={
 {

@@ -32,10 +32,10 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "internal.h"

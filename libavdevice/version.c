@@ -20,11 +20,11 @@
 
 #include "config.h"
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avdevice.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 const char av_device_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avdevice_version(void)

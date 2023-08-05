@@ -25,10 +25,10 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/avassert.h"
-#include "libavutil/libm.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 #include "audioconvert.h"
 
 

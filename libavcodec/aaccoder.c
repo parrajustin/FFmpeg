@@ -30,11 +30,11 @@
  * add sane pulse detection
  ***********************************/
 
-#include "libavutil/libm.h" // brought forward to work around cygwin header breakage
+#include "third_party/ffmpeg/libavutil/libm.h" // brought forward to work around cygwin header breakage
 
 #include <float.h>
 
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "mathops.h"
 #include "avcodec.h"
 #include "put_bits.h"
@@ -50,7 +50,7 @@
 #include "aacenc_ltp.h"
 #include "aacenc_pred.h"
 
-#include "libavcodec/aaccoder_twoloop.h"
+#include "third_party/ffmpeg/libavcodec/aaccoder_twoloop.h"
 
 /* Parameter of f(x) = a*(lambda/100), defines the maximum fourier spread
  * beyond which no PNS is used (since the SFBs contain tone rather than noise) */
@@ -60,7 +60,7 @@
  * replace low energy non zero bands */
 #define NOISE_LAMBDA_REPLACE 1.948f
 
-#include "libavcodec/aaccoder_trellis.h"
+#include "third_party/ffmpeg/libavcodec/aaccoder_trellis.h"
 
 typedef float (*quantize_and_encode_band_func)(struct AACEncContext *s, PutBitContext *pb,
                                                const float *in, float *quant, const float *scaled,

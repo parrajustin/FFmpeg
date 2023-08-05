@@ -28,7 +28,7 @@
 #include <stdint.h>
 
 #include "vlc.h"
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 FF_VISIBILITY_PUSH_HIDDEN
 void ff_msmp4_vc1_vlcs_init_once(void);

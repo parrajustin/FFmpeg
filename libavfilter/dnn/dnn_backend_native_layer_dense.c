@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "dnn_backend_native_layer_dense.h"
 
 int ff_dnn_load_layer_dense(Layer *layer, AVIOContext *model_file_context, int file_size, int operands_num)

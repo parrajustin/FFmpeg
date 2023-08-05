@@ -29,12 +29,12 @@
 #include <stdint.h>
 
 #include "avcodec.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "codec_internal.h"
 #include "decode.h"
 #include "get_bits.h"

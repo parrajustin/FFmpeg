@@ -25,9 +25,9 @@
 
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 #include "elbg.h"
 
 #define DELTA_ERR_MAX 0.1  ///< Precision of the ELBG algorithm (as percentage error)

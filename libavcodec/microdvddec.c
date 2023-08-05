@@ -26,9 +26,9 @@
  * https://trac.videolan.org/vlc/ticket/1825#comment:6
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"

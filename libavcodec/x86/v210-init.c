@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/v210dec.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/v210dec.h"
 
 extern void ff_v210_planar_unpack_unaligned_ssse3(const uint32_t *src, uint16_t *y, uint16_t *u, uint16_t *v, int width);
 extern void ff_v210_planar_unpack_unaligned_avx(const uint32_t *src, uint16_t *y, uint16_t *u, uint16_t *v, int width);

@@ -24,10 +24,10 @@
  * draw_horiz_band test.
  */
 
-#include "libavutil/adler32.h"
-#include "libavcodec/avcodec.h"
-#include "libavformat/avformat.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 uint8_t *slice_byte_buffer;
 uint8_t slice_byte_buffer_size;

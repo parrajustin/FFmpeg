@@ -25,9 +25,9 @@
 #include "avformat.h"
 #include "internal.h"
 #include "rawdec.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 #define RAW_PACKET_SIZE 1024
 

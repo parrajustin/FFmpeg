@@ -20,9 +20,9 @@
  */
 
 #include <stdint.h>
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/pngdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/pngdsp.h"
 
 void ff_add_png_paeth_prediction_mmxext(uint8_t *dst, uint8_t *src,
                                         uint8_t *top, int w, int bpp);

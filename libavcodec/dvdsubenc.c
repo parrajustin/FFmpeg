@@ -22,10 +22,10 @@
 #include "bytestream.h"
 #include "codec_internal.h"
 #include "dvdsub.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bprint.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct {
     AVClass *class;

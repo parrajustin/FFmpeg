@@ -20,7 +20,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "mlpdsp.h"
 #include "mlp.h"
 

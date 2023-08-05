@@ -22,9 +22,9 @@
 #ifndef AVCODEC_MIPS_VP8DSP_MIPS_H
 #define AVCODEC_MIPS_VP8DSP_MIPS_H
 
-#include "libavutil/mem.h"
-#include "libavcodec/vp8dsp.h"
-#include "libavcodec/mathops.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavcodec/mathops.h"
 #include "constants.h"
 
 void ff_put_vp8_pixels4_msa(uint8_t *dst, ptrdiff_t dststride,

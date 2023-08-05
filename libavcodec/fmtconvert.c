@@ -21,7 +21,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "fmtconvert.h"
 
 static void int32_to_float_fmul_scalar_c(float *dst, const int32_t *src,

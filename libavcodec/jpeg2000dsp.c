@@ -21,7 +21,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "jpeg2000dsp.h"
 
 /* Inverse ICT parameters in float and integer.

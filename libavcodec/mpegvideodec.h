@@ -28,8 +28,8 @@
 #ifndef AVCODEC_MPEGVIDEODEC_H
 #define AVCODEC_MPEGVIDEODEC_H
 
-#include "libavutil/frame.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

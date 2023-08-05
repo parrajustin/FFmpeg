@@ -22,7 +22,7 @@
 #ifndef AVCODEC_SNOW_H
 #define AVCODEC_SNOW_H
 
-#include "libavutil/motion_vector.h"
+#include "third_party/ffmpeg/libavutil/motion_vector.h"
 
 #include "hpeldsp.h"
 #include "me_cmp.h"

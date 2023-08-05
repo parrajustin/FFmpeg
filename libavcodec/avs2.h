@@ -23,7 +23,7 @@
 #ifndef AVCODEC_AVS2_H
 #define AVCODEC_AVS2_H
 
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #define AVS2_SLICE_MAX_START_CODE    0x000001AF
 

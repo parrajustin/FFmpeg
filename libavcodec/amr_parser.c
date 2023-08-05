@@ -25,8 +25,8 @@
  * Splits packets into individual blocks.
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "parser.h"
 
 static const uint8_t amrnb_packed_size[16] = {

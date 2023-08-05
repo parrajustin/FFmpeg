@@ -28,7 +28,7 @@
  * http://wiki.multimedia.cx/index.php?title=Electronic_Arts_MAD
  */
 
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "avcodec.h"
 #include "blockdsp.h"

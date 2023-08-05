@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/blockdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/blockdsp.h"
 #include "blockdsp_arm.h"
 
 void ff_clear_block_neon(int16_t *block);

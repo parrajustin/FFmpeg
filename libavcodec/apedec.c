@@ -22,10 +22,10 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "lossless_audiodsp.h"
 #include "avcodec.h"
 #include "bswapdsp.h"

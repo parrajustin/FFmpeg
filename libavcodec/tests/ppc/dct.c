@@ -18,8 +18,8 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavcodec/ppc/fdct.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavcodec/ppc/fdct.h"
 
 static const struct algo fdct_tab_arch[] = {
 #if HAVE_ALTIVEC

@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 typedef struct FLACDSPContext {
     void (*decorrelate[4])(uint8_t **out, int32_t **in, int channels,

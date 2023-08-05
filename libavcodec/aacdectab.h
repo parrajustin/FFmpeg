@@ -30,7 +30,7 @@
 #ifndef AVCODEC_AACDECTAB_H
 #define AVCODEC_AACDECTAB_H
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "aac.h"
 
 #include <stdint.h>

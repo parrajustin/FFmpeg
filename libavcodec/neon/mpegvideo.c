@@ -23,15 +23,15 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 #if   ARCH_AARCH64
 #   include "libavutil/aarch64/cpu.h"
 #elif ARCH_ARM
 #   include "libavutil/arm/cpu.h"
 #endif
 
-#include "libavcodec/mpegvideo.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideo.h"
 
 static void inline ff_dct_unquantize_h263_neon(int qscale, int qadd, int nCoeffs,
                                                int16_t *block)

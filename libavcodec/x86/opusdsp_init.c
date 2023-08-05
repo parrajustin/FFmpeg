@@ -18,9 +18,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/opusdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/opusdsp.h"
 
 void ff_opus_postfilter_fma3(float *data, int period, float *gains, int len);
 float ff_opus_deemphasis_fma3(float *out, float *in, float coeff, int len);

@@ -19,9 +19,9 @@
  */
 
 #include <string.h>
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
 #include "url.h"
 
 typedef struct {

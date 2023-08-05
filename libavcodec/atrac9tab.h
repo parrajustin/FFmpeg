@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 enum ATRAC9BlockType {
     ATRAC9_BLOCK_TYPE_SCE, /* Single channel */

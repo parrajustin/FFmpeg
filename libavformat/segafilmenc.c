@@ -29,9 +29,9 @@
  *   http://wiki.multimedia.cx/index.php?title=Sega_FILM
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "mux.h"

@@ -27,11 +27,11 @@
  * @author Josh Allmann <joshua.allmann@gmail.com>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 
 #include "avio_internal.h"
 #include "internal.h"

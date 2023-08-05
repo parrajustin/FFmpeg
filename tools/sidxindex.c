@@ -21,10 +21,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavformat/avformat.h"
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 static int usage(const char *argv0, int ret)
 {

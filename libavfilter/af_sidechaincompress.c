@@ -26,10 +26,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/audio_fifo.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/audio_fifo.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "audio.h"
 #include "avfilter.h"

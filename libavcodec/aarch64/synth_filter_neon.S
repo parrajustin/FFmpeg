@@ -21,7 +21,7 @@
 
 #include "asm-offsets.h"
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 .macro inner_loop
         ld1             {v29.4s},  [x9],  x15

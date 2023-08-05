@@ -17,14 +17,14 @@
  */
 
 #include "config.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
-#include "libavcodec/bsf_internal.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/internal.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/bsf.h"
+#include "third_party/ffmpeg/libavcodec/bsf_internal.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
 
 int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size);
 

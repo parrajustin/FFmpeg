@@ -21,7 +21,7 @@
 #ifndef AVCODEC_ARM_HPELDSP_ARM_H
 #define AVCODEC_ARM_HPELDSP_ARM_H
 
-#include "libavcodec/hpeldsp.h"
+#include "third_party/ffmpeg/libavcodec/hpeldsp.h"
 
 void ff_hpeldsp_init_armv6(HpelDSPContext *c, int flags);
 void ff_hpeldsp_init_neon(HpelDSPContext *c, int flags);

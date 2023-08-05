@@ -25,9 +25,9 @@
  * H.261 encoder.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "mpegutils.h"

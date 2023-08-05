@@ -21,7 +21,7 @@
 #ifndef AVDEVICE_OPENGL_ENC_SHADERS_H
 #define AVDEVICE_OPENGL_ENC_SHADERS_H
 
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 static const char * const FF_OPENGL_VERTEX_SHADER =
     "uniform mat4 u_projectionMatrix;"

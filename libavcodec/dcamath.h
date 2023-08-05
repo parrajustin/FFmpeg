@@ -21,8 +21,8 @@
 #ifndef AVCODEC_DCAMATH_H
 #define AVCODEC_DCAMATH_H
 
-#include "libavutil/common.h"
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 
 static inline int32_t norm__(int64_t a, int bits)
 {

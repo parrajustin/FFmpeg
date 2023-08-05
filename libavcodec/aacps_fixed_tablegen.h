@@ -32,19 +32,19 @@
 #if CONFIG_HARDCODED_TABLES
 #define ps_tableinit()
 #define TABLE_CONST const
-#include "libavcodec/aacps_fixed_tables.h"
+#include "third_party/ffmpeg/libavcodec/aacps_fixed_tables.h"
 #else
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #ifdef BUILD_TABLES
 #undef DECLARE_ALIGNED
 #define DECLARE_ALIGNED(align, type, variable) type variable
 #else
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 #endif
 
 #include "aac_defines.h"
-#include "libavutil/softfloat.h"
+#include "third_party/ffmpeg/libavutil/softfloat.h"
 #define NR_ALLPASS_BANDS20 30
 #define NR_ALLPASS_BANDS34 50
 #define PS_AP_LINKS 3

@@ -23,16 +23,16 @@
 #include <inttypes.h>
 #include <float.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 #define DEFAULT_W 96
 #define DEFAULT_H 96

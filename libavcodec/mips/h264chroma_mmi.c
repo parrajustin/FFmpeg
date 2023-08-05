@@ -24,7 +24,7 @@
 
 #include "h264chroma_mips.h"
 #include "constants.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 void ff_put_h264_chroma_mc8_mmi(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
         int h, int x, int y)

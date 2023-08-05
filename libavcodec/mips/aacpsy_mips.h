@@ -56,7 +56,7 @@
 #ifndef AVCODEC_MIPS_AACPSY_MIPS_H
 #define AVCODEC_MIPS_AACPSY_MIPS_H
 
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM && HAVE_MIPSFPU && ( PSY_LAME_FIR_LEN == 21 )
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

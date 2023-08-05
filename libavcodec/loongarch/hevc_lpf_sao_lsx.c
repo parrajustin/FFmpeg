@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "hevcdsp_lsx.h"
 
 void ff_hevc_loop_filter_luma_h_8_lsx(uint8_t *src, ptrdiff_t stride,

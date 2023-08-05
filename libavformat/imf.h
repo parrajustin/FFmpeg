@@ -56,10 +56,10 @@
 #define AVFORMAT_IMF_H
 
 #include "avformat.h"
-#include "libavformat/avio.h"
-#include "libavutil/rational.h"
-#include "libavutil/uuid.h"
-#include "libavutil/timecode.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/uuid.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
 #include <libxml/tree.h>
 
 /**

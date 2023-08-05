@@ -25,7 +25,7 @@
 #define AVCODEC_V4L2_FMT_H
 
 #include <stdint.h>
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "codec_id.h"
 
 enum AVPixelFormat ff_v4l2_format_v4l2_to_avfmt(uint32_t v4l2_fmt, enum AVCodecID avcodec);

@@ -32,11 +32,11 @@
 #include <zlib.h>
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/png.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/png.h"
 #include "avio_internal.h"
 #include "demux.h"
 #include "id3v1.h"

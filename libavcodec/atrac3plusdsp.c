@@ -27,9 +27,9 @@
 
 #include <math.h>
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "sinewin.h"
 #include "atrac3plus.h"

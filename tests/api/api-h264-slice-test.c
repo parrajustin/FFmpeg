@@ -38,10 +38,10 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/hash.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/hash.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 static int header = 0;
 

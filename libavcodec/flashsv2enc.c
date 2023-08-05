@@ -46,7 +46,7 @@
 #include <stdlib.h>
 #include <zlib.h>
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

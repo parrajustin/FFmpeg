@@ -30,7 +30,7 @@
  * @see http://www.w3.org/Graphics/GIF/spec-gif89a.txt
  */
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

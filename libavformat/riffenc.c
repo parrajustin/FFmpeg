@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/dict.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "riff.h"

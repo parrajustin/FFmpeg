@@ -23,8 +23,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 #include "mathops.h"
 #include "celp_math.h"
 

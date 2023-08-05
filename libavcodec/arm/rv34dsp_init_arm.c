@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/rv34dsp.h"
-#include "libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/rv34dsp.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
 
 void ff_rv34_inv_transform_noround_neon(int16_t *block);
 

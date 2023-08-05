@@ -25,7 +25,7 @@
  * @author Thilo Borgmann <thilo.borgmann _at_ mail.de>
  */
 
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 #include "tiff_common.h"
 
 

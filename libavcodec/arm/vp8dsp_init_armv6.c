@@ -18,8 +18,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 #include "vp8dsp.h"
 
 void ff_vp8_luma_dc_wht_armv6(int16_t block[4][4][16], int16_t dc[16]);

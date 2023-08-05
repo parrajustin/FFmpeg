@@ -23,8 +23,8 @@
 
 #include "h264dsp_mips.h"
 #include "hpeldsp_mips.h"
-#include "libavcodec/bit_depth_template.c"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavcodec/bit_depth_template.c"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 static inline void copy_block4_mmi(uint8_t *dst, const uint8_t *src,
         int dstStride, int srcStride, int h)

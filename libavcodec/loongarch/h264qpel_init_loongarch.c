@@ -20,9 +20,9 @@
  */
 
 #include "h264qpel_lasx.h"
-#include "libavutil/attributes.h"
-#include "libavutil/loongarch/cpu.h"
-#include "libavcodec/h264qpel.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavcodec/h264qpel.h"
 
 av_cold void ff_h264qpel_init_loongarch(H264QpelContext *c, int bit_depth)
 {

@@ -21,7 +21,7 @@
 #ifndef AVCODEC_SYNTH_FILTER_H
 #define AVCODEC_SYNTH_FILTER_H
 
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "dcadct.h"
 
 typedef struct SynthFilterContext {

@@ -25,7 +25,7 @@
 #include <stdint.h>
 #include <sndio.h>
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "avdevice.h"
 
 typedef struct SndioData {

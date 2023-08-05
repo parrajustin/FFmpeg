@@ -24,9 +24,9 @@
  * RTP protocol
  */
 
-#include "libavutil/parseutils.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avformat.h"
 #include "avio_internal.h"
 #include "rtp.h"

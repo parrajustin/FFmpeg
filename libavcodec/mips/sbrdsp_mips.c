@@ -55,8 +55,8 @@
  */
 
 #include "config.h"
-#include "libavcodec/sbrdsp.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/sbrdsp.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if HAVE_MIPSFPU

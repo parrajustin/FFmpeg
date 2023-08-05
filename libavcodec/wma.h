@@ -22,9 +22,9 @@
 #ifndef AVCODEC_WMA_H
 #define AVCODEC_WMA_H
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

@@ -19,7 +19,7 @@
 #ifndef AVCODEC_ARM_AUDIODSP_ARM_H
 #define AVCODEC_ARM_AUDIODSP_ARM_H
 
-#include "libavcodec/audiodsp.h"
+#include "third_party/ffmpeg/libavcodec/audiodsp.h"
 
 void ff_audiodsp_init_neon(AudioDSPContext *c);
 

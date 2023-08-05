@@ -20,11 +20,11 @@
 
 #include "config.h"
 
-#include "libavutil/aarch64/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
-#include "libavcodec/fft.h"
-#include "libavcodec/synth_filter.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/synth_filter.h"
 
 #include "asm-offsets.h"
 

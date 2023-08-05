@@ -20,7 +20,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "bytestream.h"
 #include "vpx_rac.h"
 

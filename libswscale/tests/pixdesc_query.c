@@ -20,8 +20,8 @@
 
 #include <stdlib.h>
 
-#include "libavutil/mem.h"
-#include "libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 static const struct {
     const char *class;

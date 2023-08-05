@@ -20,9 +20,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/dirac_dwt.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/dirac_dwt.h"
 
 #define COMPOSE_VERTICAL(ext, align) \
 void ff_vertical_compose53iL0##ext(int16_t *b0, int16_t *b1, int16_t *b2, int width); \

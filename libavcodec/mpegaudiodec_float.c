@@ -21,7 +21,7 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 #define USE_FLOATS 1
 

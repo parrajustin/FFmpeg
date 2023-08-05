@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavformat/network.h"
+#include "third_party/ffmpeg/libavutil/network.h"
 
 static void test(const char *pattern, const char *host)
 {

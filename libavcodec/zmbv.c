@@ -26,9 +26,9 @@
 
 #include <stddef.h>
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

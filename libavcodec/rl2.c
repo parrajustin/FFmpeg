@@ -28,9 +28,9 @@
 
 #include <string.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

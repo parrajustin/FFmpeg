@@ -27,7 +27,7 @@
  */
 
 #include <string.h>
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "ivi.h"
 #include "ivi_dsp.h"
 

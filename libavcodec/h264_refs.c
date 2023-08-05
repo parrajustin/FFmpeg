@@ -27,7 +27,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avcodec.h"
 #include "h264.h"
 #include "h264dec.h"

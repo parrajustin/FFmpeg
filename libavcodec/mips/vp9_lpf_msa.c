@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/vp9dsp.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "vp9dsp_mips.h"
 
 #define VP9_LPF_FILTER4_4W(p1_in, p0_in, q0_in, q1_in, mask_in, hev_in,  \

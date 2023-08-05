@@ -26,7 +26,7 @@
  * The algorithm and pixfmt are subtly different from SGI images.
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

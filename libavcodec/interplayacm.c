@@ -18,8 +18,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

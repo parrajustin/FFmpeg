@@ -23,7 +23,7 @@
 #ifndef AVCODEC_LOONGARCH_H264DSP_LASX_H
 #define AVCODEC_LOONGARCH_H264DSP_LASX_H
 
-#include "libavcodec/h264dec.h"
+#include "third_party/ffmpeg/libavcodec/h264dec.h"
 
 void ff_h264_h_lpf_luma_8_lasx(uint8_t *src, ptrdiff_t stride,
                                int alpha, int beta, int8_t *tc0);

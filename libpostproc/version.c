@@ -19,11 +19,11 @@
  */
 
 #include "config.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "postprocess.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 const char postproc_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned postproc_version(void)

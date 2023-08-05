@@ -19,11 +19,11 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/error.h"
-#include "libavutil/lfg.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
-#include "libavcodec/rangecoder.h"
+#include "third_party/ffmpeg/libavcodec/rangecoder.h"
 
 #define SIZE 1240
 

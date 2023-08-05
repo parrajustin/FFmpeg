@@ -20,8 +20,8 @@
 
 #include <float.h> /* FLT_MAX */
 
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "internal.h"
 #include "vf_idet.h"
 

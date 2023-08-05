@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
 #include "qpeldsp_mips.h"
 
 #define APPLY_HORIZ_QPEL_FILTER(inp0, inp1, mask, coef0, coef1, coef2)  \

@@ -22,10 +22,10 @@
 
 #include "frame_thread_encoder.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "encode.h"
 #include "internal.h"

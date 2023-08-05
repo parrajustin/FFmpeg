@@ -18,10 +18,10 @@
 
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
-#include "libavdevice/timefilter.h"
+#include "third_party/ffmpeg/libavdevice/timefilter.h"
 
 #define LFG_MAX ((1LL << 32) - 1)
 

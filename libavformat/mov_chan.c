@@ -25,8 +25,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
 #include "mov_chan.h"
 
 struct MovChannelLayoutMap {

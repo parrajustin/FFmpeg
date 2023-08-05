@@ -21,10 +21,10 @@
  */
 #include "avformat.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 #define PP_BNK_MAX_READ_SIZE    4096
 #define PP_BNK_FILE_HEADER_SIZE 20

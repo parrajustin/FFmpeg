@@ -17,7 +17,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "vorbisdsp.h"
 
 static void vorbis_inverse_coupling_c(float *mag, float *ang, ptrdiff_t blocksize)

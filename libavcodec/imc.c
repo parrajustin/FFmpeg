@@ -34,13 +34,13 @@
 #include <math.h>
 #include <stddef.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "bswapdsp.h"

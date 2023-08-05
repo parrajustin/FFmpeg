@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
-#include "libavcodec/mips/hevcdsp_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavcodec/mips/hevcdsp_mips.h"
 
 void ff_hevc_dsp_init_mips(HEVCDSPContext *c, const int bit_depth)
 {

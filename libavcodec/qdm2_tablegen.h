@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 #include <math.h>
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "qdm2data.h"
 
 #define SOFTCLIP_THRESHOLD 27600
@@ -36,7 +36,7 @@
 #define rnd_table_init()
 #define init_noise_samples()
 #define qdm2_init_vlc()
-#include "libavcodec/qdm2_tables.h"
+#include "third_party/ffmpeg/libavcodec/qdm2_tables.h"
 #else
 static uint16_t softclip_table[HARDCLIP_THRESHOLD - SOFTCLIP_THRESHOLD + 1];
 static float noise_table[4096 + 20];

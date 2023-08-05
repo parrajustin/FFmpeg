@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/rv34dsp.h"
-#include "libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/rv34dsp.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
 
 #define DECL_QPEL3(type, w, pos) \
 void ff_ ## type ## _rv40_qpel ## w ## _mc ## pos ## _neon(uint8_t *dst,       \

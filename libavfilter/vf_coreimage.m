@@ -30,9 +30,9 @@
 #include "formats.h"
 #include "internal.h"
 #include "video.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 typedef struct CoreImageContext {
     const AVClass   *class;

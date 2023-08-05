@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/vp9dsp.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/vp9dsp.h"
 #include "vp9dsp_loongarch.h"
 
 #define init_subpel1(idx1, idx2, idxh, idxv, sz, dir, type)  \

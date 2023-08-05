@@ -26,15 +26,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/error.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/qsort.h"
-#include "libavutil/reverse.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
 #include "vlc.h"
 
 #define GET_DATA(v, table, i, wrap, size)                   \

@@ -22,13 +22,13 @@
 #include "demux.h"
 #include "internal.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/intmath.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 /**
  * @file

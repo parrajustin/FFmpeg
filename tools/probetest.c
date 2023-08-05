@@ -20,10 +20,10 @@
 
 #include <stdlib.h>
 
-#include "libavformat/avformat.h"
-#include "libavcodec/put_bits.h"
-#include "libavutil/lfg.h"
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 #define MAX_FORMATS 1000 //this must be larger than the number of formats
 static int score_array[MAX_FORMATS];

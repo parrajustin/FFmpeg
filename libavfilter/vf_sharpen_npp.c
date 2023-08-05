@@ -25,11 +25,11 @@
 #include <nppi_filtering_functions.h>
 
 #include "internal.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/cuda_check.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_cuda_internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/cuda_check.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_cuda_internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define CHECK_CU(x) FF_CUDA_CHECK_DL(ctx, device_hwctx->internal->cuda_dl, x)
 

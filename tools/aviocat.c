@@ -21,8 +21,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavutil/time.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 static int usage(const char *argv0, int ret)
 {

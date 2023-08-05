@@ -21,9 +21,9 @@
 #include <float.h>
 #include <stdint.h>
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #include "checkasm.h"
 

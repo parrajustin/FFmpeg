@@ -19,11 +19,11 @@
  */
 
 #include <math.h>
-#include "libavutil/eval.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 #include "avfilter.h"
 #include "formats.h"

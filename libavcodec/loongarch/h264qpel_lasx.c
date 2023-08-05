@@ -22,8 +22,8 @@
  */
 
 #include "h264qpel_lasx.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 static const uint8_t luma_mask_arr[16 * 6] __attribute__((aligned(0x40))) = {
     /* 8 width cases */

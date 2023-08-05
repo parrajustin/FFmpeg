@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/h264chroma.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavcodec/h264chroma.h"
 
 void ff_put_h264_chroma_mc8_neon(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
                                  int h, int x, int y);

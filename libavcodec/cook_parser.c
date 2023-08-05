@@ -27,7 +27,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "parser.h"
 
 typedef struct CookParseContext {

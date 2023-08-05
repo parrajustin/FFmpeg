@@ -26,9 +26,9 @@
 #include "config_components.h"
 
 #include <zmq.h>
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "audio.h"

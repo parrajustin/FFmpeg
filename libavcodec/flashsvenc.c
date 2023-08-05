@@ -47,7 +47,7 @@
 #include <stdint.h>
 #include <zlib.h>
 
-#include "libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

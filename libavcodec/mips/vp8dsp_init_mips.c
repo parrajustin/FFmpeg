@@ -24,10 +24,10 @@
  * VP8 compatible video decoder
  */
 
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 #include "vp8dsp_mips.h"
 
 #define VP8_MC_MIPS_FUNC(IDX, SIZE)            \

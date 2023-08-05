@@ -1,32 +1,4 @@
-load("@bazel_skylib//rules:common_settings.bzl", "string_flag")
-
 package(default_visibility = ["//visibility:public"])
-
-string_flag(
-    name = "tx_type",
-    build_setting_default = "int32",
-)
-
-config_setting(
-    name = "tx_float",
-    flag_values = {
-        ":tx_type": "float",
-    },
-)
-
-config_setting(
-    name = "tx_double",
-    flag_values = {
-        ":tx_type": "double",
-    },
-)
-
-config_setting(
-    name = "tx_int32",
-    flag_values = {
-        ":tx_type": "int32",
-    },
-)
 
 cc_library(
     name = "config",
@@ -49,15 +21,6 @@ cc_library(
     ],
     alwayslink = True,
 )
-
-# cc_library(
-#     name = "tx_type_in32",
-#     srcs = [
-#         "libavutil/tx_int32.c",
-#         "libavutil/tx_int32.h",
-#     ],
-#     alwayslink = True,
-# )
 
 cc_library(
     name = "libavutil",
@@ -253,7 +216,7 @@ cc_library(
         "libavutil/twofish.h",
         "libavutil/tx.c",
         "libavutil/tx.h",
-        # "libavutil/tx_template.c",
+        "libavutil/tx_priv.h",
         "libavutil/utils.c",
         "libavutil/uuid.c",
         "libavutil/uuid.h",
@@ -267,7 +230,6 @@ cc_library(
         "libavutil/xga_font_data.h",
         "libavutil/xtea.c",
         "libavutil/xtea.h",
-        "libavutil/tx_priv.h",
     ] + select({
         "@platforms//cpu:aarch64": glob([
             "libavutil/aarch64/*.c",

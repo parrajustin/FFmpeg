@@ -23,9 +23,9 @@
  * QT RPZA Video Encoder by Todd Kirby <doubleshot@pacbell.net> and David Adler
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

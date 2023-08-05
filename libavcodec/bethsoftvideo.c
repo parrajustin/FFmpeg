@@ -27,7 +27,7 @@
  * @see http://www.svatopluk.com/andux/docs/dfvid.html
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "avcodec.h"
 #include "bethsoftvideo.h"
 #include "bytestream.h"

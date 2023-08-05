@@ -29,11 +29,11 @@
 #include "mux.h"
 #include "os_support.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 typedef struct Fragment {
     char file[1024];

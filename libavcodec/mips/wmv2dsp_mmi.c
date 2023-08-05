@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "constants.h"
 #include "wmv2dsp_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 #define W0 2048
 #define W1 2841 /* 2048*sqrt (2)*cos (1*pi/16) */

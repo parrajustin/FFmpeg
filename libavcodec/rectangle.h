@@ -29,8 +29,8 @@
 #define AVCODEC_RECTANGLE_H
 
 #include "config.h"
-#include "libavutil/common.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 /**
  * fill a rectangle.

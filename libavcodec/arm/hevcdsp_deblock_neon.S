@@ -19,7 +19,7 @@
  */
 
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 #include "neon.S"
 
 .macro hevc_loop_filter_chroma_start

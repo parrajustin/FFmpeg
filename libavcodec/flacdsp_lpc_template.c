@@ -17,7 +17,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "mathops.h"
 
 #undef FUNC

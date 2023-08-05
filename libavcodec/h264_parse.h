@@ -28,7 +28,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #include "get_bits.h"
 #include "h264_ps.h"

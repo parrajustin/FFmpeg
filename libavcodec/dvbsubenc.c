@@ -21,7 +21,7 @@
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"
-#include "libavutil/colorspace.h"
+#include "third_party/ffmpeg/libavutil/colorspace.h"
 
 typedef struct DVBSubtitleContext {
     int object_version;

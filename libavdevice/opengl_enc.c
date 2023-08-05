@@ -49,15 +49,15 @@
 #include <SDL.h>
 #endif
 
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
-#include "libavdevice/avdevice.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
+#include "third_party/ffmpeg/libavdevice/avdevice.h"
 #include "opengl_enc_shaders.h"
 
 #ifndef APIENTRY

@@ -54,7 +54,7 @@
 #ifndef AVCODEC_SPEEXDATA_H
 #define AVCODEC_SPEEXDATA_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 static const int8_t high_lsp_cdbk[512] = {
     39,   12,   -14, -20, -29, -61, -67,  -76,  -32, -71,  -67, 68,   77,  46,

@@ -29,7 +29,7 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "bytestream.h"
 
 typedef struct VPXRangeCoder {

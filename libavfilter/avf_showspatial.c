@@ -21,12 +21,12 @@
 #include <float.h>
 #include <math.h>
 
-#include "libavutil/tx.h"
-#include "libavutil/audio_fifo.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/audio_fifo.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "audio.h"
 #include "video.h"
 #include "avfilter.h"

@@ -35,7 +35,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 static av_cold int cyuv_decode_init(AVCodecContext *avctx)
 {

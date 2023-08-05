@@ -20,7 +20,7 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 void ff_yuv2planeX_8_lasx(const int16_t *filter, int filterSize,
                           const int16_t **src, uint8_t *dest, int dstW,

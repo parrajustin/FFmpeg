@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/dct.h"
-#include "libavcodec/mpegvideoenc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/dct.h"
+#include "third_party/ffmpeg/libavcodec/mpegvideoenc.h"
 
 /* not permutated inverse zigzag_direct + 1 for MMX quantizer */
 DECLARE_ALIGNED(16, static const uint16_t, inv_zigzag_direct16)[64] = {

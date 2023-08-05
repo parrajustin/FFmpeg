@@ -22,8 +22,8 @@
  */
 
 #include "hpeldsp_mips.h"
-#include "libavcodec/bit_depth_template.c"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavcodec/bit_depth_template.c"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 #include "constants.h"
 
 void ff_put_pixels4_8_mmi(uint8_t *block, const uint8_t *pixels,

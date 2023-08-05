@@ -25,8 +25,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include "vf_nlmeans.h"
 
 /**

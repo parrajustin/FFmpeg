@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/audiodsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavcodec/audiodsp.h"
 
 void ff_vector_clipf_rvf(float *dst, const float *src, int len, float min, float max);
 

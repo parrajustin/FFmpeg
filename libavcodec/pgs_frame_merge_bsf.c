@@ -27,9 +27,9 @@
  * unchanged.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "bsf.h"
 #include "bsf_internal.h"
 

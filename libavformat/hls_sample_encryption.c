@@ -26,15 +26,15 @@
  * https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/HLS_Sample_Encryption
  */
 
-#include "libavutil/aes.h"
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #include "hls_sample_encryption.h"
 
-#include "libavcodec/adts_header.h"
-#include "libavcodec/adts_parser.h"
-#include "libavcodec/ac3tab.h"
-#include "libavcodec/ac3_parser_internal.h"
+#include "third_party/ffmpeg/libavcodec/adts_header.h"
+#include "third_party/ffmpeg/libavcodec/adts_parser.h"
+#include "third_party/ffmpeg/libavcodec/ac3tab.h"
+#include "third_party/ffmpeg/libavcodec/ac3_parser_internal.h"
 
 
 typedef struct NALUnit {

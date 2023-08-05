@@ -22,14 +22,14 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
 #include "rawenc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define ALP_TAG            MKTAG('A', 'L', 'P', ' ')
 #define ALP_MAX_READ_SIZE  4096

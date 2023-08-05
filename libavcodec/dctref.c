@@ -29,7 +29,7 @@
  * reference and so readability is better.
  */
 
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "dctref.h"
 
 static double coefficients[8 * 8];

@@ -21,7 +21,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avformat.h"
 #include "internal.h"
 

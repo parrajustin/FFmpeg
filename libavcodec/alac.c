@@ -47,8 +47,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "get_bits.h"
 #include "bytestream.h"

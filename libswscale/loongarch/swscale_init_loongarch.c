@@ -20,9 +20,9 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libswscale/swscale_internal.h"
-#include "libswscale/rgb2rgb.h"
-#include "libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
 
 av_cold void ff_sws_init_swscale_loongarch(SwsContext *c)
 {

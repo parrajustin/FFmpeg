@@ -27,10 +27,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avcodec.h"
 #include "celp_math.h"

@@ -19,7 +19,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #undef FUNC
 #undef FSUF

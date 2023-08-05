@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/flacdsp.h"
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/flacdsp.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
 #include "config.h"
 
 void ff_flac_lpc_32_sse4(int32_t *samples, const int coeffs[32], int order,

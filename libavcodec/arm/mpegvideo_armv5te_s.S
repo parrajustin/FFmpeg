@@ -20,7 +20,7 @@
  */
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 /*
  * Special optimized version of dct_unquantize_h263_helper_c, it

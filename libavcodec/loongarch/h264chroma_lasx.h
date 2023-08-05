@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavcodec/h264.h"
+#include "third_party/ffmpeg/libavcodec/h264.h"
 
 void ff_put_h264_chroma_mc4_lasx(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
         int h, int x, int y);

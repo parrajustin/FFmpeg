@@ -20,7 +20,7 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 void ff_interleave_bytes_lasx(const uint8_t *src1, const uint8_t *src2,
                               uint8_t *dest, int width, int height,

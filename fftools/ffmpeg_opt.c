@@ -32,26 +32,26 @@
 #include "opt_common.h"
 #include "sync_queue.h"
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/bsf.h"
 
-#include "libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/display.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/display.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 const char *const opt_name_codec_names[]                      = {"c", "codec", "acodec", "vcodec", "scodec", "dcodec", NULL};
 const char *const opt_name_frame_rates[]                      = {"r", NULL};

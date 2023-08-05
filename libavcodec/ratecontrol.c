@@ -25,14 +25,14 @@
  * Rate control for video encoders.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 
 #include "avcodec.h"
 #include "ratecontrol.h"
 #include "mpegutils.h"
 #include "mpegvideoenc.h"
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 void ff_write_pass1_stats(MpegEncContext *s)
 {

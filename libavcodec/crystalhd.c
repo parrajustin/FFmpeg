@@ -60,9 +60,9 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #if HAVE_UNISTD_H
 #include <unistd.h>

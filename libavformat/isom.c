@@ -25,9 +25,9 @@
 #include "demux.h"
 #include "internal.h"
 #include "isom.h"
-#include "libavcodec/mpeg4audio.h"
-#include "libavcodec/mpegaudiodata.h"
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavcodec/mpeg4audio.h"
+#include "third_party/ffmpeg/libavcodec/mpegaudiodata.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 /* http://www.mp4ra.org */
 /* ordered by muxing preference */

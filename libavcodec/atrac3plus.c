@@ -25,7 +25,7 @@
  * Bitstream parser for ATRAC3+ decoder.
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avcodec.h"
 #include "get_bits.h"
 #include "atrac3plus.h"

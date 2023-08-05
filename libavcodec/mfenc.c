@@ -24,9 +24,9 @@
 
 #include "encode.h"
 #include "mf_utils.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "codec_internal.h"
 #include "internal.h"
 #include "compat/w32dlfcn.h"

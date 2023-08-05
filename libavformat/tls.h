@@ -22,7 +22,7 @@
 #ifndef AVFORMAT_TLS_H
 #define AVFORMAT_TLS_H
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "url.h"
 

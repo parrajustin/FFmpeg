@@ -22,7 +22,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "librsvg-2.0/librsvg/rsvg.h"
 
 typedef struct LibRSVGContext {

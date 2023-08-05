@@ -27,7 +27,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "mathops.h"
 #include "avcodec.h"
 #include "h264data.h"

@@ -21,9 +21,9 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "libavutil/common.h"
-#include "libavutil/libm.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "fft.h"
 #include "fft-internal.h"
 

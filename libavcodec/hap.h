@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "bytestream.h"
 #include "texturedsp.h"

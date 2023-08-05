@@ -19,7 +19,7 @@
 #ifndef AVFORMAT_REPLAYGAIN_H
 #define AVFORMAT_REPLAYGAIN_H
 
-#include "libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 #include "avformat.h"
 

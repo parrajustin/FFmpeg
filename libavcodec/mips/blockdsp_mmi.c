@@ -22,7 +22,7 @@
  */
 
 #include "blockdsp_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 void ff_fill_block16_mmi(uint8_t *block, uint8_t value, ptrdiff_t line_size, int h)
 {

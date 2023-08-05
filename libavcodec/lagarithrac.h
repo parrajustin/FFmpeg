@@ -31,7 +31,7 @@
 #define AVCODEC_LAGARITHRAC_H
 
 #include <stdint.h>
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avcodec.h"
 #include "get_bits.h"
 

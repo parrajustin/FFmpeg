@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/file.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "internal.h"
 #include "vulkan_filter.h"
 #include "scale_eval.h"

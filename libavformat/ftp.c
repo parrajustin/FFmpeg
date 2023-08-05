@@ -20,15 +20,15 @@
 
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/internal.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "avformat.h"
 #include "internal.h"
 #include "url.h"
 #include "urldecode.h"
-#include "libavutil/opt.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 #define CONTROL_BUFFER_SIZE 1024
 #define DIR_BUFFER_SIZE 4096

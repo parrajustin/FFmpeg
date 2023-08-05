@@ -28,7 +28,7 @@
 
 #include <stddef.h>
 
-#include "libavcodec/cabac.h"
+#include "third_party/ffmpeg/libavcodec/cabac.h"
 #include "cabac.h"
 
 #if HAVE_INLINE_ASM

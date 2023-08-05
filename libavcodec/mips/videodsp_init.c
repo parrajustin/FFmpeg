@@ -18,11 +18,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/mips/asmdefs.h"
-#include "libavcodec/videodsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/videodsp.h"
 
 static void prefetch_mips(const uint8_t *mem, ptrdiff_t stride, int h)
 {

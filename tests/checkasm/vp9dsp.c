@@ -21,13 +21,13 @@
 #include <math.h>
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/vp9data.h"
-#include "libavcodec/vp9.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavcodec/vp9data.h"
+#include "third_party/ffmpeg/libavcodec/vp9.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 static const uint32_t pixel_mask[3] = { 0xffffffff, 0x03ff03ff, 0x0fff0fff };
 #define SIZEOF_PIXEL ((bit_depth + 7) / 8)

@@ -20,7 +20,7 @@
 
 /* http://k.ylo.ph/2016/04/04/loudnorm.html */
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "filters.h"
 #include "internal.h"

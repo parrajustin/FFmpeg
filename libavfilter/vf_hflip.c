@@ -26,17 +26,17 @@
 
 #include <string.h>
 
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "formats.h"
 #include "hflip.h"
 #include "internal.h"
 #include "vf_hflip_init.h"
 #include "video.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 static const AVOption hflip_options[] = {
     { NULL }

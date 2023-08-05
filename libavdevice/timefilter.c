@@ -25,9 +25,9 @@
 #include <math.h>
 #include <stddef.h>
 
-#include "libavutil/macros.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "timefilter.h"
 

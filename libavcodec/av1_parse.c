@@ -20,7 +20,7 @@
 
 #include "config.h"
 
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "av1.h"
 #include "av1_parse.h"

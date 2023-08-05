@@ -29,9 +29,9 @@
  * RIFF headers, followed by CD sectors.
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "avformat.h"
 #include "internal.h"
 

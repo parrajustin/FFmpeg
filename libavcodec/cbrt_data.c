@@ -21,10 +21,10 @@
 #include "config.h"
 #include "cbrt_data.h"
 
-#include "libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 
 #if CONFIG_HARDCODED_TABLES
-#include "libavcodec/cbrt_tables.h"
+#include "third_party/ffmpeg/libavcodec/cbrt_tables.h"
 #else
 #include "cbrt_tablegen.h"
 #endif

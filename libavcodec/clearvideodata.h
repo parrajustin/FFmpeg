@@ -22,7 +22,7 @@
 #ifndef AVCODEC_CLEARVIDEODATA_H
 #define AVCODEC_CLEARVIDEODATA_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #define MAX_VLC_ENTRIES 1370
 #define NUM_DC_CODES 127

@@ -24,9 +24,9 @@
 
 #include <mfxvideo.h>
 
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavutil/mastering_display_metadata.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/mastering_display_metadata.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

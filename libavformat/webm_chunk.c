@@ -30,9 +30,9 @@
 #include "internal.h"
 #include "mux.h"
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #define MAX_FILENAME_SIZE 1024
 

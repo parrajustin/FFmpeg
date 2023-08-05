@@ -17,8 +17,8 @@
  */
 
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "amfenc.h"
 #include "codec_internal.h"
 #include "internal.h"

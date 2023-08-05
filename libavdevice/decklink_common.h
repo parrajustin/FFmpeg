@@ -30,9 +30,9 @@
 #endif
 
 extern "C" {
-#include "libavcodec/packet_internal.h"
+#include "third_party/ffmpeg/libavcodec/packet_internal.h"
 }
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "decklink_common_c.h"
 #if CONFIG_LIBKLVANC
 #include "libklvanc/vanc.h"

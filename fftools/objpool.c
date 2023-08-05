@@ -18,12 +18,12 @@
 
 #include <stdint.h>
 
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavutil/common.h"
-#include "libavutil/error.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #include "objpool.h"
 

@@ -32,7 +32,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 #include "rl.h"
 #include "vlc.h"

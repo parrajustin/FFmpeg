@@ -26,8 +26,8 @@
 
 #include <string.h>
 
-#include "libavutil/error.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "bsf.h"
 #include "bsf_internal.h"

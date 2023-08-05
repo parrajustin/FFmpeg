@@ -22,7 +22,7 @@
 #include <math.h>
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "get_bits.h"

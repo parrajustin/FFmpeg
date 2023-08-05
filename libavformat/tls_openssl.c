@@ -25,11 +25,11 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include <openssl/bio.h>
 #include <openssl/ssl.h>

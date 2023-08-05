@@ -25,9 +25,9 @@
  * divided into 32 subbands.
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/lfg.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

@@ -29,25 +29,25 @@
 #include "cmdutils.h"
 #include "sync_queue.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/avio.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/bsf.h"
 
-#include "libavfilter/avfilter.h"
+#include "third_party/ffmpeg/libavfilter/avfilter.h"
 
-#include "libavutil/avutil.h"
-#include "libavutil/dict.h"
-#include "libavutil/eval.h"
-#include "libavutil/fifo.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
-#include "libavutil/thread.h"
-#include "libavutil/threadmessage.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/threadmessage.h"
 
-#include "libswresample/swresample.h"
+#include "third_party/ffmpeg/libswresample/swresample.h"
 
 // deprecated features
 #define FFMPEG_OPT_PSNR 1

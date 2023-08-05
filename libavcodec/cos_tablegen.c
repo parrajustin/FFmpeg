@@ -24,7 +24,7 @@
 #include <string.h>
 #include <math.h>
 
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #define BITS 17
 #define FLOATFMT "%.18e"

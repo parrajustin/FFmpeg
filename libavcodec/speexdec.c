@@ -51,8 +51,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

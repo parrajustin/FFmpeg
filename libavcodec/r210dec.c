@@ -24,8 +24,8 @@
 #include "codec_internal.h"
 #include "config_components.h"
 #include "decode.h"
-#include "libavutil/bswap.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 static av_cold int decode_init(AVCodecContext *avctx)
 {

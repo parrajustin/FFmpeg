@@ -26,17 +26,17 @@
 #include "sync_queue.h"
 #include "thread_queue.h"
 
-#include "libavutil/fifo.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/avio.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
 
 int want_sdp = 1;
 

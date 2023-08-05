@@ -26,16 +26,16 @@
 
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define MIN_FILTER_SIZE 3
 #define MAX_FILTER_SIZE 301
 
 #define FF_BUFQUEUE_SIZE (MAX_FILTER_SIZE + 1)
-#include "libavfilter/bufferqueue.h"
+#include "third_party/ffmpeg/libavfilter/bufferqueue.h"
 
 #include "audio.h"
 #include "avfilter.h"

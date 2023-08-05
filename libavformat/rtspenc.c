@@ -30,9 +30,9 @@
 #include "rtsp.h"
 #include "internal.h"
 #include "avio_internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avstring.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "url.h"
 
 

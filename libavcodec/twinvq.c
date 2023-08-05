@@ -22,8 +22,8 @@
 #include <math.h>
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
 #include "avcodec.h"
 #include "decode.h"
 #include "lsp.h"

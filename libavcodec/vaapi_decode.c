@@ -18,9 +18,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avcodec.h"
 #include "decode.h"

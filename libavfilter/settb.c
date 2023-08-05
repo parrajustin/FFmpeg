@@ -28,12 +28,12 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

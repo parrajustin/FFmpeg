@@ -21,14 +21,14 @@
  * A hardware accelerated overlay filter based on Intel Quick Sync Video VPP
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/eval.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/avstring.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #include "internal.h"
 #include "avfilter.h"

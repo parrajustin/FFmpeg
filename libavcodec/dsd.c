@@ -22,9 +22,9 @@
  */
 
 #include <string.h>
-#include "libavutil/attributes.h"
-#include "libavutil/reverse.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "dsd.h"
 
 #define CTABLES ((HTAPS + 7) / 8) /** number of "8 MACs" lookup tables */

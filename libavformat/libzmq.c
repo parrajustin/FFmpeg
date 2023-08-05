@@ -22,9 +22,9 @@
 #include <zmq.h>
 #include "url.h"
 #include "network.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 #define ZMQ_STRERROR zmq_strerror(zmq_errno())
 

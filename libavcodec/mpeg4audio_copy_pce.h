@@ -21,7 +21,7 @@
 #ifndef AVCODEC_MPEG4AUDIO_COPY_PCE_H
 #define AVCODEC_MPEG4AUDIO_COPY_PCE_H
 
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #include "get_bits.h"
 #include "put_bits.h"

@@ -23,8 +23,8 @@
 #include <unistd.h>             /* getopt */
 #endif
 
-#include "libavutil/eval.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #if !HAVE_GETOPT
 #include "compat/getopt.c"

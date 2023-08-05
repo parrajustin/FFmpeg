@@ -25,7 +25,7 @@
 #include "avformat.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 typedef struct ASSContext {
     FFDemuxSubtitlesQueue q;

@@ -28,10 +28,10 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavcodec/internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavcodec/internal.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 
 #include <Security/Security.h>
 #include <Security/SecureTransport.h>

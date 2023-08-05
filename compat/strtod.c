@@ -22,8 +22,8 @@
 #include <limits.h>
 #include <stdlib.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 static const char *check_nan_suffix(const char *s)
 {

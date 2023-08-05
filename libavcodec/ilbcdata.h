@@ -33,7 +33,7 @@
 #ifndef AVCODEC_ILBCDATA_H
 #define AVCODEC_ILBCDATA_H
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 static const uint8_t lsf_dim_codebook[] = { 3, 3, 4 };
 static const uint8_t lsf_size_codebook[] = { 64, 128, 128 };

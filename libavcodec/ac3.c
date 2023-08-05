@@ -24,8 +24,8 @@
  * Common code between the AC-3 encoder and decoder.
  */
 
-#include "libavutil/error.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #include "ac3.h"
 #include "ac3defs.h"

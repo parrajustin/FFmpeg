@@ -20,11 +20,11 @@
 
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
-#include "libavcodec/lossless_videodsp.h"
+#include "third_party/ffmpeg/libavcodec/lossless_videodsp.h"
 
 #include "checkasm.h"
 

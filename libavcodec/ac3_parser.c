@@ -23,7 +23,7 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "parser.h"
 #include "ac3defs.h"
 #include "ac3tab.h"

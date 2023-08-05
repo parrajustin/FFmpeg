@@ -22,7 +22,7 @@
 #ifndef AVFILTER_PP7_H
 #define AVFILTER_PP7_H
 
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 #include "avfilter.h"
 
 typedef struct PP7Context {

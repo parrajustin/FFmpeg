@@ -22,7 +22,7 @@
 #ifndef AVFORMAT_MOVENCCENC_H
 #define AVFORMAT_MOVENCCENC_H
 
-#include "libavutil/aes_ctr.h"
+#include "third_party/ffmpeg/libavutil/aes_ctr.h"
 #include "avformat.h"
 #include "avio.h"
 

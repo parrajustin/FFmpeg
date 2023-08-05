@@ -33,14 +33,14 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/time_internal.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/time_internal.h"
 
 #include "avformat.h"
 #include "avio.h"

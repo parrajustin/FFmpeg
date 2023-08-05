@@ -30,9 +30,9 @@
 
 #include <math.h>
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

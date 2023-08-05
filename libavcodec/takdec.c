@@ -25,9 +25,9 @@
  * @author Paul B Mahol
  */
 
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 #define CACHED_BITSTREAM_READER !ARCH_X86_32
 #define BITSTREAM_READER_LE

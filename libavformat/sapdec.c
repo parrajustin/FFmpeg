@@ -20,8 +20,8 @@
  */
 
 #include "avformat.h"
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "network.h"
 #include "os_support.h"
 #include "internal.h"

@@ -27,13 +27,13 @@
 
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
-#include "libavformat/avio.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/avio.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "formats.h"

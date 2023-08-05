@@ -26,18 +26,18 @@
 #include <inttypes.h>
 #include <stddef.h>
 
-#include "libavutil/adler32.h"
-#include "libavutil/attributes.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/downmix_info.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/replaygain.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/downmix_info.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/replaygain.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
-#include "libavcodec/defs.h"
+#include "third_party/ffmpeg/libavcodec/defs.h"
 
 #include "audio.h"
 #include "avfilter.h"

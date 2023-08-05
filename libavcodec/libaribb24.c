@@ -20,10 +20,10 @@
  */
 
 #include "avcodec.h"
-#include "libavcodec/ass.h"
+#include "third_party/ffmpeg/libavcodec/ass.h"
 #include "codec_internal.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include <aribb24/aribb24.h>
 #include <aribb24/parser.h>

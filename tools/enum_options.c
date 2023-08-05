@@ -24,10 +24,10 @@
 
 #include <string.h>
 
-#include "libavformat/avformat.h"
-#include "libavcodec/avcodec.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 static void print_usage(void)
 {

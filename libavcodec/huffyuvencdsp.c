@@ -17,7 +17,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "huffyuvencdsp.h"
 #include "mathops.h"
 

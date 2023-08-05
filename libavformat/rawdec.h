@@ -23,7 +23,7 @@
 #define AVFORMAT_RAWDEC_H
 
 #include "avformat.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 typedef struct FFRawVideoDemuxerContext {
     const AVClass *class;     /**< Class for private options. */

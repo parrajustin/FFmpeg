@@ -26,11 +26,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
 
 #include "huffman.h"
 #include "vlc.h"

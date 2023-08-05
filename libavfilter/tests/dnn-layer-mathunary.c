@@ -21,8 +21,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include "libavfilter/dnn/dnn_backend_native_layer_mathunary.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavfilter/dnn/dnn_backend_native_layer_mathunary.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define EPS 0.00001
 

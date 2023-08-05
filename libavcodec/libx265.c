@@ -27,12 +27,12 @@
 #include <x265.h>
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/internal.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

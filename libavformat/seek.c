@@ -21,11 +21,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 #include "avformat.h"
 #include "avio_internal.h"

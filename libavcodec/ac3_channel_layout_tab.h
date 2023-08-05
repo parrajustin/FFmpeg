@@ -23,7 +23,7 @@
 #define AVCODEC_AC3_CHANNEL_LAYOUT_TAB_H
 
 #include <stdint.h>
-#include "libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 /**
  * Map audio coding mode (acmod) to channel layout mask.

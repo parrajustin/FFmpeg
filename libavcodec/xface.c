@@ -24,7 +24,7 @@
  * X-Face common data and utilities definition.
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #include "xface.h"
 

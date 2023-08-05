@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
+#include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
 #include "hevcdsp_lsx.h"
 
 void ff_hevc_dsp_init_loongarch(HEVCDSPContext *c, const int bit_depth)

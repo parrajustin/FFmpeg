@@ -37,22 +37,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/error.h"
-#include "libavutil/lfg.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 #if AVFFT
-#include "libavcodec/avfft.h"
+#include "third_party/ffmpeg/libavcodec/avfft.h"
 #else
-#include "libavcodec/fft.h"
+#include "third_party/ffmpeg/libavcodec/fft.h"
 #endif
 
 #if FFT_FLOAT
-#include "libavcodec/dct.h"
-#include "libavcodec/rdft.h"
+#include "third_party/ffmpeg/libavcodec/dct.h"
+#include "third_party/ffmpeg/libavcodec/rdft.h"
 #endif
 
 /* reference fft */

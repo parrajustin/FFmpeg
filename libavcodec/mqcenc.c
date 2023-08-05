@@ -27,7 +27,7 @@
 
 #include <string.h>
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "mqc.h"
 
 static void byteout(MqcState *mqc)

@@ -26,7 +26,7 @@
 extern "C" {
 #endif
 
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 int ff_decklink_write_header(AVFormatContext *avctx);
 int ff_decklink_write_packet(AVFormatContext *avctx, AVPacket *pkt);

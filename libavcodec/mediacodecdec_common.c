@@ -23,13 +23,13 @@
 #include <string.h>
 #include <sys/types.h>
 
-#include "libavutil/common.h"
-#include "libavutil/hwcontext_mediacodec.h"
-#include "libavutil/mem.h"
-#include "libavutil/log.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/time.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_mediacodec.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 
 #include "avcodec.h"
 #include "decode.h"

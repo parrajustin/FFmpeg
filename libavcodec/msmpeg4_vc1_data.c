@@ -29,8 +29,8 @@
 
 #include "msmpeg4_vc1_data.h"
 #include "vlc.h"
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 VLC ff_msmp4_mb_i_vlc;
 VLC ff_msmp4_dc_luma_vlc[2];

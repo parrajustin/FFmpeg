@@ -26,10 +26,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avcodec.h"
 #include "config.h"
 

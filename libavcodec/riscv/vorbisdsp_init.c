@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/vorbisdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavcodec/vorbisdsp.h"
 
 void ff_vorbis_inverse_coupling_rvv(float *mag, float *ang,
                                     ptrdiff_t blocksize);

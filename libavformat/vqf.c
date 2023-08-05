@@ -21,9 +21,9 @@
 
 #include "avformat.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "riff.h"
 
 typedef struct VqfContext {

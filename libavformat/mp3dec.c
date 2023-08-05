@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
-#include "libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "avformat.h"
 #include "internal.h"
 #include "avio_internal.h"
@@ -31,8 +31,8 @@
 #include "id3v1.h"
 #include "replaygain.h"
 
-#include "libavcodec/codec_id.h"
-#include "libavcodec/mpegaudiodecheader.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/mpegaudiodecheader.h"
 
 #define XING_FLAG_FRAMES 0x01
 #define XING_FLAG_SIZE   0x02

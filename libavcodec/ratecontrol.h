@@ -30,7 +30,7 @@
 
 #include <stdio.h>
 #include <stdint.h>
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 typedef struct Predictor{
     double coeff;

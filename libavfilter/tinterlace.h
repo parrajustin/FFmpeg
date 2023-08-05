@@ -27,9 +27,9 @@
 #ifndef AVFILTER_TINTERLACE_H
 #define AVFILTER_TINTERLACE_H
 
-#include "libavutil/bswap.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "drawutils.h"
 #include "avfilter.h"
 

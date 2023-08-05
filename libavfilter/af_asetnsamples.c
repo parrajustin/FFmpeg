@@ -24,8 +24,8 @@
  * Filter that changes number of samples on single output operation
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

@@ -25,9 +25,9 @@
  * Discrete wavelet transform
  */
 
-#include "libavutil/error.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "jpeg2000dwt.h"
 
 /* Defines for 9/7 DWT lifting parameters.

@@ -35,8 +35,8 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "libavutil/crc.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define MSBC_BLOCKS 15
 

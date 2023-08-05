@@ -24,8 +24,8 @@
  * Microsoft Paint (MSP) demuxer
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "avformat.h"
 #include "internal.h"
 

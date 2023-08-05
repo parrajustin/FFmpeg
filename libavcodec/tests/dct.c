@@ -35,21 +35,21 @@
 #endif
 #include <math.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
-#include "libavcodec/dct.h"
-#include "libavcodec/idctdsp.h"
-#include "libavcodec/simple_idct.h"
-#include "libavcodec/xvididct.h"
-#include "libavcodec/aandcttab.h"
-#include "libavcodec/faandct.h"
-#include "libavcodec/faanidct.h"
-#include "libavcodec/dctref.h"
+#include "third_party/ffmpeg/libavcodec/dct.h"
+#include "third_party/ffmpeg/libavcodec/idctdsp.h"
+#include "third_party/ffmpeg/libavcodec/simple_idct.h"
+#include "third_party/ffmpeg/libavcodec/xvididct.h"
+#include "third_party/ffmpeg/libavcodec/aandcttab.h"
+#include "third_party/ffmpeg/libavcodec/faandct.h"
+#include "third_party/ffmpeg/libavcodec/faanidct.h"
+#include "third_party/ffmpeg/libavcodec/dctref.h"
 
 struct algo {
     const char *name;

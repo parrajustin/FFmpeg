@@ -20,7 +20,7 @@
  */
 
 #include "vc1dsp_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 
 void ff_vc1_inv_trans_8x8_lasx(int16_t block[64])
 {

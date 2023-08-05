@@ -21,7 +21,7 @@
 #ifndef AVCODEC_DVBTXT_H
 #define AVCODEC_DVBTXT_H
 
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /* Returns true if data identifier matches a teletext stream according to EN
  * 301 775 section 4.4.2 */

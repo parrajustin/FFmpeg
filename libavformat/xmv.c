@@ -27,12 +27,12 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #include "avformat.h"
 #include "internal.h"
 #include "riff.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 /** The min size of an XMV header. */
 #define XMV_MIN_HEADER_SIZE 36

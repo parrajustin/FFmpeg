@@ -23,7 +23,7 @@
  * Microsoft Screen 2 (aka Windows Media Video V9 Screen) decoder
  */
 
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "codec_internal.h"
 #include "decode.h"
 #include "error_resilience.h"

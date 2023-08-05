@@ -27,8 +27,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 
 #undef PREFETCH
 #undef MOVNTQ

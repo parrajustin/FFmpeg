@@ -18,8 +18,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/pixdesc.h"
-#include "libavfilter/drawutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavfilter/drawutils.h"
 
 int main(void)
 {

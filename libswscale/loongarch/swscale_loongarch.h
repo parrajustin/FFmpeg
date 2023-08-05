@@ -22,8 +22,8 @@
 #ifndef SWSCALE_LOONGARCH_SWSCALE_LOONGARCH_H
 #define SWSCALE_LOONGARCH_SWSCALE_LOONGARCH_H
 
-#include "libswscale/swscale.h"
-#include "libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 void ff_hscale_8_to_15_lasx(SwsContext *c, int16_t *dst, int dstW,
                             const uint8_t *src, const int16_t *filter,

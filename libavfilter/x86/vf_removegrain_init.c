@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/removegrain.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/removegrain.h"
 
 void ff_rg_fl_mode_1_sse2(uint8_t *dst, uint8_t *src, ptrdiff_t stride, int pixels);
 void ff_rg_fl_mode_10_sse2(uint8_t *dst, uint8_t *src, ptrdiff_t stride, int pixels);

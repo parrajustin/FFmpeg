@@ -21,8 +21,8 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "idctdsp.h"
 #include "proresdsp.h"
 #include "simple_idct.h"

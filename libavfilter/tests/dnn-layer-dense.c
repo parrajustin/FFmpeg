@@ -21,7 +21,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include "libavfilter/dnn/dnn_backend_native_layer_dense.h"
+#include "third_party/ffmpeg/libavfilter/dnn/dnn_backend_native_layer_dense.h"
 
 #define EPSON 0.00001
 

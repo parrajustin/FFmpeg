@@ -29,10 +29,10 @@
 
 #include <limits.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define BITSTREAM_READER_LE
 #include "ttadata.h"

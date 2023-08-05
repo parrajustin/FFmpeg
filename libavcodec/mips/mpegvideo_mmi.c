@@ -23,7 +23,7 @@
  */
 
 #include "mpegvideo_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
 
 void ff_dct_unquantize_h263_intra_mmi(MpegEncContext *s, int16_t *block,
         int n, int qscale)

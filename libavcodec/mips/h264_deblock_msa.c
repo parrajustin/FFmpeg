@@ -21,10 +21,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/bit_depth_template.c"
+#include "third_party/ffmpeg/libavcodec/bit_depth_template.c"
 #include "h264dsp_mips.h"
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavcodec/mips/h264dsp_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/generic_macros_msa.h"
+#include "third_party/ffmpeg/libavcodec/mips/h264dsp_mips.h"
 
 #define h264_loop_filter_strength_iteration_msa(edges, step, mask_mv, dir, \
                                                 d_idx, mask_dir)           \

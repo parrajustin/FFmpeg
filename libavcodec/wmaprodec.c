@@ -88,14 +88,14 @@
 
 #include <inttypes.h>
 
-#include "libavutil/audio_fifo.h"
-#include "libavutil/tx.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/audio_fifo.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

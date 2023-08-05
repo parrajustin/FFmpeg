@@ -30,10 +30,10 @@
 #include "opusdsp.h"
 #include "opus_rc.h"
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 
 #define CELT_SHORT_BLOCKSIZE         120
 #define CELT_OVERLAP                 CELT_SHORT_BLOCKSIZE

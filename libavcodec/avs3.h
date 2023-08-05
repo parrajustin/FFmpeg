@@ -39,9 +39,9 @@
 #define AVS3_ISPIC(x) ((x) == AVS3_INTRA_PIC_START_CODE || (x) == AVS3_INTER_PIC_START_CODE)
 #define AVS3_ISUNIT(x) ((x) == AVS3_SEQ_START_CODE || AVS3_ISPIC(x))
 
-#include "libavutil/avutil.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 static const AVRational ff_avs3_frame_rate_tab[16] = {
     { 0    , 0   }, // forbid

@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/flacencdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/flacencdsp.h"
 
 void ff_flac_enc_lpc_16_sse4(int32_t *, const int32_t *, int, int, const int32_t *,int);
 

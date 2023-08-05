@@ -24,7 +24,7 @@
 
 #include "avdevice.h"
 
-#include "libavdevice/sndio.h"
+#include "third_party/ffmpeg/libavdevice/sndio.h"
 
 static inline void movecb(void *addr, int delta)
 {

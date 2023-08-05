@@ -24,10 +24,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/hpeldsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libavcodec/hpeldsp.h"
 
 void     ff_put_pixels16_neon(uint8_t *block, const uint8_t *pixels,
                               ptrdiff_t line_size, int h);

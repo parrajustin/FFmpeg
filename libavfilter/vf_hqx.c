@@ -27,9 +27,9 @@
  * @see http://blog.pkh.me/p/19-butchering-hqx-scaling-filters.html
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "internal.h"
 
 typedef int (*hqxfunc_t)(AVFilterContext *ctx, void *arg, int jobnr, int nb_jobs);

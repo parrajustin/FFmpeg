@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/aacpsdsp.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/aacpsdsp.h"
 
 void ff_ps_add_squares_neon(float *dst, const float (*src)[2], int n);
 void ff_ps_mul_pair_single_neon(float (*dst)[2], float (*src0)[2],

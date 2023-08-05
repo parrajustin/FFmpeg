@@ -22,12 +22,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
-#include "libavutil/aarch64/cpu.h"
-#include "libswresample/resample.h"
+#include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
+#include "third_party/ffmpeg/libswresample/resample.h"
 
 #define DECLARE_RESAMPLE_COMMON_TEMPLATE(TYPE, DELEM, FELEM, FELEM2, OUT)                         \
                                                                                                   \

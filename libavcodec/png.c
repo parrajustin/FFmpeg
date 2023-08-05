@@ -20,7 +20,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "png.h"
 
 /* Mask to determine which y pixels are valid in a pass */

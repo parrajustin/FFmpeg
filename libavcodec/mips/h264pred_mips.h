@@ -22,7 +22,7 @@
 #define AVCODEC_MIPS_H264PRED_MIPS_H
 
 #include "constants.h"
-#include "libavcodec/h264pred.h"
+#include "third_party/ffmpeg/libavcodec/h264pred.h"
 
 void ff_pred16x16_vertical_8_mmi(uint8_t *src, ptrdiff_t stride);
 void ff_pred16x16_horizontal_8_mmi(uint8_t *src, ptrdiff_t stride);

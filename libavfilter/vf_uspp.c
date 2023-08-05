@@ -27,13 +27,13 @@
  * ported by Arwa Arif for FFmpeg.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/video_enc_params.h"
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "internal.h"
 #include "qp_table.h"
 #include "avfilter.h"

@@ -26,7 +26,7 @@
  * @see http://wiki.multimedia.cx/index.php?title=BFI
  */
 
-#include "libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

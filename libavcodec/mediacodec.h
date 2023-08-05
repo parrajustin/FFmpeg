@@ -23,7 +23,7 @@
 #ifndef AVCODEC_MEDIACODEC_H
 #define AVCODEC_MEDIACODEC_H
 
-#include "libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
 
 /**
  * This structure holds a reference to a android/view/Surface object that will

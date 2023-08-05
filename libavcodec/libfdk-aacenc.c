@@ -19,9 +19,9 @@
 
 #include <fdk-aac/aacenc_lib.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "avcodec.h"
 #include "audio_frame_queue.h"
 #include "codec_internal.h"

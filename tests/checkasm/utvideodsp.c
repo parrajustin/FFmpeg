@@ -21,10 +21,10 @@
 #include <string.h>
 
 #include "checkasm.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/utvideodsp.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/utvideodsp.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define WIDTH 240
 #define HEIGHT 120

@@ -54,10 +54,10 @@
  */
 
 #include "config.h"
-#include "libavcodec/ac3dsp.h"
-#include "libavcodec/ac3.h"
-#include "libavcodec/ac3tab.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/ac3dsp.h"
+#include "third_party/ffmpeg/libavcodec/ac3.h"
+#include "third_party/ffmpeg/libavcodec/ac3tab.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 #if HAVE_MIPSDSP

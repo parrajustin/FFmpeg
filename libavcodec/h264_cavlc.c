@@ -33,7 +33,7 @@
 #include "h264data.h"
 #include "golomb.h"
 #include "mpegutils.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 
 static const uint8_t golomb_to_inter_cbp_gray[16]={

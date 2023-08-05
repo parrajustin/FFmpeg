@@ -17,8 +17,8 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "libavcodec/vp8dsp.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include "third_party/ffmpeg/libavcodec/vp8dsp.h"
+#include "third_party/ffmpeg/libavutil/loongarch/loongson_intrinsics.h"
 #include "vp8dsp_loongarch.h"
 
 static const uint8_t mc_filt_mask_arr[16 * 3] = {

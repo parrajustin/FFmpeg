@@ -25,7 +25,7 @@
 
 #include <features.h>
 #include <linux/fb.h>
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 struct AVDeviceInfoList;
 

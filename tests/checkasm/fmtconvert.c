@@ -22,11 +22,11 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/common.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
-#include "libavcodec/fmtconvert.h"
+#include "third_party/ffmpeg/libavcodec/fmtconvert.h"
 
 #include "checkasm.h"
 

@@ -27,7 +27,7 @@
 #include "dnn_backend_native.h"
 #include "dnn_backend_tf.h"
 #include "dnn_backend_openvino.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 DNNModule *ff_get_dnn_module(DNNBackendType backend_type)
 {

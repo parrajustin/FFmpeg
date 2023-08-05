@@ -22,7 +22,7 @@
 #include "jpegxl_probe.h"
 
 #define BITSTREAM_READER_LE
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 
 enum JpegXLExtraChannelType {
     FF_JPEGXL_CT_ALPHA = 0,

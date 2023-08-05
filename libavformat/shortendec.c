@@ -23,7 +23,7 @@
 
 #include "avformat.h"
 #include "rawdec.h"
-#include "libavcodec/golomb.h"
+#include "third_party/ffmpeg/libavcodec/golomb.h"
 
 static int shn_probe(const AVProbeData *p)
 {

@@ -20,7 +20,7 @@
 @
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 @ void ff_add_pixels_clamped_arm(int16_t *block, uint8_t *dest, ptrdiff_t stride)
 function ff_add_pixels_clamped_arm, export=1, align=5

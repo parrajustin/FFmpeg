@@ -30,8 +30,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #include "vlc.h"
 

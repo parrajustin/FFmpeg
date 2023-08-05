@@ -51,10 +51,10 @@
  * @{
  */
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavformat/avformat.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/avformat.h"
 
 /**
  * Return the LIBAVDEVICE_VERSION_INT constant.

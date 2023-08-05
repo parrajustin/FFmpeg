@@ -25,17 +25,17 @@
 
 #include "config.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/slicethread.h"
-#include "libavutil/ppc/util_altivec.h"
-#include "libavutil/half2float.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/slicethread.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/half2float.h"
 
 #define STR(s) AV_TOSTRING(s) // AV_STRINGIFY is too long
 

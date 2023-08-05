@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/lut3d.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/lut3d.h"
 
 #define DEFINE_INTERP_FUNC(name, format, opt)                                                                                                       \
 void ff_interp_##name##_##format##_##opt(LUT3DContext *lut3d, Lut3DPreLut *prelut, AVFrame *src, AVFrame *dst, int slice_start, int slice_end, int has_alpha); \

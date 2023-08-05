@@ -40,7 +40,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 #include "dv_internal.h"
 #include "dv_profile.h"

@@ -18,10 +18,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/bswapdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/bswapdsp.h"
 
 void ff_bswap32_buf_sse2(uint32_t *dst, const uint32_t *src, int w);
 void ff_bswap32_buf_ssse3(uint32_t *dst, const uint32_t *src, int w);

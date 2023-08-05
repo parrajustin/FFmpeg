@@ -35,12 +35,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/cpu.h"
+#include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 
-#include "libavcodec/idctdsp.h"
+#include "third_party/ffmpeg/libavcodec/idctdsp.h"
 
 #if HAVE_ALTIVEC
 

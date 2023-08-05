@@ -27,9 +27,9 @@
 
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define FF_BUFQUEUE_SIZE (1024)
 #include "bufferqueue.h"

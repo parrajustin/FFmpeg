@@ -54,9 +54,9 @@
 #ifndef AVCODEC_MIPS_AACSBR_MIPS_H
 #define AVCODEC_MIPS_AACSBR_MIPS_H
 
-#include "libavcodec/aac.h"
-#include "libavcodec/sbr.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavcodec/aac.h"
+#include "third_party/ffmpeg/libavcodec/sbr.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM
 static void sbr_qmf_analysis_mips(AVFloatDSPContext *fdsp, AVTXContext *mdct, av_tx_fn mdct_fn,

@@ -19,9 +19,9 @@
  */
 
 #include <stdlib.h>
-#include "libavcodec/avcodec.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/flac.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/flac.h"
 #include "avformat.h"
 #include "internal.h"
 #include "oggdec.h"

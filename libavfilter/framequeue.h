@@ -29,7 +29,7 @@
  * must be protected by a mutex or any synchronization mechanism.
  */
 
-#include "libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 typedef struct FFFrameBucket {
     AVFrame *frame;

@@ -25,8 +25,8 @@
  * aka Microsoft Expression Encoder Screen) decoder
  */
 
-#include "libavutil/thread.h"
-#include "libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

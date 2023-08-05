@@ -22,8 +22,8 @@
  * @todo switch to dualinput
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "internal.h"
 
 #include "lavfutils.h"

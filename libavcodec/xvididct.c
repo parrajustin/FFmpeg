@@ -31,7 +31,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "avcodec.h"
 #include "idctdsp.h"
 #include "xvididct.h"

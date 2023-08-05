@@ -27,7 +27,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "get_bits.h"
 #include "parser.h"

@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include "third_party/ffmpeg/libavutil/aarch64/asm.S"
 
 // void ff_interleave_bytes_neon(const uint8_t *src1, const uint8_t *src2,
 //                               uint8_t *dest, int width, int height,

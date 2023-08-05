@@ -17,11 +17,11 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/idctdsp.h"
-#include "libavcodec/xvididct.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavcodec/idctdsp.h"
+#include "third_party/ffmpeg/libavcodec/xvididct.h"
 
 #include "xvididct.h"
 

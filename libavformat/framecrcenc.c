@@ -21,12 +21,12 @@
 
 #include <inttypes.h>
 
-#include "libavutil/adler32.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
-#include "libavcodec/codec_id.h"
-#include "libavcodec/codec_par.h"
-#include "libavcodec/packet.h"
+#include "third_party/ffmpeg/libavcodec/codec_id.h"
+#include "third_party/ffmpeg/libavcodec/codec_par.h"
+#include "third_party/ffmpeg/libavcodec/packet.h"
 
 #include "avformat.h"
 #include "internal.h"

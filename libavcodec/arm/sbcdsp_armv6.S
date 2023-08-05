@@ -29,7 +29,7 @@
  * SBC ARMv6 optimizations. The instructions are scheduled for ARM11 pipeline.
  */
 
-#include "libavutil/arm/asm.S"
+#include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 function ff_sbc_analyze_4_armv6, export=1
         @ r0 = in, r1 = out, r2 = consts

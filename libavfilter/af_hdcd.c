@@ -43,9 +43,9 @@
  * HDCD decoding filter
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "avfilter.h"
 #include "internal.h"
 #include "audio.h"

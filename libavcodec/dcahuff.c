@@ -22,7 +22,7 @@
 
 #include <stddef.h>
 
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #include "dcadata.h"
 #include "dcahuff.h"

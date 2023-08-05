@@ -27,9 +27,9 @@
 #include <va/va_str.h>
 #endif
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_vaapi.h"
-#include "libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
 
 #include "avcodec.h"
 #include "hwconfig.h"

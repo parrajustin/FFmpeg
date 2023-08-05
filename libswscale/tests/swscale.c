@@ -25,15 +25,15 @@
 #include <stdarg.h>
 
 #undef HAVE_AV_CONFIG_H
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/avutil.h"
-#include "libavutil/crc.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
-#include "libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 /* HACK Duplicated from swscale_internal.h.
  * Should be removed when a cleaner pixel format system exists. */

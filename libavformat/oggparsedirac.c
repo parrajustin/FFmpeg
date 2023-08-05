@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/dirac.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/dirac.h"
 #include "avformat.h"
 #include "internal.h"
 #include "oggdec.h"

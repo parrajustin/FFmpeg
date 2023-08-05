@@ -32,8 +32,8 @@
 
 #include <string.h>
 
-#include "libavutil/bswap.h"
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

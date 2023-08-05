@@ -21,7 +21,7 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "lossless_audiodsp.h"
 
 static int32_t scalarproduct_and_madd_int16_c(int16_t *v1, const int16_t *v2,

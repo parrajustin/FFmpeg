@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/pixels.h"
+#include "third_party/ffmpeg/libavutil/arm/cpu.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/pixels.h"
 #include "hpeldsp_arm.h"
 
 void ff_put_pixels8_arm(uint8_t *block, const uint8_t *pixels, ptrdiff_t line_size, int h);

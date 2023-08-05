@@ -22,7 +22,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "bswapdsp.h"
 #include "canopus.h"
 #include "get_bits.h"

@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/buffer.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_internal.h"
-#include "libavutil/log.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #include "avfilter.h"
 #include "formats.h"

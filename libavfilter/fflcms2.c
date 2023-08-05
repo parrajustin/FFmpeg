@@ -16,4 +16,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/fflcms2.c"
+#include "third_party/ffmpeg/libavcodec/fflcms2.c"

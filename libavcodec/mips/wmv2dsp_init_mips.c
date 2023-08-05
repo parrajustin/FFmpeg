@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
+#include "third_party/ffmpeg/libavutil/mips/cpu.h"
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "wmv2dsp_mips.h"
 
 av_cold void ff_wmv2dsp_init_mips(WMV2DSPContext *c)

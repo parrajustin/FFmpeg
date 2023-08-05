@@ -27,7 +27,7 @@
  */
 
 #include <string.h>
-#include "libavutil/intmath.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 #include "mpegaudiodsp.h"
 
 #include "mpc.h"

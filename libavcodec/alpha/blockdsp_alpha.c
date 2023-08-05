@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/blockdsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/blockdsp.h"
 #include "asm.h"
 
 static void clear_blocks_axp(int16_t *blocks) {

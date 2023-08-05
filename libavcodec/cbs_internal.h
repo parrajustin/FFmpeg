@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include "cbs.h"
 #include "codec_id.h"

@@ -79,7 +79,7 @@ extern const AVCodecParser ff_xbm_parser;
 extern const AVCodecParser ff_xma_parser;
 extern const AVCodecParser ff_xwd_parser;
 
-#include "libavcodec/parser_list.c"
+#include "third_party/ffmpeg/libavcodec/parser_list.c"
 
 const AVCodecParser *av_parser_iterate(void **opaque)
 {

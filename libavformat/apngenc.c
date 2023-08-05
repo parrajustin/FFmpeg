@@ -23,13 +23,13 @@
 
 #include "avformat.h"
 #include "mux.h"
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavcodec/apng.h"
-#include "libavcodec/png.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavcodec/apng.h"
+#include "third_party/ffmpeg/libavcodec/png.h"
 
 typedef struct APNGMuxContext {
     AVClass *class;

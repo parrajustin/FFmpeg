@@ -21,10 +21,10 @@
 #ifndef AVFILTER_AFIR_H
 #define AVFILTER_AFIR_H
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/frame.h"
-#include "libavutil/rational.h"
-#include "libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
 #include "avfilter.h"
 #include "af_afirdsp.h"
 

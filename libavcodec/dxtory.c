@@ -22,8 +22,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

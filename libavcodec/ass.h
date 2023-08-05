@@ -23,7 +23,7 @@
 #define AVCODEC_ASS_H
 
 #include "avcodec.h"
-#include "libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 #define ASS_DEFAULT_PLAYRESX 384
 #define ASS_DEFAULT_PLAYRESY 288

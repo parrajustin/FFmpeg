@@ -32,7 +32,7 @@
 
 #include <alsa/asoundlib.h>
 #include "config.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "timefilter.h"
 #include "avdevice.h"
 

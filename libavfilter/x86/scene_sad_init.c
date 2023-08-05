@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavfilter/scene_sad.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavfilter/scene_sad.h"
 
 #define SCENE_SAD_FUNC(FUNC_NAME, ASM_FUNC_NAME, MMSIZE)                      \
 void ASM_FUNC_NAME(SCENE_SAD_PARAMS);                                         \

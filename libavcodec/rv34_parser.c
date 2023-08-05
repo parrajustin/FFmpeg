@@ -27,7 +27,7 @@
 #include "config_components.h"
 
 #include "parser.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 typedef struct RV34ParseContext {
     ParseContext pc;

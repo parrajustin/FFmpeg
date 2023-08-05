@@ -34,10 +34,10 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include <float.h>
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/dict.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "fits.h"
 
 typedef struct FITSContext {

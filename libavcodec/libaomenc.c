@@ -29,14 +29,14 @@
 #include <aom/aom_encoder.h>
 #include <aom/aomcx.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/base64.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "av1.h"
 #include "avcodec.h"

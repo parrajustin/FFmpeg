@@ -23,7 +23,7 @@
 #ifndef AVFILTER_FSPP_H
 #define AVFILTER_FSPP_H
 
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 #include "avfilter.h"
 
 #define BLOCKSZ 12

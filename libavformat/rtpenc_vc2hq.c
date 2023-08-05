@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/dirac.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/golomb.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/dirac.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/golomb.h"
 
 #include "avformat.h"
 #include "rtpenc.h"

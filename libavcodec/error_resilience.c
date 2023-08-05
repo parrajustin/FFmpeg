@@ -27,7 +27,7 @@
 
 #include <limits.h>
 
-#include "libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "avcodec.h"
 #include "error_resilience.h"
 #include "me_cmp.h"

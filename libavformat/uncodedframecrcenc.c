@@ -18,12 +18,12 @@
 * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 */
 
-#include "libavutil/adler32.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bprint.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavformat/mux.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mux.h"
 #include "avformat.h"
 #include "internal.h"
 

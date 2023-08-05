@@ -24,7 +24,7 @@
  * MPEG Audio header decoder.
  */
 
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #include "mpegaudio.h"
 #include "mpegaudiodata.h"

@@ -25,14 +25,14 @@
 
 #include <float.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/timestamp.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/timestamp.h"
 #include "audio.h"
 #include "avfilter.h"
 #include "buffersrc.h"

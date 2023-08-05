@@ -20,9 +20,9 @@
  */
 
 #include "avformat.h"
-#include "libavutil/aes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 #include "internal.h"
 #include "url.h"
 

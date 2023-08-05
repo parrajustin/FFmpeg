@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/bytestream.h"
-#include "libavcodec/mjpeg.h"
-#include "libavcodec/jpegtables.h"
-#include "libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavcodec/bytestream.h"
+#include "third_party/ffmpeg/libavcodec/mjpeg.h"
+#include "third_party/ffmpeg/libavcodec/jpegtables.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "rtpenc.h"
 
 void ff_rtp_send_jpeg(AVFormatContext *s1, const uint8_t *buf, int size)

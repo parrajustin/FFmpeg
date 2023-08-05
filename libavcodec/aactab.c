@@ -29,8 +29,8 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "aac.h"
 #include "aactab.h"
 

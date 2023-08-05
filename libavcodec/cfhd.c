@@ -23,11 +23,11 @@
  * Cineform HD video decoder
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #include "avcodec.h"
 #include "bytestream.h"

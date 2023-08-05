@@ -53,17 +53,17 @@
  * Reference: libavcodec/aaccoder.c
  */
 
-#include "libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 
 #include <float.h>
-#include "libavutil/mathematics.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/put_bits.h"
-#include "libavcodec/aac.h"
-#include "libavcodec/aacenc.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/aacenctab.h"
-#include "libavcodec/aacenc_utils.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavcodec/avcodec.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavcodec/aac.h"
+#include "third_party/ffmpeg/libavcodec/aacenc.h"
+#include "third_party/ffmpeg/libavcodec/aactab.h"
+#include "third_party/ffmpeg/libavcodec/aacenctab.h"
+#include "third_party/ffmpeg/libavcodec/aacenc_utils.h"
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6
@@ -2331,9 +2331,9 @@ static float quantize_band_cost(struct AACEncContext *s, const float *in,
     return get_band_cost(s, NULL, in, scaled, size, scale_idx, cb, lambda, uplim, bits, energy);
 }
 
-#include "libavcodec/aacenc_quantization_misc.h"
+#include "third_party/ffmpeg/libavcodec/aacenc_quantization_misc.h"
 
-#include "libavcodec/aaccoder_twoloop.h"
+#include "third_party/ffmpeg/libavcodec/aaccoder_twoloop.h"
 
 static void search_for_ms_mips(AACEncContext *s, ChannelElement *cpe)
 {
@@ -2476,7 +2476,7 @@ static void search_for_ms_mips(AACEncContext *s, ChannelElement *cpe)
 }
 #endif /*HAVE_MIPSFPU */
 
-#include "libavcodec/aaccoder_trellis.h"
+#include "third_party/ffmpeg/libavcodec/aaccoder_trellis.h"
 
 #endif /* !HAVE_MIPS32R6 && !HAVE_MIPS64R6 */
 #endif /* HAVE_INLINE_ASM */

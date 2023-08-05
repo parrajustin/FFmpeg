@@ -39,9 +39,9 @@
 #include "vp9data.h"
 #include "vp9dec.h"
 #include "vpx_rac.h"
-#include "libavutil/avassert.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 #define VP9_SYNCCODE 0x498342
 

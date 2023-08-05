@@ -23,7 +23,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "framesync.h"
 #include "avfilter.h"
 

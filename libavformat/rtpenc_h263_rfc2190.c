@@ -21,8 +21,8 @@
 
 #include "avformat.h"
 #include "rtpenc.h"
-#include "libavcodec/put_bits.h"
-#include "libavcodec/get_bits.h"
+#include "third_party/ffmpeg/libavcodec/put_bits.h"
+#include "third_party/ffmpeg/libavcodec/get_bits.h"
 
 struct H263Info {
     int src;

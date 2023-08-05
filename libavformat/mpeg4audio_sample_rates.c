@@ -20,4 +20,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/mpeg4audio_sample_rates.h"
+#include "third_party/ffmpeg/libavcodec/mpeg4audio_sample_rates.h"

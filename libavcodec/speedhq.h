@@ -22,7 +22,7 @@
 #define AVCODEC_SPEEDHQ_H
 
 #include <stdint.h>
-#include "libavutil/attributes_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes_internal.h"
 
 #define SPEEDHQ_RL_NB_ELEMS 121
 
