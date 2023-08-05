@@ -18,10 +18,10 @@
 
 #include <stdatomic.h>
 #include "third_party/ffmpeg/libavutil/cpu.h"
-#include "internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/slicethread.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define MAX_AUTO_THREADS 16

@@ -34,10 +34,10 @@
 #include <xf86drm.h>
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "hwcontext.h"
-#include "hwcontext_drm.h"
-#include "hwcontext_internal.h"
-#include "imgutils.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 
 static void drm_device_free(AVHWDeviceContext *hwdev)

@@ -36,10 +36,10 @@
 #include <string.h>
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/file_open.h"
-#include "internal.h"
-#include "intreadwrite.h"
-#include "timer.h"
-#include "random_seed.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 #include "third_party/ffmpeg/libavutil/sha.h"
 
 #ifndef TEST

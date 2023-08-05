@@ -30,25 +30,25 @@
 
 #define COBJMACROS
 #if CONFIG_VAAPI
-#include "hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
 #endif
 #if CONFIG_D3D11VA
-#include "hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
 #endif
 #if CONFIG_DXVA2
-#include "hwcontext_dxva2.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_dxva2.h"
 #endif
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_qsv.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_qsv.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
-#include "time.h"
-#include "imgutils.h"
+#include "third_party/ffmpeg/libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define QSV_VERSION_ATLEAST(MAJOR, MINOR)   \

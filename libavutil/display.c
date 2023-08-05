@@ -22,7 +22,7 @@
 #include <string.h>
 #include <math.h>
 
-#include "display.h"
+#include "third_party/ffmpeg/libavutil/display.h"
 #include "third_party/ffmpeg/libavutil/libm.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
 

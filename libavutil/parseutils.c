@@ -28,10 +28,10 @@
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/eval.h"
 #include "third_party/ffmpeg/libavutil/log.h"
-#include "random_seed.h"
-#include "time_internal.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/time_internal.h"
 #include "third_party/ffmpeg/libavutil/parseutils.h"
-#include "time.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 #ifdef TEST
 

@@ -25,9 +25,9 @@
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_vdpau.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vdpau.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"

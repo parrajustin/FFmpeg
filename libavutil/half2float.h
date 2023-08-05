@@ -20,7 +20,7 @@
 #define AVUTIL_HALF2FLOAT_H
 
 #include <stdint.h>
-#include "intfloat.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 
 #include "third_party/ffmpeg/config.h"
 

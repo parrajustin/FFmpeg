@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "hdr_dynamic_vivid_metadata.h"
+#include "third_party/ffmpeg/libavutil/hdr_dynamic_vivid_metadata.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 AVDynamicHDRVivid *av_dynamic_hdr_vivid_alloc(size_t *size)

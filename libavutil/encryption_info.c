@@ -18,7 +18,7 @@
 
 #include "third_party/ffmpeg/libavutil/encryption_info.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 #define FF_ENCRYPTION_INFO_EXTRA 24
 

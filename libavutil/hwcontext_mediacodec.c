@@ -24,9 +24,9 @@
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_mediacodec.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_mediacodec.h"
 
 typedef struct MediaCodecDeviceContext {
     AVMediaCodecDeviceContext ctx;

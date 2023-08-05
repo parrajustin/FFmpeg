@@ -24,7 +24,7 @@
 #include "third_party/ffmpeg/libavutil/error.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "rc4.h"
+#include "third_party/ffmpeg/libavutil/rc4.h"
 
 AVRC4 *av_rc4_alloc(void)
 {

@@ -30,7 +30,7 @@
 #include "third_party/ffmpeg/libavutil/avstring.h"
 #include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "third_party/ffmpeg/libavutil/eval.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/parseutils.h"

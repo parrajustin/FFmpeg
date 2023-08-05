@@ -23,7 +23,7 @@
 
 #include <stddef.h>
 #include "third_party/ffmpeg/libavutil/frame.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /**
  * Ambient viewing environment metadata as defined by H.274. The values are

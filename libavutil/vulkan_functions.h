@@ -22,8 +22,8 @@
 #define VK_NO_PROTOTYPES
 #define VK_ENABLE_BETA_EXTENSIONS
 
-#include "hwcontext.h"
-#include "hwcontext_vulkan.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vulkan.h"
 
 /* An enum of bitflags for every optional extension we need */
 typedef enum FFVulkanExtensions {

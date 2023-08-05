@@ -21,12 +21,12 @@
 #include "third_party/ffmpeg/libavutil/buffer.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
-#include "dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 #include "third_party/ffmpeg/libavutil/frame.h"
-#include "imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/samplefmt.h"
-#include "hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
 
 #if FF_API_OLD_CHANNEL_LAYOUT
 #define CHECK_CHANNELS_CONSISTENCY(frame) \

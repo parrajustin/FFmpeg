@@ -31,7 +31,7 @@
 #include <stdint.h>
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /**
  * Compute the max pixel step for each plane of an image with a

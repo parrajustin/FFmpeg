@@ -26,7 +26,7 @@
 #include "third_party/ffmpeg/libavutil/aes_internal.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "random_seed.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 
 #define AES_BLOCK_SIZE (16)
 

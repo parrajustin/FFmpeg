@@ -23,14 +23,14 @@
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "imgutils.h"
-#include "imgutils_internal.h"
-#include "internal.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils_internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 void av_image_fill_max_pixsteps(int max_pixsteps[4], int max_pixstep_comps[4],
                                 const AVPixFmtDescriptor *pixdesc)

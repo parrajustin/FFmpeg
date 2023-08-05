@@ -22,7 +22,7 @@
 #include <stddef.h>
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
-#include "hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
 #include "third_party/ffmpeg/libavutil/frame.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 

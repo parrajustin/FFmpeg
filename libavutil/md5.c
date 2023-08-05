@@ -34,7 +34,7 @@
 
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/bswap.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/md5.h"
 

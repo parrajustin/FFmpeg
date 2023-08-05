@@ -21,9 +21,9 @@
 
 #include <string.h>
 
-#include "twofish.h"
+#include "third_party/ffmpeg/libavutil/twofish.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 

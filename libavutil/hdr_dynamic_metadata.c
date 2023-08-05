@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "hdr_dynamic_metadata.h"
+#include "third_party/ffmpeg/libavutil/hdr_dynamic_metadata.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 AVDynamicHDRPlus *av_dynamic_hdr_plus_alloc(size_t *size)

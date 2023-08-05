@@ -20,20 +20,20 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "hash.h"
+#include "third_party/ffmpeg/libavutil/hash.h"
 
 #include "third_party/ffmpeg/libavutil/adler32.h"
 #include "third_party/ffmpeg/libavutil/crc.h"
 #include "third_party/ffmpeg/libavutil/md5.h"
 #include "third_party/ffmpeg/libavutil/murmur3.h"
-#include "ripemd.h"
+#include "third_party/ffmpeg/libavutil/ripemd.h"
 #include "third_party/ffmpeg/libavutil/sha.h"
 #include "third_party/ffmpeg/libavutil/sha512.h"
 
 #include "third_party/ffmpeg/libavutil/avstring.h"
 #include "third_party/ffmpeg/libavutil/base64.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 enum hashtype {

@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "dict.h"
+#include "third_party/ffmpeg/libavutil/dict.h"
 
 /**
  * Set a dictionary value to an ISO-8601 compliant timestamp string.

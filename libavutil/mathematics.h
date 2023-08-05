@@ -30,8 +30,8 @@
 #include <stdint.h>
 #include <math.h>
 #include "third_party/ffmpeg/libavutil/attributes.h"
-#include "rational.h"
-#include "intfloat.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 
 #ifndef M_E
 #define M_E            2.7182818284590452354   /* e */

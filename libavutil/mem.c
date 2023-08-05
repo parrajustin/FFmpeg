@@ -39,10 +39,10 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "dynarray.h"
+#include "third_party/ffmpeg/libavutil/dynarray.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "internal.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 

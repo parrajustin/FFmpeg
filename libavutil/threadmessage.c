@@ -21,8 +21,8 @@
 #include <limits.h>
 #include "third_party/ffmpeg/libavutil/fifo.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "threadmessage.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/threadmessage.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 struct AVThreadMessageQueue {
 #if HAVE_THREADS

@@ -26,7 +26,7 @@
 #include "third_party/ffmpeg/libavutil/aes.h"
 #include "third_party/ffmpeg/libavutil/aes_internal.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 

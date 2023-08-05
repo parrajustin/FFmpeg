@@ -19,7 +19,7 @@
 #ifndef AVUTIL_DETECTION_BBOX_H
 #define AVUTIL_DETECTION_BBOX_H
 
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/frame.h"
 

@@ -24,7 +24,7 @@
 #define AVUTIL_CSP_H
 
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /**
  * @file

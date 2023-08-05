@@ -33,7 +33,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/csp.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 #define AVR(d) { (int)(d * 100000 + 0.5), 100000 }
 

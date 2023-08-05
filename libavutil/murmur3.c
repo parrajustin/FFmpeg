@@ -21,7 +21,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/murmur3.h"
 
 typedef struct AVMurMur3 {

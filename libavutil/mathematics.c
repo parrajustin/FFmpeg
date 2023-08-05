@@ -28,7 +28,7 @@
 
 #include "third_party/ffmpeg/libavutil/avutil.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
-#include "intmath.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 

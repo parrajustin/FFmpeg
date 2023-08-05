@@ -24,7 +24,7 @@
 #include <string.h>
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/blowfish.h"
 

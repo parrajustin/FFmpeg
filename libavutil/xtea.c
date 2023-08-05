@@ -30,7 +30,7 @@
 
 #include <string.h>
 #include "third_party/ffmpeg/config.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/xtea.h"
 

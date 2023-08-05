@@ -33,7 +33,7 @@
 #include <windows.h>
 #endif
 
-#include "time.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "third_party/ffmpeg/libavutil/error.h"
 
 int64_t av_gettime(void)

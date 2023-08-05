@@ -40,7 +40,7 @@
 #include <stdio.h>
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
-#include "timer.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 

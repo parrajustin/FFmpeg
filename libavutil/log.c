@@ -39,9 +39,9 @@
 #include <string.h>
 #include "third_party/ffmpeg/libavutil/bprint.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/log.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 static AVMutex mutex = AV_MUTEX_INITIALIZER;
 

@@ -28,7 +28,7 @@
 
 #include <stdio.h>
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "timecode.h"
+#include "third_party/ffmpeg/libavutil/timecode.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/error.h"
 

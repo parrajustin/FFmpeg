@@ -18,7 +18,7 @@
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/macos_kperf.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 #include <stdio.h>
 #include <stdlib.h>

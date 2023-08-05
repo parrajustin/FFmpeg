@@ -32,13 +32,13 @@
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/eval.h"
 #include "third_party/ffmpeg/libavutil/ffmath.h"
-#include "internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
-#include "time.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"
-#include "timer.h"
-#include "reverse.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/reverse.h"
 
 typedef struct Parser {
     const AVClass *class;

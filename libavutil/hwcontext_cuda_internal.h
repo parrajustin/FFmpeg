@@ -21,7 +21,7 @@
 #define AVUTIL_HWCONTEXT_CUDA_INTERNAL_H
 
 #include "third_party/ffmpeg/libavutil/compat/cuda/dynlink_loader.h"
-#include "hwcontext_cuda.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_cuda.h"
 
 /**
  * @file

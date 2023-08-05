@@ -19,8 +19,8 @@
 #ifndef AVUTIL_TX_PRIV_H
 #define AVUTIL_TX_PRIV_H
 
-#include "tx.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/tx.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 

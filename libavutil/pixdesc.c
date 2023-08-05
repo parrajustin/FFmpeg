@@ -26,7 +26,7 @@
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 void av_read_image_line2(void *dst,
                         const uint8_t *data[4], const int linesize[4],

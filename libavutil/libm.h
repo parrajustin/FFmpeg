@@ -28,7 +28,7 @@
 #include <math.h>
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
-#include "intfloat.h"
+#include "third_party/ffmpeg/libavutil/intfloat.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #if HAVE_MIPSFPU && HAVE_INLINE_ASM

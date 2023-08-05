@@ -32,7 +32,7 @@
 
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/adler32.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 
 #define BASE 65521L /* largest prime smaller than 65536 */

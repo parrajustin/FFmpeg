@@ -32,11 +32,11 @@
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"
-#include "imgutils.h"
-#include "hwcontext.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_vulkan.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vulkan.h"
 
 #include "third_party/ffmpeg/libavutil/vulkan.h"
 #include "third_party/ffmpeg/libavutil/vulkan_loader.h"
@@ -44,15 +44,15 @@
 #if CONFIG_LIBDRM
 #include <xf86drm.h>
 #include <drm_fourcc.h>
-#include "hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
 #if CONFIG_VAAPI
 #include <va/va_drmcommon.h>
-#include "hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
 #endif
 #endif
 
 #if CONFIG_CUDA
-#include "hwcontext_cuda_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_cuda_internal.h"
 #include "third_party/ffmpeg/libavutil/cuda_check.h"
 #define CHECK_CU(x) FF_CUDA_CHECK_DL(cuda_cu, cu, x)
 #endif

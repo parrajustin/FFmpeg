@@ -22,7 +22,7 @@
 #define AVUTIL_HDR_DYNAMIC_METADATA_H
 
 #include "third_party/ffmpeg/libavutil/frame.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /**
  * Option for overlapping elliptical pixel selectors in an image.

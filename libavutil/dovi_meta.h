@@ -29,7 +29,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /*
  * DOVI configuration

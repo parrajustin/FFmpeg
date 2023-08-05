@@ -23,7 +23,7 @@
 #include <string.h>
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
-#include "hmac.h"
+#include "third_party/ffmpeg/libavutil/hmac.h"
 #include "third_party/ffmpeg/libavutil/md5.h"
 #include "third_party/ffmpeg/libavutil/sha.h"
 #include "third_party/ffmpeg/libavutil/sha512.h"

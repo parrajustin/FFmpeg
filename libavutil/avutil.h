@@ -295,7 +295,7 @@ char av_get_picture_type_char(enum AVPictureType pict_type);
 
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 #include "third_party/ffmpeg/libavutil/version.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"

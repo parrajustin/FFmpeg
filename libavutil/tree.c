@@ -21,7 +21,7 @@
 #include "third_party/ffmpeg/libavutil/error.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "tree.h"
+#include "third_party/ffmpeg/libavutil/tree.h"
 
 typedef struct AVTreeNode {
     struct AVTreeNode *child[2];

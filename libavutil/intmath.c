@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "intmath.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 
 /* undef these to get the function prototypes from common.h */
 #undef av_log2

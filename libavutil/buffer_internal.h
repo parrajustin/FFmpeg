@@ -23,7 +23,7 @@
 #include <stdint.h>
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 /**
  * The buffer was av_realloc()ed, so it is reallocatable.

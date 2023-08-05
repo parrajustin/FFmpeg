@@ -24,7 +24,7 @@
 #include "third_party/ffmpeg/libavutil/buffer_internal.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 static AVBufferRef *buffer_create(AVBuffer *buf, uint8_t *data, size_t size,
                                   void (*free)(void *opaque, uint8_t *data),

@@ -26,9 +26,9 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/bswap.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/macros.h"
-#include "ripemd.h"
+#include "third_party/ffmpeg/libavutil/ripemd.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 /** hash context */

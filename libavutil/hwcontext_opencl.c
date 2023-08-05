@@ -25,9 +25,9 @@
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_opencl.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_opencl.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 
@@ -36,13 +36,13 @@
 #include <va/va.h>
 #include <va/va_drmcommon.h>
 #include <CL/cl_intel.h>
-#include "hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
 #endif
 
 #if HAVE_OPENCL_DRM_BEIGNET
 #include <unistd.h>
 #include <CL/cl_intel.h>
-#include "hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
 #endif
 
 #if HAVE_OPENCL_VAAPI_INTEL_MEDIA
@@ -51,25 +51,25 @@
 #endif
 #include <va/va.h>
 #include <CL/cl_va_api_media_sharing_intel.h>
-#include "hwcontext_vaapi.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vaapi.h"
 #endif
 
 #if HAVE_OPENCL_DXVA2
 #define COBJMACROS
 #include <CL/cl_dx9_media_sharing.h>
 #include <dxva2api.h>
-#include "hwcontext_dxva2.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_dxva2.h"
 #endif
 
 #if HAVE_OPENCL_D3D11
 #include <CL/cl_d3d11.h>
-#include "hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
 #endif
 
 #if HAVE_OPENCL_DRM_ARM
 #include <CL/cl_ext.h>
 #include <drm_fourcc.h>
-#include "hwcontext_drm.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_drm.h"
 #endif
 
 #if HAVE_OPENCL_VAAPI_INTEL_MEDIA && CONFIG_LIBMFX

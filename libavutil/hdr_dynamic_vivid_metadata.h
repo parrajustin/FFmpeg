@@ -22,7 +22,7 @@
 #define AVUTIL_HDR_DYNAMIC_VIVID_METADATA_H
 
 #include "third_party/ffmpeg/libavutil/frame.h"
-#include "rational.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 /**
  * Color tone mapping parameters at a processing window in a dynamic metadata for

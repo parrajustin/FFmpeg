@@ -26,7 +26,7 @@
 #include "third_party/ffmpeg/libavutil/crc.h"
 #include "third_party/ffmpeg/libavutil/md5.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 
 av_cold void av_lfg_init(AVLFG *c, unsigned int seed)

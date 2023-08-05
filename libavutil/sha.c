@@ -28,7 +28,7 @@
 #include "third_party/ffmpeg/libavutil/bswap.h"
 #include "third_party/ffmpeg/libavutil/error.h"
 #include "third_party/ffmpeg/libavutil/sha.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 /** hash context */

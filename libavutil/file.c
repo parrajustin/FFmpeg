@@ -19,7 +19,7 @@
 #include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/file.h"
 #include "third_party/ffmpeg/libavutil/file_open.h"
-#include "internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include <fcntl.h>

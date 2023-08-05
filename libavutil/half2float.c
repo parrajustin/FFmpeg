@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "half2float.h"
+#include "third_party/ffmpeg/libavutil/half2float.h"
 
 #if !HAVE_FAST_FLOAT16
 static uint32_t convertmantissa(uint32_t i)

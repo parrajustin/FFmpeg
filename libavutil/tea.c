@@ -23,9 +23,9 @@
  */
 
 #include <string.h>
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "tea.h"
+#include "third_party/ffmpeg/libavutil/tea.h"
 
 typedef struct AVTEA {
     uint32_t key[16];

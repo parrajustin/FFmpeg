@@ -20,7 +20,7 @@
 
 #include "third_party/ffmpeg/config.h"
 
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/bswap.h"
 #include "third_party/ffmpeg/libavutil/crc.h"

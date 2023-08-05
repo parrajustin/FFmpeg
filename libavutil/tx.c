@@ -17,12 +17,12 @@
  */
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "intmath.h"
+#include "third_party/ffmpeg/libavutil/intmath.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/qsort.h"
 #include "third_party/ffmpeg/libavutil/bprint.h"
 
-#include "tx_priv.h"
+#include "third_party/ffmpeg/libavutil/tx_priv.h"
 
 #define TYPE_IS(type, x)               \
     (((x) == AV_TX_FLOAT_ ## type)  || \

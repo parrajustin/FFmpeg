@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "dovi_meta.h"
+#include "third_party/ffmpeg/libavutil/dovi_meta.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
 AVDOVIDecoderConfigurationRecord *av_dovi_alloc(size_t *size)

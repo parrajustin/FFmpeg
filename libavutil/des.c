@@ -25,9 +25,9 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
-#include "des.h"
+#include "third_party/ffmpeg/libavutil/des.h"
 
 #define T(a, b, c, d, e, f, g, h) 64 - a, 64 - b, 64 - c, 64 - d, 64 - e, 64 - f, 64 - g, 64 - h
 static const uint8_t IP_shuffle[] = {

@@ -21,9 +21,9 @@
 
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "third_party/ffmpeg/libavutil/bprint.h"
-#include "hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
 #include "third_party/ffmpeg/libavutil/vulkan_functions.h"
-#include "hwcontext_vulkan.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vulkan.h"
 #include "third_party/ffmpeg/libavutil/vulkan_loader.h"
 
 #define FF_VK_DEFAULT_USAGE_FLAGS (VK_IMAGE_USAGE_SAMPLED_BIT      |           \

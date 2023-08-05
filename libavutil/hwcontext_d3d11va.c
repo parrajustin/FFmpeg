@@ -32,13 +32,13 @@
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_d3d11va.h"
-#include "hwcontext_internal.h"
-#include "imgutils.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_d3d11va.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
-#include "thread.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 #include "third_party/ffmpeg/libavutil/compat/w32dlfcn.h"
 
 typedef HRESULT(WINAPI *PFN_CREATE_DXGI_FACTORY)(REFIID riid, void **ppFactory);

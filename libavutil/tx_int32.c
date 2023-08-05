@@ -17,6 +17,6 @@
  */
 
 #define TX_FLOAT
-#include "tx_priv.h"
-#include "tx_template.c"
+#include "third_party/ffmpeg/libavutil/tx_priv.h"
+#include "third_party/ffmpeg/libavutil/tx_template.c"
 

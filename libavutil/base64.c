@@ -29,7 +29,7 @@
 
 #include "third_party/ffmpeg/libavutil/base64.h"
 #include "third_party/ffmpeg/libavutil/error.h"
-#include "intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
 
 /* ---------------- private code */
 static const uint8_t map2[256] =

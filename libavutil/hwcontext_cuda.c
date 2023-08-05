@@ -18,17 +18,17 @@
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "hwcontext.h"
-#include "hwcontext_internal.h"
-#include "hwcontext_cuda_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_internal.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_cuda_internal.h"
 #if CONFIG_VULKAN
-#include "hwcontext_vulkan.h"
+#include "third_party/ffmpeg/libavutil/hwcontext_vulkan.h"
 #endif
 #include "third_party/ffmpeg/libavutil/cuda_check.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
-#include "imgutils.h"
+#include "third_party/ffmpeg/libavutil/imgutils.h"
 
 typedef struct CUDAFramesContext {
     int shift_width, shift_height;
