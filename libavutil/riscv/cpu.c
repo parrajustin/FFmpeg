@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "config.h"
 
 #if HAVE_GETAUXVAL

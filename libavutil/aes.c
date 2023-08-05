@@ -22,13 +22,13 @@
 
 #include <string.h>
 
-#include "config.h"
-#include "aes.h"
-#include "aes_internal.h"
-#include "error.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/aes_internal.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 const int av_aes_size= sizeof(AVAES);
 

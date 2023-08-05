@@ -21,11 +21,11 @@
 
 #include <string.h>
 
-#include "camellia.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/camellia.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define LR32(x,c) ((x) << (c) | (x) >> (32 - (c)))
 #define RR32(x,c) ((x) >> (c) | (x) << (32 - (c)))

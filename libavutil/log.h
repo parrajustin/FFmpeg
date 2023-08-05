@@ -22,8 +22,8 @@
 #define AVUTIL_LOG_H
 
 #include <stdarg.h>
-#include "attributes.h"
-#include "version.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 typedef enum {
     AV_CLASS_CATEGORY_NA = 0,

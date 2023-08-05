@@ -24,8 +24,8 @@
 
 #include <inttypes.h>
 
-#include "attributes.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 typedef struct AVComponentDescriptor {
     /**

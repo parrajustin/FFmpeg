@@ -19,7 +19,7 @@
 #ifndef AVUTIL_VULKAN_LOADER_H
 #define AVUTIL_VULKAN_LOADER_H
 
-#include "vulkan_functions.h"
+#include "third_party/ffmpeg/libavutil/vulkan_functions.h"
 
 /* Macro to turn a function name into a loader struct */
 #define PFN_LOAD_INFO(req_inst, req_dev, ext_flag, name) \

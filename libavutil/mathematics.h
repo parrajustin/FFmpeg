@@ -29,7 +29,7 @@
 
 #include <stdint.h>
 #include <math.h>
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "rational.h"
 #include "intfloat.h"
 

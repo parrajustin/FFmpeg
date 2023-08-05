@@ -26,11 +26,11 @@
 #include <stdint.h>
 #include <limits.h>
 
-#include "avutil.h"
-#include "mathematics.h"
-#include "libavutil/intmath.h"
-#include "libavutil/common.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "intmath.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 /* Stein's binary GCD algorithm:
  * https://en.wikipedia.org/wiki/Binary_GCD_algorithm */

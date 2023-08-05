@@ -29,7 +29,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @defgroup lavu_crc32 CRC

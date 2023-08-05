@@ -16,10 +16,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
-#include "avutil.h"
-#include "file_open.h"
-#include "mem.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include <stdarg.h>
 #include <fcntl.h>
 #include <sys/stat.h>
@@ -38,7 +38,7 @@
 #include <windows.h>
 #include <share.h>
 #include <errno.h>
-#include "wchar_filename.h"
+#include "third_party/ffmpeg/libavutil/wchar_filename.h"
 
 static int win32_open(const char *filename_utf8, int oflag, int pmode)
 {

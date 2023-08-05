@@ -29,7 +29,7 @@
 
 #include <stdint.h>
 
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 /**
  * @defgroup lavu_video_stereo3d Stereo3D types and functions

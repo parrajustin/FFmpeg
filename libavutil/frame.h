@@ -28,14 +28,14 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "avutil.h"
-#include "buffer.h"
-#include "channel_layout.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "dict.h"
 #include "rational.h"
-#include "samplefmt.h"
-#include "pixfmt.h"
-#include "version.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 
 /**

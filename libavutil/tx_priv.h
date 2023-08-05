@@ -21,8 +21,8 @@
 
 #include "tx.h"
 #include "thread.h"
-#include "mem_internal.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #ifdef TX_FLOAT
 #define TX_TAB(x) x ## _float

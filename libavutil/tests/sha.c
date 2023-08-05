@@ -18,8 +18,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/sha.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/sha.h"
 
 int main(void)
 {

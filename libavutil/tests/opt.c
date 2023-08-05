@@ -19,14 +19,14 @@
 #include <limits.h>
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/rational.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 typedef struct TestContext {
     const AVClass *class;

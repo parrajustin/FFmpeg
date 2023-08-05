@@ -24,8 +24,8 @@
 #endif
 #include <vulkan/vulkan.h>
 
-#include "pixfmt.h"
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 /**
  * @file

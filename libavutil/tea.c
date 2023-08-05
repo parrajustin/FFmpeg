@@ -24,7 +24,7 @@
 
 #include <string.h>
 #include "intreadwrite.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "tea.h"
 
 typedef struct AVTEA {

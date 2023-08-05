@@ -19,12 +19,12 @@
 #ifndef AVUTIL_VULKAN_H
 #define AVUTIL_VULKAN_H
 
-#include "pixdesc.h"
-#include "bprint.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 #include "hwcontext.h"
-#include "vulkan_functions.h"
+#include "third_party/ffmpeg/libavutil/vulkan_functions.h"
 #include "hwcontext_vulkan.h"
-#include "vulkan_loader.h"
+#include "third_party/ffmpeg/libavutil/vulkan_loader.h"
 
 #define FF_VK_DEFAULT_USAGE_FLAGS (VK_IMAGE_USAGE_SAMPLED_BIT      |           \
                                    VK_IMAGE_USAGE_STORAGE_BIT      |           \

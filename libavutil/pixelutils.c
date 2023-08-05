@@ -18,17 +18,17 @@
 
 #include <stddef.h>
 
-#include "config.h"
-#include "pixelutils.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/pixelutils.h"
 
 #if CONFIG_PIXELUTILS
 #include <stdlib.h>
 #include <string.h>
 
-#include "attributes.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
-#include "x86/pixelutils.h"
+#include "third_party/ffmpeg/libavutil/x86/pixelutils.h"
 
 static av_always_inline int sad_wxh(const uint8_t *src1, ptrdiff_t stride1,
                                     const uint8_t *src2, ptrdiff_t stride2,
@@ -66,7 +66,7 @@ static const av_pixelutils_sad_fn sad_c[] = {
     block_sad_32x32_c,
 };
 #else
-#include "log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #endif /* CONFIG_PIXELUTILS */
 
 av_pixelutils_sad_fn av_pixelutils_get_sad_fn(int w_bits, int h_bits, int aligned, void *log_ctx)

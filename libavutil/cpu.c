@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_SCHED_GETAFFINITY
 #ifndef _GNU_SOURCE
@@ -29,11 +29,11 @@
 #include <stdint.h>
 #include <stdatomic.h>
 
-#include "attributes.h"
-#include "cpu.h"
-#include "cpu_internal.h"
-#include "opt.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 #if HAVE_GETPROCESSAFFINITYMASK || HAVE_WINRT
 #include <windows.h>

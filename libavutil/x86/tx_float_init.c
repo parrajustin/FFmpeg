@@ -17,11 +17,11 @@
  */
 
 #define TX_FLOAT
-#include "libavutil/tx_priv.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
+#include "third_party/ffmpeg/libavutil/tx_priv.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "cpu.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 TX_DECL_FN(fft2,      sse3)
 TX_DECL_FN(fft4_fwd,  sse2)

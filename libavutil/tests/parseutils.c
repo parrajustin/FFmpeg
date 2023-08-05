@@ -17,14 +17,14 @@
  */
 
 #define TEST
-#include "libavutil/parseutils.c"
+#include "third_party/ffmpeg/libavutil/parseutils.c"
 
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/log.h"
-#include "libavutil/rational.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/rational.h"
 
 static uint32_t randomv = MKTAG('L','A','V','U');
 

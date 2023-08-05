@@ -19,7 +19,7 @@
 #ifndef AVUTIL_X86_PIXELUTILS_H
 #define AVUTIL_X86_PIXELUTILS_H
 
-#include "libavutil/pixelutils.h"
+#include "third_party/ffmpeg/libavutil/pixelutils.h"
 
 void ff_pixelutils_sad_init_x86(av_pixelutils_sad_fn *sad, int aligned);
 

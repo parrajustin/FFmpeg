@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_UNISTD_H
 #include <unistd.h>
@@ -34,13 +34,13 @@
 #include <math.h>
 #include <time.h>
 #include <string.h>
-#include "avassert.h"
-#include "file_open.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
 #include "internal.h"
 #include "intreadwrite.h"
 #include "timer.h"
 #include "random_seed.h"
-#include "sha.h"
+#include "third_party/ffmpeg/libavutil/sha.h"
 
 #ifndef TEST
 #define TEST 0

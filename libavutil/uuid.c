@@ -60,9 +60,9 @@
  * @author Zane van Iperen <zane@zanevaniperen.com>
  */
 
-#include "uuid.h"
-#include "error.h"
-#include "avstring.h"
+#include "third_party/ffmpeg/libavutil/uuid.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 int av_uuid_parse(const char *in, AVUUID uu)
 {

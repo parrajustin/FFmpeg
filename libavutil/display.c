@@ -23,8 +23,8 @@
 #include <math.h>
 
 #include "display.h"
-#include "libm.h"
-#include "mathematics.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 // fixed point to double
 #define CONV_FP(x) ((double) (x)) / (1 << 16)

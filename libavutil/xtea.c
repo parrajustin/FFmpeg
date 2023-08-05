@@ -29,10 +29,10 @@
  */
 
 #include <string.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "xtea.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/xtea.h"
 
 AVXTEA *av_xtea_alloc(void)
 {

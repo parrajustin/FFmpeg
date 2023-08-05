@@ -22,8 +22,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "version.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/version.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @file

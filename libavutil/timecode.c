@@ -27,10 +27,10 @@
  */
 
 #include <stdio.h>
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "timecode.h"
-#include "log.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 int av_timecode_adjust_ntsc_framenum2(int framenum, int fps)
 {

@@ -24,8 +24,8 @@
  * principal component analysis (PCA)
  */
 
-#include "common.h"
-#include "pca.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pca.h"
 
 typedef struct PCA{
     int count;

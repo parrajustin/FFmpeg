@@ -22,7 +22,7 @@
 #include <stdatomic.h>
 #include <stdint.h>
 
-#include "buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 #include "thread.h"
 
 /**

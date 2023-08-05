@@ -26,8 +26,8 @@
 #ifndef AVUTIL_FFMATH_H
 #define AVUTIL_FFMATH_H
 
-#include "attributes.h"
-#include "libm.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 
 /**
  * Compute 10^x for floating point values. Note: this function is by no means

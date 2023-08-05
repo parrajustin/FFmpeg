@@ -21,9 +21,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/xtea.h"
+#include "third_party/ffmpeg/libavutil/intreadwrite.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/xtea.h"
 
 #define XTEA_NUM_TESTS 6
 

@@ -26,7 +26,7 @@
 
 #define _XOPEN_SOURCE 600
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <limits.h>
 #include <stdint.h>
@@ -37,14 +37,14 @@
 #include <malloc.h>
 #endif
 
-#include "attributes.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "dynarray.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "internal.h"
 #include "intreadwrite.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #ifdef MALLOC_PREFIX
 

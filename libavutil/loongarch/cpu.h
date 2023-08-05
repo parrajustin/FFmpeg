@@ -22,8 +22,8 @@
 #ifndef AVUTIL_LOONGARCH_CPU_H
 #define AVUTIL_LOONGARCH_CPU_H
 
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
 
 #define have_lsx(flags) CPUEXT(flags, LSX)
 #define have_lasx(flags) CPUEXT(flags, LASX)

@@ -18,10 +18,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "libavutil/common.h"
-#include "libavutil/fifo.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/random_seed.h"
 
 typedef struct CBState {
     unsigned int read_idx;

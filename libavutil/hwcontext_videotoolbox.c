@@ -16,22 +16,22 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdint.h>
 #include <string.h>
 
 #include <VideoToolbox/VideoToolbox.h>
 
-#include "buffer.h"
-#include "buffer_internal.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_videotoolbox.h"
-#include "mem.h"
-#include "pixfmt.h"
-#include "pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 typedef struct VTFramesContext {
     CVPixelBufferPoolRef pool;

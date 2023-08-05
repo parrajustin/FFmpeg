@@ -20,8 +20,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/file.h"
 
 static void print_sequence(const char *p, int l, int indent)
 {

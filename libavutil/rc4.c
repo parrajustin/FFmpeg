@@ -21,9 +21,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "error.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "rc4.h"
 
 AVRC4 *av_rc4_alloc(void)

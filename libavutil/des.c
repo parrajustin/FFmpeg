@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdint.h>
 
-#include "attributes.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "des.h"
 
 #define T(a, b, c, d, e, f, g, h) 64 - a, 64 - b, 64 - c, 64 - d, 64 - e, 64 - f, 64 - g, 64 - h

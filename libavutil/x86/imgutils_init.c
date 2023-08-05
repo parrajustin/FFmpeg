@@ -19,10 +19,10 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/error.h"
-#include "libavutil/imgutils_internal.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/imgutils_internal.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #include "cpu.h"
 

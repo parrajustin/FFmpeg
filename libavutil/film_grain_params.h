@@ -19,7 +19,7 @@
 #ifndef AVUTIL_FILM_GRAIN_PARAMS_H
 #define AVUTIL_FILM_GRAIN_PARAMS_H
 
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 enum AVFilmGrainParamsType {
     AV_FILM_GRAIN_PARAMS_NONE = 0,

@@ -19,7 +19,7 @@
  */
 
 #define TEST 1
-#include "libavutil/random_seed.c"
+#include "third_party/ffmpeg/libavutil/random_seed.c"
 
 #undef printf
 #define N 256

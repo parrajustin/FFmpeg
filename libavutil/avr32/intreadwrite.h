@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 /*
  * AVR32 does not support unaligned memory accesses, except for the AP

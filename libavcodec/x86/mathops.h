@@ -22,10 +22,10 @@
 #ifndef AVCODEC_X86_MATHOPS_H
 #define AVCODEC_X86_MATHOPS_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
-#include "libavutil/common.h"
-#include "libavutil/x86/asm.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/x86/asm.h"
 
 #if HAVE_INLINE_ASM
 

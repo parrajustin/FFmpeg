@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
-#include "avutil.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 /**
  * @file

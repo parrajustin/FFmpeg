@@ -27,7 +27,7 @@
 #include <errno.h>
 #include <stddef.h>
 
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 /**
  * @addtogroup lavu_error

@@ -21,8 +21,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/blowfish.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/blowfish.h"
 
 #define NUM_VARIABLE_KEY_TESTS 34
 

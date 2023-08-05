@@ -23,7 +23,7 @@
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 av_warn_unused_result
 static inline int utf8towchar(const char *filename_utf8, wchar_t **filename_w)

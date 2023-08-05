@@ -31,7 +31,7 @@
 
 #include <stdint.h>
 #include <limits.h>
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @defgroup lavu_math_rational AVRational

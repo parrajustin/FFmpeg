@@ -22,14 +22,14 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "config.h"
-#include "attributes.h"
-#include "bswap.h"
-#include "error.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 #include "ripemd.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 /** hash context */
 typedef struct AVRIPEMD {

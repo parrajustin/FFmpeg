@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <fcntl.h>
 #include <sys/mman.h>
@@ -33,7 +33,7 @@
 #include <drm.h>
 #include <xf86drm.h>
 
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "hwcontext.h"
 #include "hwcontext_drm.h"
 #include "hwcontext_internal.h"

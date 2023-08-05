@@ -21,12 +21,12 @@
 
 #include <stdlib.h>
 
-#include "config.h"
-#include "mem.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #if HAVE_GETENV && defined(_WIN32)
 
-#include "libavutil/wchar_filename.h"
+#include "third_party/ffmpeg/libavutil/wchar_filename.h"
 
 static inline char *getenv_utf8(const char *varname)
 {

@@ -16,16 +16,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "channel_layout.h"
-#include "avassert.h"
-#include "buffer.h"
-#include "common.h"
-#include "cpu.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 #include "dict.h"
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 #include "imgutils.h"
-#include "mem.h"
-#include "samplefmt.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 #include "hwcontext.h"
 
 #if FF_API_OLD_CHANNEL_LAYOUT

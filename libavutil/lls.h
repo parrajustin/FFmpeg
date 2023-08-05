@@ -23,8 +23,8 @@
 #ifndef AVUTIL_LLS_H
 #define AVUTIL_LLS_H
 
-#include "macros.h"
-#include "mem_internal.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #define MAX_VARS 32
 #define MAX_VARS_ALIGN FFALIGN(MAX_VARS+1,4)

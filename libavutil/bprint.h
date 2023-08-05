@@ -29,8 +29,8 @@
 
 #include <stdarg.h>
 
-#include "attributes.h"
-#include "avstring.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 /**
  * @defgroup lavu_avbprint AVBPrint

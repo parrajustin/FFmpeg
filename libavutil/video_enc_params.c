@@ -19,10 +19,10 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "buffer.h"
-#include "frame.h"
-#include "mem.h"
-#include "video_enc_params.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/video_enc_params.h"
 
 AVVideoEncParams *av_video_enc_params_alloc(enum AVVideoEncParamsType type,
                                             unsigned int nb_blocks, size_t *out_size)

@@ -21,10 +21,10 @@
 
 #include <stddef.h>
 
-#include "buffer.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
 #include "hwcontext.h"
-#include "frame.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 typedef struct HWContextType {
     enum AVHWDeviceType type;

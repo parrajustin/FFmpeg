@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "ambient_viewing_environment.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/ambient_viewing_environment.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 AVAmbientViewingEnvironment *av_ambient_viewing_environment_alloc(size_t *size)
 {

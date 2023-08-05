@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/twofish.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/twofish.h"
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -39,8 +39,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "attributes.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 //rounded division & shift
 #define RSHIFT(a,b) ((a) > 0 ? ((a) + ((1<<(b))>>1))>>(b) : ((a) + ((1<<(b))>>1)-1)>>(b))
@@ -84,7 +84,7 @@
 /* misc math functions */
 
 #ifdef HAVE_AV_CONFIG_H
-#   include "config.h"
+#   include "../config.h"
 #   include "intmath.h"
 #endif
 
@@ -569,7 +569,7 @@ static av_always_inline av_const int av_parity_c(uint32_t v)
 
 
 
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #ifdef HAVE_AV_CONFIG_H
 #    include "internal.h"

@@ -22,24 +22,24 @@
 #ifdef _WIN32
 #include <windows.h> /* Included to prevent conflicts with CreateSemaphore */
 #include <versionhelpers.h>
-#include "compat/w32dlfcn.h"
+#include "third_party/ffmpeg/libavutil/compat/w32dlfcn.h"
 #else
 #include <dlfcn.h>
 #endif
 
 #include <unistd.h>
 
-#include "config.h"
-#include "pixdesc.h"
-#include "avstring.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "imgutils.h"
 #include "hwcontext.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_vulkan.h"
 
-#include "vulkan.h"
-#include "vulkan_loader.h"
+#include "third_party/ffmpeg/libavutil/vulkan.h"
+#include "third_party/ffmpeg/libavutil/vulkan_loader.h"
 
 #if CONFIG_LIBDRM
 #include <xf86drm.h>
@@ -53,7 +53,7 @@
 
 #if CONFIG_CUDA
 #include "hwcontext_cuda_internal.h"
-#include "cuda_check.h"
+#include "third_party/ffmpeg/libavutil/cuda_check.h"
 #define CHECK_CU(x) FF_CUDA_CHECK_DL(cuda_cu, cu, x)
 #endif
 

@@ -49,9 +49,9 @@
 #define AVUTIL_FIXED_DSP_H
 
 #include <stdint.h>
-#include "config.h"
-#include "attributes.h"
-#include "libavcodec/mathops.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavcodec/mathops.h"
 
 typedef struct AVFixedDSPContext {
     /* Assume len is a multiple of 16, and arrays are 32-byte aligned */

@@ -25,15 +25,15 @@
 #include <dxva2api.h>
 #include <initguid.h>
 
-#include "avassert.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_dxva2.h"
 #include "hwcontext_internal.h"
 #include "imgutils.h"
-#include "pixdesc.h"
-#include "pixfmt.h"
-#include "compat/w32dlfcn.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/compat/w32dlfcn.h"
 
 typedef IDirect3D9* WINAPI pDirect3DCreate9(UINT);
 typedef HRESULT WINAPI pDirect3DCreate9Ex(UINT, IDirect3D9Ex **);

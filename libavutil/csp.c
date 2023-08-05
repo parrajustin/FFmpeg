@@ -30,9 +30,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "attributes.h"
-#include "csp.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "rational.h"
 
 #define AVR(d) { (int)(d * 100000 + 0.5), 100000 }

@@ -21,7 +21,7 @@
 /* undef these to get the function prototypes from common.h */
 #undef av_log2
 #undef av_log2_16bit
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
 int av_log2(unsigned v)
 {

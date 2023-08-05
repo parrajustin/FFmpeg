@@ -22,7 +22,7 @@
 
 #include <mfxvideo.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_PTHREADS
 #include <pthread.h>
@@ -39,17 +39,17 @@
 #include "hwcontext_dxva2.h"
 #endif
 
-#include "buffer.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_qsv.h"
-#include "mem.h"
-#include "pixfmt.h"
-#include "pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "time.h"
 #include "imgutils.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 #define QSV_VERSION_ATLEAST(MAJOR, MINOR)   \
     (MFX_VERSION_MAJOR > (MAJOR) ||         \

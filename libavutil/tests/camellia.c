@@ -22,9 +22,9 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "libavutil/camellia.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/camellia.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 int main(int argc, char *argv[])
 {

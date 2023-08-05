@@ -24,7 +24,7 @@
 #include <cuda.h>
 #endif
 
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 /**
  * @file

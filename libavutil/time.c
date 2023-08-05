@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stddef.h>
 #include <stdint.h>
@@ -34,7 +34,7 @@
 #endif
 
 #include "time.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 int64_t av_gettime(void)
 {

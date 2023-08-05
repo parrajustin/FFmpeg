@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/uuid.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/uuid.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 static const char *UUID_1        = "6021b21e-894e-43ff-8317-1ca891c1c49b";
 static const char *UUID_1_UC     = "6021B21E-894E-43FF-8317-1CA891C1C49B";

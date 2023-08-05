@@ -16,14 +16,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <android/native_window.h>
 #include <dlfcn.h>
 #include <media/NdkMediaCodec.h>
 
-#include "buffer.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_mediacodec.h"

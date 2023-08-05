@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/hmac.c"
+#include "third_party/ffmpeg/libavutil/hmac.c"
 
 #include <stdio.h>
 #include <string.h>

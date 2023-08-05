@@ -29,7 +29,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @defgroup lavu_adler32 Adler-32

@@ -23,7 +23,7 @@
 
 #include "config.h"
 #include <stddef.h>
-#include "libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 
 #if HAVE_RVV
 /**

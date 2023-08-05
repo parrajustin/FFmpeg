@@ -21,7 +21,7 @@
 #ifndef AVUTIL_DOWNMIX_INFO_H
 #define AVUTIL_DOWNMIX_INFO_H
 
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 /**
  * @file

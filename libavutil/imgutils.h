@@ -29,8 +29,8 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "pixdesc.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "rational.h"
 
 /**

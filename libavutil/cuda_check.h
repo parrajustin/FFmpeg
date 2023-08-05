@@ -20,8 +20,8 @@
 #ifndef AVUTIL_CUDA_CHECK_H
 #define AVUTIL_CUDA_CHECK_H
 
-#include "compat/cuda/dynlink_loader.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/compat/cuda/dynlink_loader.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 typedef CUresult CUDAAPI cuda_check_GetErrorName(CUresult error, const char** pstr);
 typedef CUresult CUDAAPI cuda_check_GetErrorString(CUresult error, const char** pstr);

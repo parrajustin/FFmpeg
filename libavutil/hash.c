@@ -22,19 +22,19 @@
 #include <stdint.h>
 #include "hash.h"
 
-#include "adler32.h"
-#include "crc.h"
-#include "md5.h"
-#include "murmur3.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/murmur3.h"
 #include "ripemd.h"
-#include "sha.h"
-#include "sha512.h"
+#include "third_party/ffmpeg/libavutil/sha.h"
+#include "third_party/ffmpeg/libavutil/sha512.h"
 
-#include "avstring.h"
-#include "base64.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 enum hashtype {
     MD5,

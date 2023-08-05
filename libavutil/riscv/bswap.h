@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #if defined (__riscv_zbb) && (__riscv_zbb > 0) && HAVE_INLINE_ASM
 

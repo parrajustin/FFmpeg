@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
-#include "attributes.h"
-#include "float_dsp.h"
-#include "mem.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 static void vector_fmul_c(float *dst, const float *src0, const float *src1,
                           int len)

@@ -25,11 +25,11 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include <limits.h>
 
-#include "common.h"
-#include "mathematics.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "rational.h"
 
 int av_reduce(int *dst_num, int *dst_den,

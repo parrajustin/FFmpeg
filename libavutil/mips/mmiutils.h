@@ -26,8 +26,8 @@
 
 #include "config.h"
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 /*
  * These were used to define temporary registers for MMI marcos

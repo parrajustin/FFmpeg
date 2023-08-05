@@ -22,12 +22,12 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "hmac.h"
-#include "md5.h"
-#include "sha.h"
-#include "sha512.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/sha.h"
+#include "third_party/ffmpeg/libavutil/sha512.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #define MAX_HASHLEN 64
 #define MAX_BLOCKLEN 128

@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if !CONFIG_VULKAN
 #include <stddef.h>
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 typedef enum VkFormat VkFormat;
 typedef struct AVVkFrame AVVkFrame;

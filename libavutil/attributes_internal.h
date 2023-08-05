@@ -19,7 +19,7 @@
 #ifndef AVUTIL_ATTRIBUTES_INTERNAL_H
 #define AVUTIL_ATTRIBUTES_INTERNAL_H
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #if (AV_GCC_VERSION_AT_LEAST(4,0) || defined(__clang__)) && (defined(__ELF__) || defined(__MACH__))
 #    define attribute_visibility_hidden __attribute__((visibility("hidden")))

@@ -25,14 +25,14 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "config.h"
-#include "mem.h"
-#include "avassert.h"
-#include "avstring.h"
-#include "bprint.h"
-#include "error.h"
-#include "macros.h"
-#include "version.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 int av_strstart(const char *str, const char *pfx, const char **ptr)
 {

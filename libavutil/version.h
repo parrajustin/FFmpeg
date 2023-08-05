@@ -27,7 +27,7 @@
 #ifndef AVUTIL_VERSION_H
 #define AVUTIL_VERSION_H
 
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 /**
  * @addtogroup version_utils

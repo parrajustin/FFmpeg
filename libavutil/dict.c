@@ -20,14 +20,14 @@
 
 #include <string.h>
 
-#include "avassert.h"
-#include "avstring.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "dict.h"
 #include "dict_internal.h"
 #include "internal.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "time_internal.h"
-#include "bprint.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 struct AVDictionary {
     int count;

@@ -19,8 +19,8 @@
 #ifndef AVUTIL_DYNARRAY_H
 #define AVUTIL_DYNARRAY_H
 
-#include "log.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 /**
  * Add an element to a dynamic array.

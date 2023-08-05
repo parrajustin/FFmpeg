@@ -18,12 +18,12 @@
 
 // LCOV_EXCL_START
 
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 #include <string.h>
 
-#include "libavutil/log.h"
-#include "libavutil/adler32.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
 
 #define LEN 7001
 

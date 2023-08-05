@@ -28,9 +28,9 @@
 #include <math.h>
 #include <string.h>
 
-#include "config.h"
-#include "attributes.h"
-#include "lls.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/lls.h"
 
 static void update_lls(LLSModel *m, const double *var)
 {

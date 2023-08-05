@@ -23,8 +23,8 @@
 
 #include <VideoToolbox/VideoToolbox.h>
 
-#include "frame.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 /**
  * @file

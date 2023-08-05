@@ -22,10 +22,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "avstring.h"
-#include "common.h"
-#include "pixfmt.h"
-#include "pixdesc.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "intreadwrite.h"
 
 void av_read_image_line2(void *dst,

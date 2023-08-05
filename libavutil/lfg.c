@@ -22,12 +22,12 @@
 #include <inttypes.h>
 #include <limits.h>
 #include <math.h>
-#include "lfg.h"
-#include "crc.h"
-#include "md5.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 av_cold void av_lfg_init(AVLFG *c, unsigned int seed)
 {

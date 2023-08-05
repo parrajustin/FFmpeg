@@ -23,10 +23,10 @@
 
 #include <string.h>
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "blowfish.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/blowfish.h"
 
 static const uint32_t orig_p[AV_BF_ROUNDS + 2] = {
     0x243F6A88, 0x85A308D3, 0x13198A2E, 0x03707344,

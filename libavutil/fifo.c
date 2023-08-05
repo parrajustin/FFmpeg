@@ -23,11 +23,11 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "avassert.h"
-#include "error.h"
-#include "fifo.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 // by default the FIFO can be auto-grown to 1MB
 #define AUTO_GROW_DEFAULT_BYTES (1024 * 1024)

@@ -29,7 +29,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 #define storeneonregs(mem)                \
     __asm__ volatile(                     \

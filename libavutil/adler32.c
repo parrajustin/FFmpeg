@@ -30,10 +30,10 @@
  * @ingroup lavu_adler32
  */
 
-#include "config.h"
-#include "adler32.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/adler32.h"
 #include "intreadwrite.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #define BASE 65521L /* largest prime smaller than 65536 */
 

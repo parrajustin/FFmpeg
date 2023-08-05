@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
-#include "file.h"
-#include "file_open.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/file.h"
+#include "third_party/ffmpeg/libavutil/file_open.h"
 #include "internal.h"
-#include "log.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include <fcntl.h>
 #include <sys/stat.h>
 #if HAVE_UNISTD_H

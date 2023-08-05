@@ -23,10 +23,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include "asm.h"
+#include "cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
 
 #if HAVE_X86ASM
 

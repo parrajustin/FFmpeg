@@ -37,9 +37,9 @@
 #include <proto/exec.h>
 #endif /* __APPLE__ */
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
 
 /**
  * This function MAY rely on signal() or fork() in order to make sure AltiVec

@@ -21,11 +21,11 @@
 
 #include <string.h>
 
-#include "aes_ctr.h"
-#include "aes.h"
-#include "aes_internal.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/aes_ctr.h"
+#include "third_party/ffmpeg/libavutil/aes.h"
+#include "third_party/ffmpeg/libavutil/aes_internal.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "random_seed.h"
 
 #define AES_BLOCK_SIZE (16)

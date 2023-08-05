@@ -23,8 +23,8 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "attributes.h"
-#include "version.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 /**
  * @addtogroup lavu_string

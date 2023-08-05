@@ -18,7 +18,7 @@
 
 #include <shaderc/shaderc.h>
 
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 static int shdc_shader_compile(FFVkSPIRVCompiler *ctx, void *avctx,
                                FFVkSPIRVShader *shd, uint8_t **data,

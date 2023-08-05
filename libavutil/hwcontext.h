@@ -19,10 +19,10 @@
 #ifndef AVUTIL_HWCONTEXT_H
 #define AVUTIL_HWCONTEXT_H
 
-#include "buffer.h"
-#include "frame.h"
-#include "log.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 enum AVHWDeviceType {
     AV_HWDEVICE_TYPE_NONE,

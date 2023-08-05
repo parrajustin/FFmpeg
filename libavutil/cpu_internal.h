@@ -19,9 +19,9 @@
 #ifndef AVUTIL_CPU_INTERNAL_H
 #define AVUTIL_CPU_INTERNAL_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
-#include "cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 
 #define CPUEXT_SUFFIX(flags, suffix, cpuext)                            \
     (HAVE_ ## cpuext ## suffix && ((flags) & AV_CPU_FLAG_ ## cpuext))

@@ -26,7 +26,7 @@
 #ifndef AVUTIL_TIMER_H
 #define AVUTIL_TIMER_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_LINUX_PERF
 # ifndef _GNU_SOURCE
@@ -43,13 +43,13 @@
 #include <inttypes.h>
 
 #if CONFIG_MACOS_KPERF
-#include "macos_kperf.h"
+#include "third_party/ffmpeg/libavutil/macos_kperf.h"
 #elif HAVE_MACH_ABSOLUTE_TIME
 #include <mach/mach_time.h>
 #endif
 
-#include "common.h"
-#include "log.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #if   ARCH_AARCH64
 #   include "aarch64/timer.h"

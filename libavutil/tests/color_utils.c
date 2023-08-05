@@ -19,8 +19,8 @@
  */
 
 #include <stdio.h>
-#include "libavutil/csp.h"
-#include "libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/csp.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 int main(int argc, char *argv[])
 {

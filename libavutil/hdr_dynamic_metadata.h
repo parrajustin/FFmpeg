@@ -21,7 +21,7 @@
 #ifndef AVUTIL_HDR_DYNAMIC_METADATA_H
 #define AVUTIL_HDR_DYNAMIC_METADATA_H
 
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 #include "rational.h"
 
 /**

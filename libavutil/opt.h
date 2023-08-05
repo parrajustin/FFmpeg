@@ -28,12 +28,12 @@
  */
 
 #include "rational.h"
-#include "avutil.h"
-#include "channel_layout.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "dict.h"
-#include "log.h"
-#include "pixfmt.h"
-#include "samplefmt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 /**
  * @defgroup avoptions AVOptions

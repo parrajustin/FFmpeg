@@ -16,18 +16,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
-#include "avassert.h"
-#include "buffer.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "imgutils.h"
-#include "log.h"
-#include "mem.h"
-#include "pixdesc.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 static const HWContextType * const hw_table[] = {
 #if CONFIG_CUDA

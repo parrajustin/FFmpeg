@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
 #include "config.h"
 #if defined __linux__ || defined __ANDROID__
 #include <stdint.h>
@@ -25,7 +25,7 @@
 #include <string.h>
 #include <sys/auxv.h>
 #include "asmdefs.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #endif
 
 #if defined __linux__ || defined __ANDROID__

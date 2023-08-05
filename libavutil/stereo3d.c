@@ -20,11 +20,11 @@
 
 #include <string.h>
 
-#include "avstring.h"
-#include "frame.h"
-#include "macros.h"
-#include "mem.h"
-#include "stereo3d.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/stereo3d.h"
 
 AVStereo3D *av_stereo3d_alloc(void)
 {

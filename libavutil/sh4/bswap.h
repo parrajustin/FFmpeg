@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define av_bswap16 av_bswap16
 static av_always_inline av_const uint16_t av_bswap16(uint16_t x)

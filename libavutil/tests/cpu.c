@@ -20,8 +20,8 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 #if HAVE_UNISTD_H
 #include <unistd.h>

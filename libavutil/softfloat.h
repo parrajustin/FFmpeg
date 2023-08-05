@@ -22,10 +22,10 @@
 #define AVUTIL_SOFTFLOAT_H
 
 #include <stdint.h>
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 
-#include "avassert.h"
-#include "softfloat_tables.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/softfloat_tables.h"
 
 #define MIN_EXP -149
 #define MAX_EXP  126

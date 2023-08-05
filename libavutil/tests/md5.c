@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/md5.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
 
 static void print_md5(uint8_t *md5)
 {

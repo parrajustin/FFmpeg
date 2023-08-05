@@ -20,16 +20,16 @@
 
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
-#include "avassert.h"
-#include "avstring.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_opencl.h"
-#include "mem.h"
-#include "pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 
 #if HAVE_OPENCL_VAAPI_BEIGNET
 #include <unistd.h>

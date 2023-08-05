@@ -31,8 +31,8 @@
 #include <string.h>
 #include <float.h>
 
-#include "avstring.h"
-#include "libm.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
 
 typedef struct FFFILE {
     size_t buf_size;

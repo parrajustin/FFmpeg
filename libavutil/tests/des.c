@@ -16,17 +16,17 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
-#include "libavutil/des.c"
+#include "third_party/ffmpeg/libavutil/des.c"
 
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/time.h"
+#include "third_party/ffmpeg/libavutil/time.h"
 
 static uint64_t rand64(void)
 {

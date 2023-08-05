@@ -28,8 +28,8 @@
 #define AVUTIL_AVASSERT_H
 
 #include <stdlib.h>
-#include "log.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 /**
  * assert() equivalent, that is always enabled.

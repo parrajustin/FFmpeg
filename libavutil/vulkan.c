@@ -16,15 +16,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
-#include "vulkan.h"
-#include "vulkan_loader.h"
+#include "third_party/ffmpeg/libavutil/vulkan.h"
+#include "third_party/ffmpeg/libavutil/vulkan_loader.h"
 
 #if CONFIG_LIBGLSLANG
-#include "vulkan_glslang.c"
+#include "third_party/ffmpeg/libavutil/vulkan_glslang.c"
 #elif CONFIG_LIBSHADERC
-#include "vulkan_shaderc.c"
+#include "third_party/ffmpeg/libavutil/vulkan_shaderc.c"
 #endif
 
 /* Generic macro for creating contexts which need to keep their addresses

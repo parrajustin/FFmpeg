@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.c"
+#include "third_party/ffmpeg/libavutil/channel_layout.c"
 
 #define CHANNEL_NAME(x)                                                    \
     av_bprint_clear(&bp);                                                  \

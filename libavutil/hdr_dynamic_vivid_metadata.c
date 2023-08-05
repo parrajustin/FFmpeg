@@ -19,7 +19,7 @@
  */
 
 #include "hdr_dynamic_vivid_metadata.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 AVDynamicHDRVivid *av_dynamic_hdr_vivid_alloc(size_t *size)
 {

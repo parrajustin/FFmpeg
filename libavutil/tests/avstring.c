@@ -18,9 +18,9 @@
 
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 
 int main(void)
 {

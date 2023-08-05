@@ -18,13 +18,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 #include <inttypes.h>
 
-#include "libavutil/softfloat.h"
-#include "libavutil/common.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/softfloat.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 #include <stdio.h>
 

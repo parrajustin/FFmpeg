@@ -23,14 +23,14 @@
 
 #include <time.h>
 
-#include "avstring.h"
-#include "avutil.h"
-#include "common.h"
-#include "eval.h"
-#include "log.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "random_seed.h"
 #include "time_internal.h"
-#include "parseutils.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "time.h"
 
 #ifdef TEST

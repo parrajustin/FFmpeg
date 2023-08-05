@@ -21,8 +21,8 @@
 
 #include <stdio.h>
 
-#include "config.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #if HAVE_LIBC_MSVCRT
 #define avpriv_fopen_utf8 ff_fopen_utf8

@@ -20,9 +20,9 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "intreadwrite.h"
-#include "murmur3.h"
+#include "third_party/ffmpeg/libavutil/murmur3.h"
 
 typedef struct AVMurMur3 {
     uint64_t h1, h2;

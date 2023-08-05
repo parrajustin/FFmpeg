@@ -25,7 +25,7 @@
 #include <CL/cl.h>
 #endif
 
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 /**
  * @file

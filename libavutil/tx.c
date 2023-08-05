@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "intmath.h"
-#include "cpu.h"
-#include "qsort.h"
-#include "bprint.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/qsort.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
 
 #include "tx_priv.h"
 

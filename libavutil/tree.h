@@ -27,7 +27,7 @@
 #ifndef AVUTIL_TREE_H
 #define AVUTIL_TREE_H
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @addtogroup lavu_tree AVTree

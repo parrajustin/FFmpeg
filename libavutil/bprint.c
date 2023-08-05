@@ -23,12 +23,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include "avstring.h"
-#include "bprint.h"
-#include "compat/va_copy.h"
-#include "error.h"
-#include "macros.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/../compat/va_copy.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #define av_bprint_room(buf) ((buf)->size - FFMIN((buf)->len, (buf)->size))
 #define av_bprint_is_allocated(buf) ((buf)->str != (buf)->reserved_internal_buffer)

@@ -24,7 +24,7 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define AV_RB16 AV_RB16
 static av_always_inline uint16_t AV_RB16(const void *p)

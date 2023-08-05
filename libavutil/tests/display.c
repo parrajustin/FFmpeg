@@ -19,7 +19,7 @@
  */
 
 #include <stdio.h>
-#include "libavutil/display.c"
+#include "third_party/ffmpeg/libavutil/display.c"
 
 static void print_matrix(int32_t matrix[9])
 {

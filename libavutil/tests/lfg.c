@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/log.h"
-#include "libavutil/timer.h"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
 static const double Z_TABLE[31][10] = {
     {0.5000,  0.5040,  0.5080,  0.5120,  0.5160,  0.5199,  0.5239,  0.5279,  0.5319,  0.5359},

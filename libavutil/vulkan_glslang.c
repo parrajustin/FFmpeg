@@ -21,8 +21,8 @@
 #include <glslang/build_info.h>
 #include <glslang/Include/glslang_c_interface.h>
 
-#include "mem.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 
 static pthread_mutex_t glslc_mutex = PTHREAD_MUTEX_INITIALIZER;
 static int glslc_refcount = 0;

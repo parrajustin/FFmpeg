@@ -24,7 +24,7 @@
  * logging functions
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_UNISTD_H
 #include <unistd.h>
@@ -37,10 +37,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "bprint.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "internal.h"
-#include "log.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 #include "thread.h"
 
 static AVMutex mutex = AV_MUTEX_INITIALIZER;

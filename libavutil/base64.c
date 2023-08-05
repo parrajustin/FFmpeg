@@ -27,8 +27,8 @@
 #include <limits.h>
 #include <stddef.h>
 
-#include "base64.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/base64.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
 
 /* ---------------- private code */

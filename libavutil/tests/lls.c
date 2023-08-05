@@ -19,10 +19,10 @@
 #include <limits.h>
 #include <stdio.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/lls.h"
-#include "libavutil/mem_internal.h"
+#include "third_party/ffmpeg/libavutil/internal.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/lls.h"
+#include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 int main(void)
 {

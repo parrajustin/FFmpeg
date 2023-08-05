@@ -22,13 +22,13 @@
 #ifndef AVUTIL_THREAD_H
 #define AVUTIL_THREAD_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_PRCTL
 #include <sys/prctl.h>
 #endif
 
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 #if HAVE_PTHREADS || HAVE_W32THREADS || HAVE_OS2THREADS
 
@@ -39,8 +39,8 @@
 
 #include <stdlib.h>
 
-#include "log.h"
-#include "macros.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 #define ASSERT_PTHREAD_ABORT(func, ret) do {                            \
     char errbuf[AV_ERROR_MAX_STRING_SIZE] = "";                         \
@@ -150,9 +150,9 @@ static inline int strict_pthread_once(pthread_once_t *once_control, void (*init_
 #endif
 
 #elif HAVE_OS2THREADS
-#include "compat/os2threads.h"
+#include "third_party/ffmpeg/libavutil/compat/os2threads.h"
 #else
-#include "compat/w32pthreads.h"
+#include "third_party/ffmpeg/libavutil/compat/w32pthreads.h"
 #endif
 
 #define AVMutex pthread_mutex_t

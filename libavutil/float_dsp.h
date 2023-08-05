@@ -19,7 +19,7 @@
 #ifndef AVUTIL_FLOAT_DSP_H
 #define AVUTIL_FLOAT_DSP_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 typedef struct AVFloatDSPContext {
     /**

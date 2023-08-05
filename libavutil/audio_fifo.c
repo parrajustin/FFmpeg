@@ -27,12 +27,12 @@
 #include <limits.h>
 #include <stddef.h>
 
-#include "audio_fifo.h"
-#include "error.h"
-#include "fifo.h"
-#include "macros.h"
-#include "mem.h"
-#include "samplefmt.h"
+#include "third_party/ffmpeg/libavutil/audio_fifo.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
 
 struct AVAudioFifo {
     AVFifo **buf;                   /**< single buffer for interleaved, per-channel buffers for planar */

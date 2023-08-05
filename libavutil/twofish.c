@@ -22,10 +22,10 @@
 #include <string.h>
 
 #include "twofish.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define LR(x, n) ((x) << (n) | (x) >> (32 - (n)))
 #define RR(x, n) ((x) >> (n) | (x) << (32 - (n)))

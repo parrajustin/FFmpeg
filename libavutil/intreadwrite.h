@@ -20,9 +20,9 @@
 #define AVUTIL_INTREADWRITE_H
 
 #include <stdint.h>
-#include "libavutil/avconfig.h"
-#include "attributes.h"
-#include "bswap.h"
+#include "third_party/ffmpeg/libavutil/avconfig.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 
 typedef union {
     uint64_t u64;
@@ -62,7 +62,7 @@ typedef union {
 
 #ifdef HAVE_AV_CONFIG_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if   ARCH_ARM
 #   include "arm/intreadwrite.h"

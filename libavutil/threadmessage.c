@@ -19,8 +19,8 @@
  */
 
 #include <limits.h>
-#include "fifo.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/fifo.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "threadmessage.h"
 #include "thread.h"
 

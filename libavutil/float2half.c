@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/float2half.h"
+#include "third_party/ffmpeg/libavutil/float2half.h"
 
 void ff_init_float2half_tables(Float2HalfTables *t)
 {

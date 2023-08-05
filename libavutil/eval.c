@@ -27,16 +27,16 @@
  */
 
 #include <float.h>
-#include "attributes.h"
-#include "avutil.h"
-#include "common.h"
-#include "eval.h"
-#include "ffmath.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/ffmath.h"
 #include "internal.h"
-#include "log.h"
-#include "mathematics.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "time.h"
-#include "avstring.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
 #include "timer.h"
 #include "reverse.h"
 

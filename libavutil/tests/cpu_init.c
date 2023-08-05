@@ -24,8 +24,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/thread.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/thread.h"
 
 static void *thread_main(void *arg)
 {

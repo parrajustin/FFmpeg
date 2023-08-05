@@ -52,8 +52,8 @@
  */
 
 #include "config.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mips/asmdefs.h"
+#include "third_party/ffmpeg/libavutil/float_dsp.h"
+#include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 
 #if HAVE_INLINE_ASM && HAVE_MIPSFPU
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

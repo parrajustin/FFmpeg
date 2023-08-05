@@ -27,13 +27,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "avassert.h"
-#include "channel_layout.h"
-#include "bprint.h"
-#include "common.h"
-#include "error.h"
-#include "macros.h"
-#include "opt.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
 
 #define CHAN_IS_AMBI(x) ((x) >= AV_CHAN_AMBISONIC_BASE &&\
                          (x) <= AV_CHAN_AMBISONIC_END)

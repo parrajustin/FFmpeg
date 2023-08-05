@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_VAAPI_X11
 #   include <va/va_x11.h>
@@ -40,16 +40,16 @@
 #endif
 
 
-#include "avassert.h"
-#include "buffer.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_drm.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_vaapi.h"
-#include "mem.h"
-#include "pixdesc.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 
 typedef struct VAAPIDevicePriv {

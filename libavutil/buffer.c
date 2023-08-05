@@ -20,10 +20,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "avassert.h"
-#include "buffer_internal.h"
-#include "common.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/buffer_internal.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 #include "thread.h"
 
 static AVBufferRef *buffer_create(AVBuffer *buf, uint8_t *data, size_t size,

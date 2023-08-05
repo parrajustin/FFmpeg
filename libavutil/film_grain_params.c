@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "film_grain_params.h"
+#include "third_party/ffmpeg/libavutil/film_grain_params.h"
 
 AVFilmGrainParams *av_film_grain_params_alloc(size_t *size)
 {

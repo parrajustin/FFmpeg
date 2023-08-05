@@ -16,8 +16,8 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "avassert.h"
-#include "macos_kperf.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/macos_kperf.h"
 #include "thread.h"
 
 #include <stdio.h>

@@ -19,7 +19,7 @@
  */
 
 #include "downmix_info.h"
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 
 AVDownmixInfo *av_downmix_info_update_side_data(AVFrame *frame)
 {

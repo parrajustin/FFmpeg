@@ -293,14 +293,14 @@ char av_get_picture_type_char(enum AVPictureType pict_type);
  * @}
  */
 
-#include "common.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "rational.h"
-#include "version.h"
-#include "macros.h"
-#include "mathematics.h"
-#include "log.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/version.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 
 /**
  * Return x default pointer in case p is NULL.

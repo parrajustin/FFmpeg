@@ -26,13 +26,13 @@
 #define AVUTIL_LIBM_H
 
 #include <math.h>
-#include "config.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 #include "intfloat.h"
-#include "mathematics.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
 
 #if HAVE_MIPSFPU && HAVE_INLINE_ASM
-#include "libavutil/mips/libm_mips.h"
+#include "third_party/ffmpeg/libavutil/mips/libm_mips.h"
 #endif /* HAVE_MIPSFPU && HAVE_INLINE_ASM*/
 
 #if !HAVE_ATANF

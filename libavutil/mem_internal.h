@@ -21,14 +21,14 @@
 #ifndef AVUTIL_MEM_INTERNAL_H
 #define AVUTIL_MEM_INTERNAL_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdint.h>
 
-#include "attributes.h"
-#include "macros.h"
-#include "mem.h"
-#include "version.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 /**
  * @def DECLARE_ALIGNED(n,t,v)

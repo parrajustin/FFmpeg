@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/pca.c"
-#include "libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/pca.c"
+#include "third_party/ffmpeg/libavutil/lfg.h"
 
 #undef printf
 #include <stdio.h>

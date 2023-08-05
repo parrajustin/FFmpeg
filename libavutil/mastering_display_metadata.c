@@ -21,8 +21,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "mastering_display_metadata.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mastering_display_metadata.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 AVMasteringDisplayMetadata *av_mastering_display_metadata_alloc(void)
 {

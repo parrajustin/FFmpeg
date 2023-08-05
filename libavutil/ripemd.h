@@ -31,7 +31,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /**
  * @defgroup lavu_ripemd RIPEMD

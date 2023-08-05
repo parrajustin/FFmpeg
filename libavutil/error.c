@@ -20,10 +20,10 @@
 #define _XOPEN_SOURCE 600 /* XSI-compliant version of strerror_r */
 #include <stdio.h>
 #include <string.h>
-#include "config.h"
-#include "avstring.h"
-#include "error.h"
-#include "macros.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/error.h"
+#include "third_party/ffmpeg/libavutil/macros.h"
 
 struct error_entry {
     int num;

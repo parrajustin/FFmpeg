@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <windows.h>
 
@@ -30,16 +30,16 @@
 #include <dxgidebug.h>
 #endif
 
-#include "avassert.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_d3d11va.h"
 #include "hwcontext_internal.h"
 #include "imgutils.h"
-#include "pixdesc.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "thread.h"
-#include "compat/w32dlfcn.h"
+#include "third_party/ffmpeg/libavutil/compat/w32dlfcn.h"
 
 typedef HRESULT(WINAPI *PFN_CREATE_DXGI_FACTORY)(REFIID riid, void **ppFactory);
 

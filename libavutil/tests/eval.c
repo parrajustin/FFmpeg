@@ -16,14 +16,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/timer.h"
+#include "third_party/ffmpeg/libavutil/timer.h"
 
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/libm.h"
-#include "libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
 
 static const double const_values[] = {
     M_PI,

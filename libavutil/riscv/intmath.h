@@ -22,7 +22,7 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 /*
  * The compiler is forced to sign-extend the result anyhow, so it is faster to

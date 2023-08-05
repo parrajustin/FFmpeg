@@ -22,7 +22,7 @@
 #define AVUTIL_AMBIENT_VIEWING_ENVIRONMENT_H
 
 #include <stddef.h>
-#include "frame.h"
+#include "third_party/ffmpeg/libavutil/frame.h"
 #include "rational.h"
 
 /**

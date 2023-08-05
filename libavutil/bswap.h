@@ -27,12 +27,12 @@
 #define AVUTIL_BSWAP_H
 
 #include <stdint.h>
-#include "libavutil/avconfig.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/avconfig.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #ifdef HAVE_AV_CONFIG_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if   ARCH_AARCH64
 #   include "aarch64/bswap.h"

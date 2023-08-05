@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/tree.c"
+#include "third_party/ffmpeg/libavutil/tree.c"
 
 #include <stdint.h>
 
-#include "libavutil/common.h"
-#include "libavutil/lfg.h"
-#include "libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/lfg.h"
+#include "third_party/ffmpeg/libavutil/log.h"
 
 static int check(AVTreeNode *t)
 {

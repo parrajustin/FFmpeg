@@ -25,21 +25,21 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "avutil.h"
-#include "avassert.h"
-#include "avstring.h"
-#include "channel_layout.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avstring.h"
+#include "third_party/ffmpeg/libavutil/channel_layout.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "dict.h"
-#include "eval.h"
-#include "log.h"
-#include "parseutils.h"
-#include "pixdesc.h"
-#include "mathematics.h"
-#include "opt.h"
-#include "samplefmt.h"
-#include "bprint.h"
-#include "version.h"
+#include "third_party/ffmpeg/libavutil/eval.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/parseutils.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/opt.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/bprint.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
 #include <float.h>
 

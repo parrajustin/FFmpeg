@@ -21,15 +21,15 @@
  * misc image utilities
  */
 
-#include "avassert.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "imgutils.h"
 #include "imgutils_internal.h"
 #include "internal.h"
 #include "intreadwrite.h"
-#include "log.h"
-#include "mathematics.h"
-#include "pixdesc.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/mathematics.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
 #include "rational.h"
 
 void av_image_fill_max_pixsteps(int max_pixsteps[4], int max_pixstep_comps[4],

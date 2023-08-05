@@ -21,8 +21,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/ripemd.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/ripemd.h"
 
 int main(void)
 {

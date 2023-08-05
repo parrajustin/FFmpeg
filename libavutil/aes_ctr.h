@@ -30,7 +30,7 @@
 
 #include <stdint.h>
 
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define AES_CTR_KEY_SIZE (16)
 #define AES_CTR_IV_SIZE (8)

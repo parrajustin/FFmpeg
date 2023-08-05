@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/pixdesc.c"
+#include "third_party/ffmpeg/libavutil/pixdesc.c"
 
 static const enum AVPixelFormat pixfmt_list[] = {
     AV_PIX_FMT_MONOWHITE,

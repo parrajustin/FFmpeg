@@ -18,13 +18,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "thread.h"
-#include "avassert.h"
-#include "bswap.h"
-#include "crc.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
+#include "third_party/ffmpeg/libavutil/crc.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 
 #if CONFIG_HARDCODED_TABLES
 static const AVCRC av_crc_table[AV_CRC_MAX][257] = {

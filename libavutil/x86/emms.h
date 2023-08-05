@@ -19,14 +19,14 @@
 #ifndef AVUTIL_X86_EMMS_H
 #define AVUTIL_X86_EMMS_H
 
-#include "config.h"
-#include "libavutil/attributes.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 void avpriv_emms_asm(void);
 
 #if HAVE_MMX_INLINE
 #ifndef __MMX__
-#include "libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
 #endif
 
 #   define emms_c emms_c

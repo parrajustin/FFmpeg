@@ -19,8 +19,8 @@
 #ifndef AVUTIL_ARM_CPU_H
 #define AVUTIL_ARM_CPU_H
 
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/cpu_internal.h"
 
 #define have_armv5te(flags) CPUEXT(flags, ARMV5TE)
 #define have_armv6(flags)   CPUEXT(flags, ARMV6)

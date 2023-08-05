@@ -21,9 +21,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/fixed_dsp.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
+#include "third_party/ffmpeg/libavutil/cpu.h"
+#include "third_party/ffmpeg/libavutil/fixed_dsp.h"
 
 void ff_butterflies_fixed_rvv(int *v1, int *v2, int len);
 

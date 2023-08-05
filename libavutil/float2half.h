@@ -22,7 +22,7 @@
 #include <stdint.h>
 #include "intfloat.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 typedef struct Float2HalfTables {
 #if HAVE_FAST_FLOAT16

@@ -32,10 +32,11 @@
 
 #include <stdint.h>
 
-#include "bswap.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/bswap.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "md5.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/md5.h"
 
 typedef struct AVMD5 {
     uint64_t len;

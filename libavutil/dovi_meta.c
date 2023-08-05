@@ -19,7 +19,7 @@
  */
 
 #include "dovi_meta.h"
-#include "mem.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 AVDOVIDecoderConfigurationRecord *av_dovi_alloc(size_t *size)
 {

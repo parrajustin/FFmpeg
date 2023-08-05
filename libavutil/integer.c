@@ -28,7 +28,7 @@
 #include <string.h>
 
 #include "integer.h"
-#include "avassert.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
 #include "intmath.h"
 
 static const AVInteger zero_i;

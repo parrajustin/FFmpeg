@@ -21,11 +21,11 @@
 
 #include <string.h>
 
-#include "cast5.h"
-#include "error.h"
+#include "third_party/ffmpeg/libavutil/cast5.h"
+#include "third_party/ffmpeg/libavutil/error.h"
 #include "intreadwrite.h"
-#include "mem.h"
-#include "attributes.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define IA(x) ((x) >> 24)
 #define IB(x) (((x) >> 16) & 0xff)

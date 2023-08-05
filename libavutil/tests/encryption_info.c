@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/encryption_info.h"
+#include "third_party/ffmpeg/libavutil/encryption_info.h"
 
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 static const AVSubsampleEncryptionInfo test_subsamples[] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}};
 static const size_t test_subsample_count = sizeof(test_subsamples) / sizeof(test_subsamples[0]);

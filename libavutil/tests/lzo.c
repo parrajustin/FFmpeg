@@ -21,9 +21,9 @@
 #include <stdio.h>
 #include <lzo/lzo1x.h>
 
-#include "libavutil/log.h"
-#include "libavutil/lzo.h"
-#include "libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/lzo.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
 
 #define MAXSZ (10*1024*1024)
 

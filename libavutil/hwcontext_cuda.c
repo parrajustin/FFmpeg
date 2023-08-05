@@ -16,18 +16,18 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "buffer.h"
-#include "common.h"
+#include "third_party/ffmpeg/libavutil/buffer.h"
+#include "third_party/ffmpeg/libavutil/common.h"
 #include "hwcontext.h"
 #include "hwcontext_internal.h"
 #include "hwcontext_cuda_internal.h"
 #if CONFIG_VULKAN
 #include "hwcontext_vulkan.h"
 #endif
-#include "cuda_check.h"
-#include "mem.h"
-#include "pixdesc.h"
-#include "pixfmt.h"
+#include "third_party/ffmpeg/libavutil/cuda_check.h"
+#include "third_party/ffmpeg/libavutil/mem.h"
+#include "third_party/ffmpeg/libavutil/pixdesc.h"
+#include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "imgutils.h"
 
 typedef struct CUDAFramesContext {

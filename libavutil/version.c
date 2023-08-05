@@ -20,16 +20,16 @@
 
 #include <stdlib.h>
 
-#include "config.h"
-#include "avassert.h"
-#include "avutil.h"
-#include "common.h"
-#include "libm.h"
-#include "log.h"
-#include "samplefmt.h"
-#include "version.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libavutil/avassert.h"
+#include "third_party/ffmpeg/libavutil/avutil.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/libm.h"
+#include "third_party/ffmpeg/libavutil/log.h"
+#include "third_party/ffmpeg/libavutil/samplefmt.h"
+#include "third_party/ffmpeg/libavutil/version.h"
 
-#include "libavutil/ffversion.h"
+#include "third_party/ffmpeg/libavutil/ffversion.h"
 const char av_util_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 const char *av_version_info(void)

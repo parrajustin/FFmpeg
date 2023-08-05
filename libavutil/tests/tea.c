@@ -24,8 +24,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/tea.h"
+#include "third_party/ffmpeg/libavutil/common.h"
+#include "third_party/ffmpeg/libavutil/tea.h"
 
 #define TEA_NUM_TESTS 4
 

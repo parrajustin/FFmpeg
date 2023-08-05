@@ -30,7 +30,7 @@
 #include <immintrin.h>
 #endif
 #endif
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_FAST_CLZ
 #if (defined(__INTEL_COMPILER) && (__INTEL_COMPILER>=1216)) || defined(_MSC_VER)
