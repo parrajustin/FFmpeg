@@ -25,7 +25,7 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"

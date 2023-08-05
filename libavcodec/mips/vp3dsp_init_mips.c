@@ -20,7 +20,7 @@
  */
 
 #include "third_party/ffmpeg/libavutil/mips/cpu.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "third_party/ffmpeg/libavcodec/vp3dsp.h"

@@ -27,7 +27,7 @@
 
 #include "avformat.h"
 #include "internal.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 /* Enable function pointer definitions for runtime loading. */
 #define AVSC_NO_DECLSPEC

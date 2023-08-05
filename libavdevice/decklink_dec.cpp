@@ -34,7 +34,7 @@ extern "C" {
 #include <DeckLinkAPI.h>
 
 extern "C" {
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/packet_internal.h"
 #include "third_party/ffmpeg/libavutil/avformat.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"

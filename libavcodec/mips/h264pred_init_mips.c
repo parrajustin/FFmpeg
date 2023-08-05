@@ -21,7 +21,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/mips/cpu.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "h264dsp_mips.h"
 #include "h264pred_mips.h"
 

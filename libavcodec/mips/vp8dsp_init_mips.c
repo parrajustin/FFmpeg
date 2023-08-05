@@ -25,7 +25,7 @@
  */
 
 #include "third_party/ffmpeg/libavutil/mips/cpu.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/vp8dsp.h"
 #include "vp8dsp_mips.h"

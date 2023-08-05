@@ -26,7 +26,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "compat/w32dlfcn.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"
 #include "third_party/ffmpeg/libavutil/common.h"

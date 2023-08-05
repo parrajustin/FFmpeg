@@ -41,7 +41,7 @@
 #include "mlp_parse.h"
 #include "mlpdsp.h"
 #include "mlp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 /** number of bits used for VLC lookup - longest Huffman code is 9 */
 #if ARCH_ARM

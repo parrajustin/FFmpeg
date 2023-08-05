@@ -31,7 +31,7 @@
 #include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "third_party/ffmpeg/libavutil/pixfmt.h"
 #include "avcodec.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_LCMS2
 # include "fflcms2.h"

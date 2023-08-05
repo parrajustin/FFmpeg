@@ -88,7 +88,7 @@ cat <<EOF > $output
 #include <windows.h>
 #include "$name/version.h"
 #include "third_party/ffmpeg/libavutil/ffversion.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 1 VERSIONINFO
 FILEVERSION     ${version}_MAJOR, ${version}_MINOR, ${version}_MICRO, 0

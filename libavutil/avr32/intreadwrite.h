@@ -22,7 +22,7 @@
 #define AVUTIL_AVR32_INTREADWRITE_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/bswap.h"
 
 /*

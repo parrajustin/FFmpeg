@@ -27,10 +27,10 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/bswap.h"
-#include "config.h"
-#include "rgb2rgb.h"
-#include "swscale.h"
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 void (*rgb32tobgr24)(const uint8_t *src, uint8_t *dst, int src_size);
 void (*rgb32tobgr16)(const uint8_t *src, uint8_t *dst, int src_size);
@@ -125,7 +125,7 @@ void (*yuyvtoyuv422)(uint8_t *ydst, uint8_t *udst, uint8_t *vdst,
 #define RU ((int)(-0.148 * (1 << RGB2YUV_SHIFT) + 0.5))
 
 //plain C versions
-#include "rgb2rgb_template.c"
+#include "third_party/ffmpeg/libswscale/rgb2rgb_template.c"
 
 /*
  * RGB15->RGB16 original by Strepto/Astral

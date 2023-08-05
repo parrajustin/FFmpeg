@@ -21,7 +21,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "takdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 static void decorrelate_ls(int32_t *p1, int32_t *p2, int length)
 {

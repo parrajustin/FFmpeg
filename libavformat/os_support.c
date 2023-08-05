@@ -24,7 +24,7 @@
 #define _DEFAULT_SOURCE
 #define _SVID_SOURCE
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "avformat.h"
 #include "os_support.h"
 

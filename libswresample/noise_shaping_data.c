@@ -15,6 +15,8 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
+#include "third_party/ffmpeg/libswresample/swresample.h"
+
 typedef struct {
   int  rate;
   enum {fir, iir} type;

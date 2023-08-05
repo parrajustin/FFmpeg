@@ -23,7 +23,7 @@
 
 #include <stddef.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 
 typedef struct AudioFIRDSPContext {

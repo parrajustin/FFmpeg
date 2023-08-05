@@ -28,7 +28,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/cabac.h"
 #include "third_party/ffmpeg/libavutil/mips/mmiutils.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define get_cabac_inline get_cabac_inline_mips
 static av_always_inline int get_cabac_inline_mips(CABACContext *c,

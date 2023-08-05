@@ -19,9 +19,9 @@
  */
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "swresample_internal.h"
+#include "third_party/ffmpeg/libswresample/swresample_internal.h"
 
-#include "noise_shaping_data.c"
+#include "third_party/ffmpeg/libswresample/noise_shaping_data.c"
 
 int swri_get_dither(SwrContext *s, void *dst, int len, unsigned seed, enum AVSampleFormat noise_fmt) {
     double scale = s->dither.noise_scale;
@@ -132,17 +132,17 @@ av_cold int swri_dither_init(SwrContext *s, enum AVSampleFormat out_fmt, enum AV
 }
 
 #define TEMPLATE_DITHER_S16
-#include "dither_template.c"
+#include "third_party/ffmpeg/libswresample/dither_template.c"
 #undef TEMPLATE_DITHER_S16
 
 #define TEMPLATE_DITHER_S32
-#include "dither_template.c"
+#include "third_party/ffmpeg/libswresample/dither_template.c"
 #undef TEMPLATE_DITHER_S32
 
 #define TEMPLATE_DITHER_FLT
-#include "dither_template.c"
+#include "third_party/ffmpeg/libswresample/dither_template.c"
 #undef TEMPLATE_DITHER_FLT
 
 #define TEMPLATE_DITHER_DBL
-#include "dither_template.c"
+#include "third_party/ffmpeg/libswresample/dither_template.c"
 #undef TEMPLATE_DITHER_DBL

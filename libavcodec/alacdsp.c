@@ -21,7 +21,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "alacdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 static void decorrelate_stereo(int32_t *buffer[2], int nb_samples,
                                int decorr_shift, int decorr_left_weight)

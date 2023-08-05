@@ -24,7 +24,7 @@
  * AMR wideband decoder
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "third_party/ffmpeg/libavutil/common.h"

@@ -22,7 +22,7 @@
 
 #include <AudioToolbox/AudioToolbox.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 #include "avcodec.h"
 #include "ac3_parser_internal.h"

@@ -31,10 +31,10 @@
 #include "third_party/ffmpeg/libavutil/mathematics.h"
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
-#include "config.h"
-#include "rgb2rgb.h"
-#include "swscale.h"
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 DECLARE_ALIGNED(8, const uint8_t, ff_dither_2x2_4)[][8] = {
 {  1,   3,   1,   3,   1,   3,   1,   3, },

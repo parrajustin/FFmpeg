@@ -25,7 +25,7 @@
 #define FF_BUFQUEUE_SIZE 256
 #include "third_party/ffmpeg/libavfilter/bufferqueue.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "audio_frame_queue.h"
 #include "avcodec.h"
 #include "bytestream.h"

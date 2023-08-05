@@ -19,8 +19,8 @@
  */
 
 #include "third_party/ffmpeg/libavutil/opt.h"
-#include "swresample_internal.h"
-#include "audioconvert.h"
+#include "third_party/ffmpeg/libswresample/swresample_internal.h"
+#include "third_party/ffmpeg/libswresample/audioconvert.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/channel_layout.h"
 #include "third_party/ffmpeg/libavutil/internal.h"

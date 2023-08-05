@@ -86,7 +86,7 @@
 #include "third_party/ffmpeg/libavutil/parseutils.h"
 #include "third_party/ffmpeg/libavutil/random_seed.h"
 #include "avformat.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "url.h"
 
 #define PROMPEG_RTP_PT 0x60

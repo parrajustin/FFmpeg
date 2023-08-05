@@ -21,7 +21,7 @@
 
 #include "third_party/ffmpeg/libavutil/thread.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "avcodec.h"
 #include "get_bits.h"

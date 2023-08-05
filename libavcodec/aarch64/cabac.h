@@ -19,7 +19,7 @@
 #ifndef AVCODEC_AARCH64_CABAC_H
 #define AVCODEC_AARCH64_CABAC_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if HAVE_INLINE_ASM
 
 #include "third_party/ffmpeg/libavutil/attributes.h"

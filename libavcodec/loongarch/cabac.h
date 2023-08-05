@@ -27,7 +27,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/cabac.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define GET_CABAC_LOONGARCH_UNCBSR                                      \
     "ld.bu        %[bit],        %[state],       0x0           \n\t"    \

@@ -54,7 +54,7 @@
 #ifndef AVCODEC_MIPS_LSP_MIPS_H
 #define AVCODEC_MIPS_LSP_MIPS_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_MIPSFPU && HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

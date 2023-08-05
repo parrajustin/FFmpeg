@@ -29,7 +29,7 @@
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/libm.h"
 #include "third_party/ffmpeg/libavutil/samplefmt.h"
-#include "audioconvert.h"
+#include "third_party/ffmpeg/libswresample/audioconvert.h"
 
 
 #define CONV_FUNC_NAME(dst_fmt, src_fmt) conv_ ## src_fmt ## _to_ ## dst_fmt

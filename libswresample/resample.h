@@ -25,7 +25,7 @@
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/samplefmt.h"
 
-#include "swresample_internal.h"
+#include "third_party/ffmpeg/libswresample/swresample_internal.h"
 
 typedef struct ResampleContext {
     const AVClass *av_class;

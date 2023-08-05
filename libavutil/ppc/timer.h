@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define AV_READ_TIME read_time
 

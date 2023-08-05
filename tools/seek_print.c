@@ -18,7 +18,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if HAVE_UNISTD_H
 #include <unistd.h>             /* getopt */
 #endif

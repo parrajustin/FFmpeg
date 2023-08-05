@@ -21,9 +21,9 @@
 #ifndef SWRESAMPLE_SWRESAMPLE_INTERNAL_H
 #define SWRESAMPLE_SWRESAMPLE_INTERNAL_H
 
-#include "swresample.h"
+#include "third_party/ffmpeg/libswresample/swresample.h"
 #include "third_party/ffmpeg/libavutil/channel_layout.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define SWR_CH_MAX 64
 

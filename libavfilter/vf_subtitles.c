@@ -29,7 +29,7 @@
 
 #include <ass/ass.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 #if CONFIG_SUBTITLES_FILTER
 # include "libavcodec/avcodec.h"

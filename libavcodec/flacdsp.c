@@ -22,7 +22,7 @@
 #include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/samplefmt.h"
 #include "flacdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define SAMPLE_SIZE 16
 #define PLANAR 0

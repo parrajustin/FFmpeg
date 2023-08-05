@@ -28,7 +28,7 @@
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
-#include "resample.h"
+#include "third_party/ffmpeg/libswresample/resample.h"
 
 static inline double eval_poly(const double *coeff, int size, double x) {
     double sum = coeff[size-1];

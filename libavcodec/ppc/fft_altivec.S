@@ -38,7 +38,7 @@
  * and the rest are free for local use.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_GNU_AS && HAVE_ALTIVEC && HAVE_BIGENDIAN
 

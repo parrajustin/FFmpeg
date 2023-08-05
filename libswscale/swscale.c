@@ -29,9 +29,9 @@
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "third_party/ffmpeg/libavutil/pixdesc.h"
-#include "config.h"
-#include "swscale_internal.h"
-#include "swscale.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
 
 DECLARE_ALIGNED(8, const uint8_t, ff_dither_8x8_128)[9][8] = {
     {  36, 68,  60, 92,  34, 66,  58, 90, },

@@ -19,8 +19,8 @@
  */
 
 #include "third_party/ffmpeg/libavutil/opt.h"
-#include "swscale.h"
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 static const char *sws_context_to_name(void *ptr)
 {

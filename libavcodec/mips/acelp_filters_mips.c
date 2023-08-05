@@ -51,7 +51,7 @@
  * @file
  * Reference: libavcodec/acelp_filters.c
  */
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/acelp_filters.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"

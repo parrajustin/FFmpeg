@@ -21,7 +21,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/takdsp.h"
 #include "third_party/ffmpeg/libavutil/x86/cpu.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_tak_decorrelate_ls_sse2(int32_t *p1, int32_t *p2, int length);
 void ff_tak_decorrelate_sr_sse2(int32_t *p1, int32_t *p2, int length);

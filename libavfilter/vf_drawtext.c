@@ -26,7 +26,7 @@
  * filter by Gustavo Sverzut Barbieri
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_SYS_TIME_H
 #include <sys/time.h>

@@ -6,7 +6,7 @@
  * This utility converts compressed Macromedia Flash files to uncompressed ones.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdio.h>

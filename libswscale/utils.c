@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define _DEFAULT_SOURCE
 #define _SVID_SOURCE // needed for MAP_ANONYMOUS
@@ -55,9 +55,9 @@
 #include "third_party/ffmpeg/libavutil/x86/cpu.h"
 #include "third_party/ffmpeg/libavutil/loongarch/cpu.h"
 
-#include "rgb2rgb.h"
-#include "swscale.h"
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 typedef struct FormatEntry {
     uint8_t is_supported_in         :1;

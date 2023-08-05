@@ -22,7 +22,7 @@
 
 #include <stddef.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_D3D11VA
 #include "third_party/ffmpeg/libavutil/error.h"

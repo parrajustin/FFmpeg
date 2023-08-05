@@ -24,7 +24,7 @@
 #define TESTS_CHECKASM_CHECKASM_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_LINUX_PERF
 #include <unistd.h> // read(3)

@@ -30,7 +30,7 @@
  * IDCT function itself was to factor out the partial transposition, and to
  * perform a full transpose at the end of the function. */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdlib.h>
 #include <string.h>

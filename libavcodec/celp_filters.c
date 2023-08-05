@@ -23,7 +23,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "celp_filters.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/common.h"

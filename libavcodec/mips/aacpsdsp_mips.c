@@ -52,7 +52,7 @@
  * Reference: libavcodec/aacpsdsp.c
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/aacpsdsp.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 

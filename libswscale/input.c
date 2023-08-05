@@ -25,8 +25,8 @@
 #include "third_party/ffmpeg/libavutil/bswap.h"
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "config.h"
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 #define input_pixel(pos) (is_be ? AV_RB16(pos) : AV_RL16(pos))
 

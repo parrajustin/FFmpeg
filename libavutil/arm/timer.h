@@ -22,7 +22,7 @@
 #define AVUTIL_ARM_TIMER_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if defined(__APPLE__)
 

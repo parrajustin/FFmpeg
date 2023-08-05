@@ -24,7 +24,7 @@
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_vc1_inv_trans_8x8_neon(int16_t *block);
 void ff_vc1_inv_trans_8x4_neon(uint8_t *dest, ptrdiff_t stride, int16_t *block);

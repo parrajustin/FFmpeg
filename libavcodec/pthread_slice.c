@@ -22,7 +22,7 @@
  * @see doc/multithreading.txt
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "avcodec.h"
 #include "codec_internal.h"

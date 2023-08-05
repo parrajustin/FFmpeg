@@ -31,7 +31,7 @@
  * Version 2 files support by Konstantin Shishkov
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define CACHED_BITSTREAM_READER HAVE_FAST_64BIT
 #define UNCHECKED_BITSTREAM_READER 1

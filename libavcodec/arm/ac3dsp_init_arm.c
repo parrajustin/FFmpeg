@@ -23,7 +23,7 @@
 #include "third_party/ffmpeg/libavutil/arm/cpu.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/ac3dsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_ac3_exponent_min_neon(uint8_t *exp, int num_reuse_blocks, int nb_coefs);
 void ff_float_to_fixed24_neon(int32_t *dst, const float *src, unsigned int len);

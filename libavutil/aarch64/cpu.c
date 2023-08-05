@@ -18,7 +18,7 @@
 
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/cpu_internal.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 int ff_get_cpu_flags_aarch64(void)
 {

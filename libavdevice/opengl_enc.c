@@ -27,7 +27,7 @@
 #include <string.h>
 #include <stddef.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_WINDOWS_H
 #define WIN32_LEAN_AND_MEAN

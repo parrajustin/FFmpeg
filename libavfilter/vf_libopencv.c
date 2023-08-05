@@ -23,7 +23,7 @@
  * libopencv wrapper functions
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if HAVE_OPENCV2_CORE_CORE_C_H
 #include <opencv2/core/core_c.h>
 #include <opencv2/imgproc/imgproc_c.h>

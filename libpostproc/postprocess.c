@@ -72,7 +72,7 @@ try to unroll inner for(x=0 ... loop to avoid these damn if(x ... checks
 
 //Changelog: use git log
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/avutil.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"

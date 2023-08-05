@@ -22,7 +22,7 @@
 #define AVUTIL_MIPS_INTREADWRITE_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if ARCH_MIPS64 && HAVE_INLINE_ASM && !HAVE_MIPS64R6
 

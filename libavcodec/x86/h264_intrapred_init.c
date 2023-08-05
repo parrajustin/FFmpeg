@@ -20,7 +20,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/x86/cpu.h"

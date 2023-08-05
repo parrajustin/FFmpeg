@@ -29,7 +29,7 @@
    Studio) will not omit unused inline functions and create undefined
    references to libraries that are not being built. */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "compat/va_copy.h"
 #include "third_party/ffmpeg/libavutil/avformat.h"
 #include "third_party/ffmpeg/libswscale/swscale.h"

@@ -27,7 +27,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 #include "third_party/ffmpeg/libavutil/thread.h"
 #include "codec.h"

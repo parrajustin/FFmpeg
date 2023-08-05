@@ -45,7 +45,7 @@
    https://security.googleblog.com/2016/08/guided-in-process-fuzzing-of-chrome.html
 */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"

@@ -19,7 +19,7 @@
 @ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 @
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/arm/asm.S"
 
 @ void ff_add_pixels_clamped_arm(int16_t *block, uint8_t *dest, ptrdiff_t stride)

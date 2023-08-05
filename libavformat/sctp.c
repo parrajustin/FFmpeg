@@ -40,7 +40,7 @@
 #include <netinet/in.h>
 #include <netinet/sctp.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_POLL_H
 #include <poll.h>

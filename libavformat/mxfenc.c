@@ -58,7 +58,7 @@
 #include "avc.h"
 #include "mux.h"
 #include "mxf.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "version.h"
 
 extern const FFOutputFormat ff_mxf_d10_muxer;

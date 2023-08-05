@@ -21,7 +21,7 @@
 #ifndef AVFILTER_BLEND_INIT_H
 #define AVFILTER_BLEND_INIT_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "blend.h"

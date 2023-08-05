@@ -28,7 +28,7 @@
  * @author Christophe Gisquet <word1.word2@gmail.com>
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/internal.h"
 #include "third_party/ffmpeg/libavutil/opt.h"
 #include "third_party/ffmpeg/libavutil/time.h"

@@ -19,7 +19,7 @@
 #ifndef AVCODEC_NVENC_H
 #define AVCODEC_NVENC_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_D3D11VA
 #define COBJMACROS

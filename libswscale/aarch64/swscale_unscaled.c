@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libswscale/swscale.h"
 #include "third_party/ffmpeg/libswscale/swscale_internal.h"
 #include "third_party/ffmpeg/libavutil/aarch64/cpu.h"

@@ -17,7 +17,7 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 typedef struct VScalerContext
 {

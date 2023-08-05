@@ -19,7 +19,7 @@
  */
 
 #include "third_party/ffmpeg/libavutil/mips/cpu.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "wmv2dsp_mips.h"
 

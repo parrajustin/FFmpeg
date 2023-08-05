@@ -20,7 +20,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 
 #if CONFIG_LINUX_PERF

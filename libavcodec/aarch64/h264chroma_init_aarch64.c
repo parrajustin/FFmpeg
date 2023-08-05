@@ -26,7 +26,7 @@
 #include "third_party/ffmpeg/libavutil/aarch64/cpu.h"
 #include "third_party/ffmpeg/libavcodec/h264chroma.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_put_h264_chroma_mc8_neon(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
                                  int h, int x, int y);

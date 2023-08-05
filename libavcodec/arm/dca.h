@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/mathops.h"
 
 #if HAVE_ARMV6_INLINE && AV_GCC_VERSION_AT_LEAST(4,4) && !CONFIG_THUMB

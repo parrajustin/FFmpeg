@@ -21,7 +21,7 @@
 #ifndef AVUTIL_RISCV_CPU_H
 #define AVUTIL_RISCV_CPU_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include <stddef.h>
 #include "third_party/ffmpeg/libavutil/cpu.h"
 

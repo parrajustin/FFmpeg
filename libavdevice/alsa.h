@@ -31,7 +31,7 @@
 #define AVDEVICE_ALSA_H
 
 #include <alsa/asoundlib.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "timefilter.h"
 #include "avdevice.h"

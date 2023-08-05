@@ -22,7 +22,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "exrdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 static void reorder_pixels_scalar(uint8_t *dst, const uint8_t *src, ptrdiff_t size)
 {

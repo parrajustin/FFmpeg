@@ -22,7 +22,7 @@
 
 #define MAX_SLICES 8
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdio.h>
 #include <stdlib.h>

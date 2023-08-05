@@ -22,10 +22,10 @@
 #include <string.h>
 #include <math.h>
 #include <stdio.h>
-#include "config.h"
-#include "swscale.h"
-#include "swscale_internal.h"
-#include "rgb2rgb.h"
+#include "third_party/ffmpeg/config.h"
+#include "third_party/ffmpeg/libswscale/swscale.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/rgb2rgb.h"
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "third_party/ffmpeg/libavutil/avutil.h"
 #include "third_party/ffmpeg/libavutil/mathematics.h"
@@ -1220,62 +1220,62 @@ static int rgbToPlanarRgbWrapper(SwsContext *c, const uint8_t *src[],
 #define BAYER_GBRG
 #define BAYER_8
 #define BAYER_RENAME(x) bayer_gbrg8_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_GBRG
 #define BAYER_16LE
 #define BAYER_RENAME(x) bayer_gbrg16le_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_GBRG
 #define BAYER_16BE
 #define BAYER_RENAME(x) bayer_gbrg16be_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_GRBG
 #define BAYER_8
 #define BAYER_RENAME(x) bayer_grbg8_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_GRBG
 #define BAYER_16LE
 #define BAYER_RENAME(x) bayer_grbg16le_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_GRBG
 #define BAYER_16BE
 #define BAYER_RENAME(x) bayer_grbg16be_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_BGGR
 #define BAYER_8
 #define BAYER_RENAME(x) bayer_bggr8_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_BGGR
 #define BAYER_16LE
 #define BAYER_RENAME(x) bayer_bggr16le_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_BGGR
 #define BAYER_16BE
 #define BAYER_RENAME(x) bayer_bggr16be_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_RGGB
 #define BAYER_8
 #define BAYER_RENAME(x) bayer_rggb8_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_RGGB
 #define BAYER_16LE
 #define BAYER_RENAME(x) bayer_rggb16le_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 #define BAYER_RGGB
 #define BAYER_16BE
 #define BAYER_RENAME(x) bayer_rggb16be_to_##x
-#include "bayer_template.c"
+#include "third_party/ffmpeg/libswscale/bayer_template.c"
 
 static int bayer_to_rgb24_wrapper(SwsContext *c, const uint8_t* src[], int srcStride[], int srcSliceY,
                                   int srcSliceH, uint8_t* dst[], int dstStride[])

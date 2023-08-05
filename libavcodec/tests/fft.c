@@ -23,7 +23,7 @@
  * FFT and MDCT tests.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #ifndef AVFFT
 #define AVFFT 0

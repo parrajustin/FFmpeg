@@ -51,7 +51,7 @@
  * @file
  * Reference: libavcodec/celp_math.c
  */
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/celp_math.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 

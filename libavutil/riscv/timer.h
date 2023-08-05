@@ -19,7 +19,7 @@
 #ifndef AVUTIL_RISCV_TIMER_H
 #define AVUTIL_RISCV_TIMER_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_INLINE_ASM
 #include <stdint.h>

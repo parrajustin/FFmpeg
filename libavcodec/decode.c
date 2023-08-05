@@ -21,7 +21,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_ICONV
 # include <iconv.h>

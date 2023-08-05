@@ -18,7 +18,7 @@
 
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/cpu_internal.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if defined __linux__ || defined __ANDROID__
 #include <stdint.h>
 #include <stdio.h>

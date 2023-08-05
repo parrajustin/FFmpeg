@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "blockdsp.h"
 

@@ -23,7 +23,7 @@
 
 #include <stdatomic.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/common.h"

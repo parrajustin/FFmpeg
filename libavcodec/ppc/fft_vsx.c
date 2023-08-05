@@ -23,7 +23,7 @@
  */
 
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/ppc/util_altivec.h"
 #include "third_party/ffmpeg/libavcodec/fft.h"

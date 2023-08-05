@@ -21,7 +21,7 @@
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/cpu_internal.h"
 #include "third_party/ffmpeg/libavutil/log.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_GETAUXVAL
 #include <sys/auxv.h>

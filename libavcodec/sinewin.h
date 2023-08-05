@@ -21,7 +21,7 @@
 #ifndef AVCODEC_SINEWIN_H
 #define AVCODEC_SINEWIN_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 
 #if CONFIG_HARDCODED_TABLES

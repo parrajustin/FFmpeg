@@ -28,7 +28,7 @@
  * @see specs available on the Matroska project page: http://www.matroska.org/
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 
 #include <inttypes.h>

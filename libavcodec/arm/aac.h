@@ -21,7 +21,7 @@
 #ifndef AVCODEC_ARM_AAC_H
 #define AVCODEC_ARM_AAC_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_NEON_INLINE
 

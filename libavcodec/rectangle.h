@@ -28,7 +28,7 @@
 #ifndef AVCODEC_RECTANGLE_H
 #define AVCODEC_RECTANGLE_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 

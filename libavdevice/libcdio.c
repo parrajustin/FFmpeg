@@ -23,7 +23,7 @@
  * libcdio CD grabbing
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_CDIO_PARANOIA_H
 #include <cdio/cdda.h>

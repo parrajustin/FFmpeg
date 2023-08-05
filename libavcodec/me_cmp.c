@@ -28,7 +28,7 @@
 #include "simple_idct.h"
 #include "me_cmp.h"
 #include "mpegvideoenc.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 
 /* (i - 256) * (i - 256) */

@@ -28,7 +28,7 @@
 #include "third_party/ffmpeg/libavutil/log.h"
 #include "third_party/ffmpeg/libavutil/mem.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "jni.h"
 #include "ffjni.h"
 

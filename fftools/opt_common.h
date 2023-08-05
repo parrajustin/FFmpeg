@@ -21,7 +21,7 @@
 #ifndef FFTOOLS_OPT_COMMON_H
 #define FFTOOLS_OPT_COMMON_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "cmdutils.h"
 

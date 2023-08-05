@@ -20,7 +20,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/common.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "h263dsp.h"
 
 const uint8_t ff_h263_loop_filter_strength[32] = {

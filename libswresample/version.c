@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "swresample.h"
-#include "version.h"
+#include "third_party/ffmpeg/libswresample/swresample.h"
+#include "third_party/ffmpeg/libswresample/version.h"
 
 #include "third_party/ffmpeg/libavutil/ffversion.h"
 const char swr_ffversion[] = "FFmpeg version " FFMPEG_VERSION;

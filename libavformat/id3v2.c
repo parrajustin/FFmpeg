@@ -26,7 +26,7 @@
  * http://id3.org/Developer_Information
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_ZLIB
 #include <zlib.h>

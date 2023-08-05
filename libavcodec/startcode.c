@@ -27,7 +27,7 @@
 
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"
 #include "startcode.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 int ff_startcode_find_candidate_c(const uint8_t *buf, int size)
 {

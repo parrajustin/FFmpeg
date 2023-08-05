@@ -25,7 +25,7 @@
 #define AVUTIL_SH4_BSWAP_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 
 #define av_bswap16 av_bswap16

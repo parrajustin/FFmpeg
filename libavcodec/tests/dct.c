@@ -25,7 +25,7 @@
  * Started from sample code by Juan J. Sierralta P.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 #include <stdlib.h>
 #include <stdio.h>

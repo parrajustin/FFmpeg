@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if CONFIG_GMP
 #include <gmp.h>

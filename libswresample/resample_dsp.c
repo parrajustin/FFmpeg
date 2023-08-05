@@ -25,22 +25,22 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "resample.h"
+#include "third_party/ffmpeg/libswresample/resample.h"
 
 #define TEMPLATE_RESAMPLE_S16
-#include "resample_template.c"
+#include "third_party/ffmpeg/libswresample/resample_template.c"
 #undef TEMPLATE_RESAMPLE_S16
 
 #define TEMPLATE_RESAMPLE_S32
-#include "resample_template.c"
+#include "third_party/ffmpeg/libswresample/resample_template.c"
 #undef TEMPLATE_RESAMPLE_S32
 
 #define TEMPLATE_RESAMPLE_FLT
-#include "resample_template.c"
+#include "third_party/ffmpeg/libswresample/resample_template.c"
 #undef TEMPLATE_RESAMPLE_FLT
 
 #define TEMPLATE_RESAMPLE_DBL
-#include "resample_template.c"
+#include "third_party/ffmpeg/libswresample/resample_template.c"
 #undef TEMPLATE_RESAMPLE_DBL
 
 void swri_resample_dsp_init(ResampleContext *c)

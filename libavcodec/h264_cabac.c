@@ -31,7 +31,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "cabac.h"
 #include "cabac_functions.h"
 #include "h264dec.h"

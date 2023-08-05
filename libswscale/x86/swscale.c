@@ -19,7 +19,7 @@
  */
 
 #include <inttypes.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libswscale/swscale.h"
 #include "third_party/ffmpeg/libswscale/swscale_internal.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"

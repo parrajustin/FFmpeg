@@ -28,7 +28,7 @@
 
 #include "third_party/ffmpeg/libavutil/version.h"
 
-#include "version_major.h"
+#include "third_party/ffmpeg/libswresample/version_major.h"
 
 #define LIBSWRESAMPLE_VERSION_MINOR  10
 #define LIBSWRESAMPLE_VERSION_MICRO 100

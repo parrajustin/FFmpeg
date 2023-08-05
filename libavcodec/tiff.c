@@ -24,7 +24,7 @@
  * @author Konstantin Shishkov
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if CONFIG_ZLIB
 #include <zlib.h>
 #endif

@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 void ff_hyscale_fast_c(SwsContext *c, int16_t *dst, int dstWidth,
                            const uint8_t *src, int srcW, int xInc)

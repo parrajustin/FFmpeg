@@ -23,7 +23,7 @@
 
 #include <math.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define FRAC_BITS 14
 #include "third_party/ffmpeg/libavutil/macros.h"

@@ -51,7 +51,7 @@
  * @file
  * Reference: libavcodec/celp_filters.c
  */
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 #include "third_party/ffmpeg/libavcodec/celp_filters.h"

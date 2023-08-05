@@ -23,7 +23,7 @@
 
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavfilter/vf_hqdn3d.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_hqdn3d_row_8_x86(uint8_t *src, uint8_t *dst, uint16_t *line_ant,
                          uint16_t *frame_ant, ptrdiff_t w, int16_t *spatial,

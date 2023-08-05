@@ -23,7 +23,7 @@
  * multimedia converter based on the FFmpeg libraries
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include <ctype.h>
 #include <string.h>
 #include <math.h>

@@ -24,7 +24,7 @@
  * RV40 decoder
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/imgutils.h"
 #include "third_party/ffmpeg/libavutil/thread.h"

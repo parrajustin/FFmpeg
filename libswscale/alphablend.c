@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "swscale_internal.h"
+#include "third_party/ffmpeg/libswscale/swscale_internal.h"
 
 int ff_sws_alphablendaway(SwsContext *c, const uint8_t *src[],
                           int srcStride[], int srcSliceY, int srcSliceH,

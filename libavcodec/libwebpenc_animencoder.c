@@ -26,7 +26,7 @@
 
 #include "third_party/ffmpeg/libavutil/buffer.h"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "codec_internal.h"
 #include "encode.h"
 #include "libwebpenc_common.h"

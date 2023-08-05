@@ -52,7 +52,7 @@
  * @file
  * Reference: libavcodec/acelp_vectors.c
  */
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/acelp_vectors.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 

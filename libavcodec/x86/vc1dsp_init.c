@@ -31,7 +31,7 @@
 #include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "fpel.h"
 #include "vc1dsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define LOOP_FILTER4(EXT) \
 void ff_vc1_v_loop_filter4_ ## EXT(uint8_t *src, ptrdiff_t stride, int pq); \

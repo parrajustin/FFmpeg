@@ -33,7 +33,7 @@
 #include "constants.h"
 #include "fpel.h"
 #include "idctdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 
 #if HAVE_SSE2_EXTERNAL

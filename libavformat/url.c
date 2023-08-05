@@ -22,7 +22,7 @@
 
 #include "avformat.h"
 #include "internal.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "url.h"
 #if CONFIG_NETWORK
 #include "network.h"

@@ -19,7 +19,7 @@
 #ifndef AVCODEC_ARM_CABAC_H
 #define AVCODEC_ARM_CABAC_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #if HAVE_ARMV6T2_INLINE
 
 #include "third_party/ffmpeg/libavutil/attributes.h"

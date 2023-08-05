@@ -24,7 +24,7 @@
 #include "third_party/ffmpeg/libavutil/arm/asm.S"
 #include "neon.S"
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 @ Transpose rows into columns of a matrix of 16-bit elements. For 4x4, pass
 @ double-word registers, for 8x4, pass quad-word registers.

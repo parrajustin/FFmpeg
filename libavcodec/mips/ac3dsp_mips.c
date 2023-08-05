@@ -53,7 +53,7 @@
  * Reference: libavcodec/ac3dsp.c
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/ac3dsp.h"
 #include "third_party/ffmpeg/libavcodec/ac3.h"
 #include "third_party/ffmpeg/libavcodec/ac3tab.h"

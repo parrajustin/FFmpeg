@@ -16,7 +16,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if !defined(_WIN32_WINNT) || _WIN32_WINNT < 0x0A00
 #undef _WIN32_WINNT

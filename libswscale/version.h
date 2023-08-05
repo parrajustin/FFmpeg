@@ -26,7 +26,7 @@
 
 #include "third_party/ffmpeg/libavutil/version.h"
 
-#include "version_major.h"
+#include "third_party/ffmpeg/libswscale/version_major.h"
 
 #define LIBSWSCALE_VERSION_MINOR   1
 #define LIBSWSCALE_VERSION_MICRO 100

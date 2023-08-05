@@ -22,7 +22,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavcodec/vc1dsp.h"
 #include "vc1dsp_mips.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #define FN_ASSIGN(OP, X, Y, INSN) \
     dsp->OP##vc1_mspel_pixels_tab[1][X+4*Y] = ff_##OP##vc1_mspel_mc##X##Y##INSN; \

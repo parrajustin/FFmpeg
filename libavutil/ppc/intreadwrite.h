@@ -22,7 +22,7 @@
 #define AVUTIL_PPC_INTREADWRITE_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #if HAVE_XFORM_ASM
 

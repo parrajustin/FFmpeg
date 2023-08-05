@@ -23,7 +23,7 @@
 #define AVCODEC_ARM_MATHOPS_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/common.h"
 
 #if HAVE_INLINE_ASM

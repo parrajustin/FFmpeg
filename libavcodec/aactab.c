@@ -27,7 +27,7 @@
  * @author Maxim Gavrilov ( maxim.gavrilov gmail com )
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "config_components.h"
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "third_party/ffmpeg/libavutil/thread.h"

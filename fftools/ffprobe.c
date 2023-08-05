@@ -23,7 +23,7 @@
  * simple media prober based on the FFmpeg libraries
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/ffversion.h"
 
 #include <string.h>

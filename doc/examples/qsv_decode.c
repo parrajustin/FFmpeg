@@ -28,7 +28,7 @@
  * GPU video surfaces, write the decoded frames to an output file.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include <stdio.h>
 

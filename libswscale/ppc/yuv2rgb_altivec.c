@@ -90,7 +90,7 @@
 #include <string.h>
 #include <inttypes.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libswscale/rgb2rgb.h"
 #include "third_party/ffmpeg/libswscale/swscale.h"
 #include "third_party/ffmpeg/libswscale/swscale_internal.h"

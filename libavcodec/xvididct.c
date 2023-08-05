@@ -30,7 +30,7 @@
  *       yields the same error profile as the MMX/MMXEXT/SSE2 versions.
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "avcodec.h"
 #include "idctdsp.h"

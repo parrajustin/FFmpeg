@@ -22,7 +22,7 @@
 #ifndef AVFILTER_DESHAKE_H
 #define AVFILTER_DESHAKE_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "avfilter.h"
 #include "transform.h"
 #include "third_party/ffmpeg/libavutil/pixelutils.h"

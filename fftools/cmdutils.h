@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/avcodec.h"
 #include "third_party/ffmpeg/libavfilter/avfilter.h"
 #include "third_party/ffmpeg/libavutil/avformat.h"

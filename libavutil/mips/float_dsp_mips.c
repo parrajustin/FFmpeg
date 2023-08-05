@@ -51,7 +51,7 @@
  * Reference: libavutil/float_dsp.c
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/float_dsp.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 

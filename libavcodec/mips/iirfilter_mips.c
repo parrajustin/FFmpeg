@@ -52,7 +52,7 @@
  * Reference: libavcodec/iirfilter.c
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/iirfilter.h"
 
 #if HAVE_INLINE_ASM

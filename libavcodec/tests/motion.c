@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavcodec/me_cmp.h"
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/internal.h"

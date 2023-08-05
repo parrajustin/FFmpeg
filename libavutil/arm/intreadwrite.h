@@ -20,7 +20,7 @@
 #define AVUTIL_ARM_INTREADWRITE_H
 
 #include <stdint.h>
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/attributes.h"
 
 #if HAVE_FAST_UNALIGNED && HAVE_INLINE_ASM && AV_GCC_VERSION_AT_MOST(4,6)

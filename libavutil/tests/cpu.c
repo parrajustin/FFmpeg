@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/cpu.h"
 #include "third_party/ffmpeg/libavutil/avstring.h"

@@ -19,7 +19,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/x86/cpu.h"
 #include "third_party/ffmpeg/libavcodec/alacdsp.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 void ff_alac_decorrelate_stereo_sse4(int32_t *buffer[2], int nb_samples,
                                      int decorr_shift, int decorr_left_weight);

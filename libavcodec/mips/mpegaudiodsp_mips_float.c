@@ -55,7 +55,7 @@
 
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"
 #include "third_party/ffmpeg/libavcodec/mpegaudiodsp.h"
 

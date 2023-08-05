@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 /***********************************************************************
  * Vector types

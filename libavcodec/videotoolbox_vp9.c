@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 #include "videotoolbox.h"
 #include "third_party/ffmpeg/libavutil/hwcontext_videotoolbox.h"
 #include "vt_internal.h"

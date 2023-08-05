@@ -20,7 +20,7 @@
 
 #include <string.h>
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/intmath.h"
 #include "third_party/ffmpeg/libavutil/intreadwrite.h"

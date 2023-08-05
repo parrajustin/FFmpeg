@@ -24,7 +24,7 @@
 #ifndef AVUTIL_MIPS_MMIUTILS_H
 #define AVUTIL_MIPS_MMIUTILS_H
 
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #include "third_party/ffmpeg/libavutil/mem_internal.h"
 #include "third_party/ffmpeg/libavutil/mips/asmdefs.h"

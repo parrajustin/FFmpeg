@@ -18,27 +18,27 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "swresample_internal.h"
+#include "third_party/ffmpeg/libswresample/swresample_internal.h"
 #include "third_party/ffmpeg/libavutil/avassert.h"
 #include "third_party/ffmpeg/libavutil/channel_layout.h"
 
 #define TEMPLATE_REMATRIX_FLT
-#include "rematrix_template.c"
+#include "third_party/ffmpeg/libswresample/rematrix_template.c"
 #undef TEMPLATE_REMATRIX_FLT
 
 #define TEMPLATE_REMATRIX_DBL
-#include "rematrix_template.c"
+#include "third_party/ffmpeg/libswresample/rematrix_template.c"
 #undef TEMPLATE_REMATRIX_DBL
 
 #define TEMPLATE_REMATRIX_S16
-#include "rematrix_template.c"
+#include "third_party/ffmpeg/libswresample/rematrix_template.c"
 #define TEMPLATE_CLIP
-#include "rematrix_template.c"
+#include "third_party/ffmpeg/libswresample/rematrix_template.c"
 #undef TEMPLATE_CLIP
 #undef TEMPLATE_REMATRIX_S16
 
 #define TEMPLATE_REMATRIX_S32
-#include "rematrix_template.c"
+#include "third_party/ffmpeg/libswresample/rematrix_template.c"
 #undef TEMPLATE_REMATRIX_S32
 
 #define FRONT_LEFT             0

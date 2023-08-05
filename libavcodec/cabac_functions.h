@@ -33,7 +33,7 @@
 #include "third_party/ffmpeg/libavutil/attributes.h"
 #include "third_party/ffmpeg/libavutil/intmath.h"
 #include "cabac.h"
-#include "config.h"
+#include "third_party/ffmpeg/config.h"
 
 #ifndef UNCHECKED_BITSTREAM_READER
 #define UNCHECKED_BITSTREAM_READER !CONFIG_SAFE_BITSTREAM_READER
